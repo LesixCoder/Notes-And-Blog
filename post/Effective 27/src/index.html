@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS 居中</title>
+  <style>
+    .my-container {
+      overflow: hidden;
+    }
+
+    .my-container img {
+      position: absolute;
+      left: -9999px;
+      top: -9999px;
+      right: -9999px;
+      bottom: -9999px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="my-container">
+    <img src="./img/coder.jpg" alt="">
+  </div>
+</body>
+
+</html>

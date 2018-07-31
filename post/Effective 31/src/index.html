@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>移动端click及自定义事件</title>
+  <style>
+    /* html {
+      touch-action: manipulation;
+    } */
+  </style>
+</head>
+
+<body>
+  <div id="target" style="height:100px;background-color:red">hello, world</div>
+
+  <script>
+    ! function() {
+      var target = document.getElementById("target");
+      var body = document.querySelector("body");
+      var touchstartTime = 0;
+
+      function log(event) {
+        if (event.type === "touchstart") touchstartTime = Date.now();
+        // console.log(event.type, Date.now() - touchstartTime);
+      }
+      target.onclick = log;
+      target.ontouchstart = log;
+      target.ontouchend = log;
+      target.ontouchmove = log;
+      target.onmouseover = log;
+      target.onmousedown = log;
+      target.onmouseup = log;
+    }();
+  </script>
+  <script>
+    var $ = function(selector) {
+      var dom = null;
+      if (typeof selector === "string") {
+        dom = document.querySelectorAll(selector);
+      } else if (selector instanceof HTMLElement) {
+        dom = selector;
+      }
+      return new $Element(dom);
+    }
+    window.$ = $;
+
+    class $Element {
+      constructor(_doms) {
+        var doms = _doms.constructor === Array || _doms.constructor === NodeList ? _doms : [_doms];
+        this.doms = doms;
+        this.init();
+        for (var i = 0; i < doms.length; i++) {
+          this[i] = doms[i]; // 把 this 当作一个数组， DOM 元素当作这个数组的元素。 这样就可以通过索引获取 DOM 元素
+          if (!doms[i].listeners) {
+            doms[i].listeners = {};
+          }
+        }
+      }
+
+      init() {
+        for (var i = 0; i < this.doms.length; i++) {
+          if (!this.doms[i].listeners) {
+            this.initTapEvent(this.doms[i]);
+          }
+        }
+      }
+
+      on(eventType, callback) {
+        for (var i = 0; i < this.doms.length; i++) {
+          var dom = this.doms[i];
+          if (!dom.listeners[eventType]) {
+            dom.listeners[eventType] = [];
+          }
+          dom.listeners[eventType].push(callback);
+        }
+      }
+
+      trigger(eventType, event) {
+        for (var i = 0; i < this.doms.length; i++) {
+          $Element.dispatchEvent(this.doms[i], eventType, event);
+        }
+      }
+
+      static dispatchEvent(dom, eventType, event) {
+        var listeners = dom.listeners[eventType];
+        if (listeners) {
+          for (var i = 0; i < listeners.length; i++) {
+            listeners[i].call(dom, event);
+          }
+        }
+      }
+
+      initTapEvent(dom) {
+        var x1 = 0,
+          x2 = 0,
+          y1 = 0,
+          y2 = 0;
+        dom.addEventListener("touchstart", function(event) {
+          var touch = event.touches[0];
+          x1 = x2 = touch.pageX;
+          y1 = y2 = touch.pageY;
+        });
+        dom.addEventListener("touchmove", function(event) {
+          var touch = event.touches[0];
+          x2 = touch.pageX;
+          y2 = touch.pageY;
+        });
+        dom.addEventListener("touchend", function(event) {
+          if (Math.abs(x2 - x1) < 10 && Math.abs(y2 - y1) < 10) {
+            $Element.dispatchEvent(dom, "tap", new $Event(x1, y1));
+          }
+          y2 = x2 = 0;
+        });
+        dom.addEventListener("click", function(event) {
+          $Element.dispatchEvent(dom, "click", new $Event(event.pageX, event.pageY));
+        });
+      }
+    }
+
+    class $Event {
+      constructor(pageX, pageY) {
+        this.pageX = pageX;
+        this.pageY = pageY;
+      }
+    }
+
+    var tapTime = 0;
+    $("#target").on("tap", function(event) {
+      tapTime = Date.now();
+      console.log("tap", tapTime);
+    });
+    $("#target").on("click", function(event) {
+      console.log("click time diff", Date.now() - tapTime);
+    });
+  </script>
+  <script>
+    touch = event.changedTouches[O];
+    // Synthesise a click event, with an extra attribute so it can be tracked 
+    clickEvent = document.createEvent('MouseEvents');
+    clickEvent.initMouseEvent(this.determineEventType(targetElement), true, true, window, 1, touch.screenX, touch.screenY, touch.clientX, touch.clientY, false, false, false, false, 0, null);
+    clickEvent.forwardedTouchEvent = true;
+    targetElement.dispatchEvent(clickEvent);
+  </script>
+  <script>
+    // 摇一摇
+    window.ondevicemotion = function(event) {
+      var gravity = event.accelerationIncludingGravity;
+      console.log(gravity.x, gravity.y, gravity.z);
+    }
+
+    const EMPTY_VALUE = 100;
+    const THREAD_HOLD = 13.8;
+    var minX = EMPTY_VALUE,
+      minY = EMPTY_VALUE;
+    window.ondevicemotion = function(event) {
+      var gravity = event.accelerationIncludingGravity,
+        x = gravity.x,
+        y = gravity.y;
+      if (x < minX) minX = x;
+      if (y < minY) minY = y;
+      if (Math.abs(x - minX) > THREAD_HOLD && Math.abs(y - minY) > THREAD_HOLD) {
+        console.log("shake");
+        var event = new CustomEvent("shake");
+        window.dispatchEvent(event);
+        minX = minY = EMPTY_VALUE;
+      }
+    }
+
+    window.addEventListener("shake", function() {
+      console.log("window shake callback was called");
+    })
+  </script>
+</body>
+
+</html>
