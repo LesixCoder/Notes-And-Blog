@@ -40,7 +40,7 @@ Web高效编程阅读笔记整理
   - [ ] Effective 29: 理解字号与行高
   - [ ] Effective 30: 使用响应式开发
   - [x] [Effective 31: 明白移动端 click 及自定义事件](https://github.com/lsxlsxxslxsl/Web-efficient-notes/blob/master/post/Effective%2031/%E7%90%86%E8%A7%A3%E7%A7%BB%E5%8A%A8%E7%AB%AFclick%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BA%8B%E4%BB%B6.md)
-  - [x] Effective 32: 学习 JS 高级技巧
+  - [x] [Effective 32: 学习 JS 高级技巧](https://github.com/lsxlsxxslxsl/Web-efficient-notes/blob/master/post/Effective%2032/%E5%AD%A6%E4%B9%A0JS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7.md)
 - [ ] 第7章 运用恰当的工具
   - [ ] Effective 33: 前端的单元测试与自动化测试
   - [ ] Effective 34: 使用 AE + bodymovin 制作网页动画
