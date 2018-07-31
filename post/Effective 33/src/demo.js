@@ -1,0 +1,16 @@
+- website
+  - karma.config.js
+  - unit-test
+    - index.js
+    - mock
+      - middleware.js
+      - home.js
+    - test
+      - sign-log-test.js
+      - util-test.js
+    - coverage
+      - html/index.html
+  - e2e-test
+    - conf.js
+    - spec
+      - test-login.js

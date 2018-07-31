@@ -207,14 +207,14 @@
         method.tId = 0;
       }, 100);
     }
-    
-    function throttle(method, context) {
-      if(!method.tId) {
-        method.call(context);
-        method.tId = 0;
-        setTimeout(() => method.tId = 0, 100);
-      }
-    }
+
+function throttle(method, context) {
+  if(!method.tId) {
+    method.call(context);
+    method.tId = 0;
+    setTimeout(() => method.tId = 0, 100);
+  }
+}
   </script>
 </body>
 

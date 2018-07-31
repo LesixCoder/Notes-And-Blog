@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/lsxlsxxslxsl/Web-efficient-notes/issues"
   },
-  "homepage": "https://github.com/lsxlsxxslxsl/Web-efficient-notes#readme"
+  "homepage": "https://github.com/lsxlsxxslxsl/Web-efficient-notes#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.5",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-jasmine": "^1.1.2"
+  }
 }
