@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    var toString = Object.prototype.toString;
+    class Person {};
+    console.log(toString.call(Person)); // [object Function]
+    console.log(toString.call(new Person())); // [object Object]
+  </script>
+  <script>
+    // UA的类型
+    var pageData = {
+      getUAType: function() {
+        let ua = window.navigator.userAgent;
+        if (ua.match(/renren/i)) return O;
+        else if (ua.match(/MicroMessenger/i)) return 1;
+        else if (ua.match(/weibo/i)) return 2;
+        return -1;
+      }
+    }
+
+    var pageData = {
+      getUAType: function() {
+        let ua = window.navigator.userAgent;
+        if (ua.match(/renren/i)) {
+          pageData.getUAType = () => 0;
+          return O;
+        } else if (ua.match(/MicroMessenger/i)) {
+          pageData.getUAType = () => 1;
+          return 1;
+        } else if (ua.match(/weibo/i)) {
+          pageData.getUAType = () => 2;
+          return 2;
+        }
+        return -1;
+      }
+    }
+
+    let ua = window.navigator.userAgent;
+    let UAType = ua.match(/renren/i) ? 0 :
+      ua.match(/MicroMessenger/i) ? 1 :
+      ua.match(/weibo/i) ? 2 : -1;
+  </script>
+
+  <script>
+    var Data = {
+      init: function() {
+        Data.localStorageEnabled = true;
+        // Safari的无痕浏览会禁用 localStorage
+        try {
+          window.localStorage.trySetData = 1;
+        } catch (e) {
+          Data.localStorageEnabled = false;
+        }
+      },
+
+      setLocalData: function(key, value) {
+        if (Data.localStorageEnabled) {
+          window.localStorage[key] = value;
+        } else {
+          util.setCookie("_L_" + key, value, 1000);
+        }
+      }
+    }
+
+
+    var Data = {
+      setLocalData: function(key, value) {
+        if (Data.localStorageEnabled) {
+          util.setLocalData = function(key, value) {
+            return window.localStorage[key];
+          }
+        } else {
+          util.setLocalData = function(key, value) {
+            return util.getCookie("_L_" + key);
+          }
+        }
+        return util.setLocalData(key, value);
+      }
+    }
+  </script>
+
+  <script>
+    class DrawTool {
+      constructor() {
+        this.points = [];
+      }
+      init() {
+        let that = this;
+        $map.on('click', that.handleMouseClick);
+        $map.on('click', event => this.handleMouseClick(event));
+        $map.on('click', this.handleMouseClick.bind(this));
+      }
+      handleMouseClick(event) {
+        this.points.push(event.latLng);
+      }
+    }
+
+    Function.prototype.bind = function(context) {
+      return () => this.call(context);
+    }
+  </script>
+  <script>
+    Function.prototype.curry = function() {
+      let slice = Array.prototype.slice;
+      let defaultArgs = slice.call(arguments);
+      let that = this;
+      return function() {
+        return that.apply(this, defaultArgs.concat(slice.call(arguments)));
+      }
+    }
+
+    function add(a, b) {
+      return a + b;
+    }
+    let add1 = add.curry(1);
+    // console.log(add1(4)); // 6
+    // console.log(add1(2)); // 3
+
+    Array.prototype.sortDescending = Array.prototype.sort.curry((a, b) => b - a);
+    let data = [1, 5, 2, 3, 10];
+    data.sort((a, b) => b - a); // [10, 5, 3, 2, 1]
+    data.sortDescending();
+    // console.log(data);
+  </script>
+  <script>
+    let person = {
+      name: "liusixin"
+    }
+    // Object.freeze(person);
+    // person.name = "lsx"; // 不能修改
+    // console.log(person.name); // 输出lsx
+    // person.age = 18; // 不能加
+    // console.log(person.age); // 输出undefined
+
+    Object.defineProperty(person, 'grade', {
+      enumerable: false,
+      value: 3
+    });
+    for (var key in person) {
+      // console.log(key); // name
+      // console.log(person.grade); // 3
+    }
+  </script>
+  <script>
+    function sleep(millionSeconds) {
+      return new Promise(resolve => {
+        setTimeout(resolve, millionSeconds);
+      })
+    }
+    async function init() {
+      await sleep(2000);
+      // console.log("sleep recover");
+    }
+    //init().then(() => console.log("init finished"));
+  </script>
+
+  <!-- <script>
+    let scriptBegin = Date.now();
+    fun1();
+    fun2();
+    // 需要执行20ms的工作单元
+    function act(functionName) {
+      console.log(functionName, Date.now() - scriptBegin);
+      let begin = Date.now();
+      while (Date.now() - begin < 2000);
+    }
+
+    function fun1() {
+      let fun3 = () => act("fun3");
+      setTimeout(fun3, 0);
+      act("fun1");
+    }
+
+    function fun2() {
+      act("fun2 - 1");
+      var fun4 = () => act("fun4");
+      setInterval(fun4, 20);
+      act("fun2 - 2");
+    }
+  </script> -->
+  <script>
+    function throttle(method, context) {
+      if(method.tId) return;
+      method.tId = setTimeout(function() {
+        method.call(context);
+        method.tId = 0;
+      }, 100);
+    }
+
+    function throttle(method, context) {
+      // 如果是第一次触发， 立刻执行
+      if (typeof method.tId === "undefined") { 
+        method.call(context);
+      }
+      if(method.tId) return;
+      method.tId = setTimeout(function() {
+        method.call(context);
+        method.tId = 0;
+      }, 100);
+    }
+    
+    function throttle(method, context) {
+      if(!method.tId) {
+        method.call(context);
+        method.tId = 0;
+        setTimeout(() => method.tId = 0, 100);
+      }
+    }
+  </script>
+</body>
+
+</html>

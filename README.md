@@ -1,6 +1,8 @@
 # Web-efficient-notes
 Web高效编程阅读笔记整理
 
+> 整理中...
+
 - [ ] 第1章 HTML/CSS优化
   - [ ] Effective 1: 能用HTML/CSS解决的问题就不要用JS
   - [ ] Effective 2: 优化HTML标签

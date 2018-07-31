@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>JS 高级技巧 - parent</title>
+</head>
+
+<body>
+  <iframe src="./children.html"></iframe>
+  <script>
+    window.global = {
+      arrayData: [1, 2, 3],
+    }
+    console.log("parent arrayData installof Array: " + (window.global.arrayData instanceof Array));
+  </script>
+
+</body>
+
+</html>
