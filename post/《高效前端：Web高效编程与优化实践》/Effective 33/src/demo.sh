@@ -24,3 +24,5 @@ http {
     }
   }
 }
+
+DOCKER OPTS = "--dns 8.8.8.8"
