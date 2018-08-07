@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>06.闭包</title>
+</head>
+
+<body>
+  <!-- <script>
+    function foo() {
+      var a = 20;
+      var b = 30;
+
+      function bar() {
+        return a + b;
+      }
+      bar();
+    }
+    var bar = foo();
+    // bar();
+  </script> -->
+
+  <!-- <script>
+    var name = "window"
+    var p = {
+      name: 'Liusixin',
+      getName: function() {
+        return function(){
+          return this.name
+        }
+      }
+    }
+    var getName = p.getName();
+    var _name = getName.call(p);
+    console.log(_name);
+  
+  </script> -->
+    
+  <!-- <script>
+    var name = "window"
+    var p = {
+      name: 'Liusixin',
+      getName: function() {
+        var self = this;
+        return function(){
+          return self.name
+        }
+      }
+    }
+    var getName = p.getName();
+    var _name = getName();
+    console.log(_name);
+  </script> -->
+
+  <script>
+    var fn = null;
+    function foo() {
+      var a = 2;
+      function innerFoo(){
+        console.log(a);
+      }
+      fn = innerFoo
+    }
+
+    function bar() {
+      fn();
+    }
+
+    foo();
+    bar(); // 2
+  </script>
+</body>
+
+</html>

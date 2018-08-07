@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function foo() {
+      console.log(this.a)
+    }
+
+    function active(fn) {
+      fn(); // 真实调用者，为独立调用
+    }
+    var a = 20;
+    var obj = {
+      a: 10,
+      getA: foo,
+      active: active
+    }
+
+    // active(obj.getA);
+    // obj.active(obj.getA);
+  </script>
+
+  <script>
+    var n = 'window';
+    var object = {
+      n: 'object',
+      getN: function() {
+        return function() {
+          return this.n;
+        }
+      }
+    }
+    console.log(object.getN()()); // window
+  </script>
+</body>
+
+</html>

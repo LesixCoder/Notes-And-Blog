@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>04.变量对象</title>
+</head>
+
+<body>
+  <script>
+    function test() {
+      console.log(foo);
+      console.log(bar);
+
+      var foo = 'Hello';
+      console.log(foo);
+      var bar = function() {
+        return 'world';
+      }
+
+      function foo() {
+        return 'hello';
+      }
+    }
+
+    test();
+  </script>
+  <script>
+    // 创建阶段
+    function test() {
+      function foo() {
+        return 'hello';
+      }
+      var foo = undefined;
+      var bar = undefined;
+
+      // 执行阶段
+      console.log(foo);
+      console.log(bar);
+
+      foo = 'Hello';
+      console.log(foo);
+      bar = function() {
+        return 'world';
+      }
+    }
+
+    test();
+  </script>
+</body>
+
+</html>

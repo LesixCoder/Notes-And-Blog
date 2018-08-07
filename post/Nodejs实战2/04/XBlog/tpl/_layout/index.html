@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{config.title|escape}}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <h1>{{config.title|escape}}</h1>
+  <ul>
+    {% for post in posts %}
+    <li>
+      <span class="post-date">{{post.date|escape}}</span>
+      <a class="post-title" href="{{post.url|escape}}">
+        {{post.title|escape}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

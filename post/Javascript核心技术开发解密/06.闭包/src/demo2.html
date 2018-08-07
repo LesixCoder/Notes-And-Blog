@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    function foo() {
+      var x = 20;
+      var y = 10;
+
+      function child() {
+        var m = 5;
+
+        return function add() {
+          var z = 'this is add';
+          return x + y;
+        }
+      }
+
+      return child();
+    }
+    foo()();
+  </script>
+</body>
+
+</html>

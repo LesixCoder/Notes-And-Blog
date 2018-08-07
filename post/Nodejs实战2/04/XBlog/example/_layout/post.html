@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{config.title|escape}}</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+  <h1>{{post.title|escape}}</h1>
+  <p>日期：{{post.date|escape}}</p>
+  <hr>
+  <div class="post-content">{{post.content}}</div>
+
+  <!-- 多说评论框start -->
+  <div class="ds-thread" data-thread-key="" data-title="{{post.title|escape}}" data-url=""></div>
+  <!-- 多说评论框end -->
+  <!-- 多说公共JS代码start (一个网页只需插入一次） -->
+  <script type="text/javascript">
+    var duoshuoQuery = {
+      short_name: "node-in-action-blog"
+    };
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';
+      ds.async = true;
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[O] || document.getElementsByTagName('body')[O]).appendChild(ds);
+    })()
+  </script>
+  <!-- 多说公共JS代码end -->
+
+  <!-- JiaThis Button BEGIN -->
+  <div class="jiathis—style_32x32">
+    <a class="jiathis_button_qzone"></a>
+    <a class="jiathis button tsina"></a>
+    <a class="jiathis_button_tqq"></a>
+    <a class="jiathis button weixin"></a>
+    <a class="jiathis button renren"></a>
+    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis " target="_blank"></a>
+    <a class="jiathis_counter_style"></a>
+  </div>
+  <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+  <!-- JiaThis Button END -->
+</body>
+
+</html>
