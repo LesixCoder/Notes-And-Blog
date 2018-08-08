@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>封装无缝滚动</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #scroll_area {
+      width: 400px;
+      height: 100px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+
+    .scroll_body {
+      display: flex;
+      position: relative;
+      left: 0;
+      height: 100%;
+      font-size: 30px;
+    }
+
+    .scroll_body .item {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .buttons {
+      width: 400px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="scroll_area">
+    <div class="scroll_body">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </div>
+  <div class="buttons">
+    <button class="left">move left</button>
+    <button class="right">move right</button>
+    <button class="stop">stop</button>
+  </div>
+  
+  <script src="./scroll.module.js"></script>
+</body>
+</html>

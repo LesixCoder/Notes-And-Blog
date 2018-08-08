@@ -1092,3 +1092,220 @@ document.querySelector('.prev').addEventListener('click', function() {
   console.log(tab.getIndex());
 }, false);
 ```
+
+## 封装无缝滚动
+
+无缝滚动指的是几个元素循环滚动，视觉效果就像是有无穷无尽的元素一样。
+
+实现的原理也很简单，首先对容器元素进行滚动操作。子元素在容器元素中依次排列，并且将子元素复制一份，放在同一个容器元素中，这样就实现了首尾相接。当最后一个子元素滚动过临界点的时候，将容器元素的位置拉回初始位置，然后重复滚动操作即可。
+
+首先写好 HTML
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>封装无缝滚动</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    #scroll_area {
+      width: 400px;
+      height: 100px;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+
+    .scroll_body {
+      display: flex;
+      position: relative;
+      left: 0;
+      height: 100%;
+      font-size: 30px;
+    }
+
+    .scroll_body .item {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .buttons {
+      width: 400px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="scroll_area">
+    <div class="scroll_body">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button class="left">move left</button>
+    <button class="right">move right</button>
+    <button class="stop">stop</button>
+  </div>
+</body>
+</html>
+```
+
+滚动区域元素 `scroll_area` 固定，容器元素 `scro11_body` 在滚动区域中滚动，滚动效果就是通过定时器每秒钟移动 1 个像素来实现的。
+
+```js
+var lastTime = 0,
+  nextFrame = window.requestAnimationFrame ||
+  window.webkitRequestAnimationFrame ||
+  window.mozRequesAnimationFrame ||
+  window.msRequestAnimationFrame ||
+  function(callback) {
+    var currTime = +new Date,
+      delay = Math.max(1000 / 60, 1000 / 60 - (currTime - lastTime));
+    lastTime = currTime + delay;
+    return setTimeout(callback, delay);
+  },
+  cancelFrame = window.cancelAnimationFrame ||
+  window.webkitCancelAnimationFrame ||
+  window.webkitCancelRequestAnimationFrame ||
+  window.mozCancelRequestAnimationFrame ||
+  window.msCancelRequestAnimationFrame ||
+  clearTimeout;
+
+var area = document.querySelector('#scroll_area');
+var areaWidth = area.offsetWidth;
+
+var scrollBody = area.querySelector('.scroll_body');
+var itemWidth = areaWidth/(scrollBody.children.length);
+
+scrollBody.style.width = areaWidth * 2 + 'px';
+scrollBody.innerHTML = scrollBody.innerHTML + scrollBody.innerHTML;
+
+var targetPos = areaWidth;
+var scrollX = 0;
+var timer = null;
+
+function ani() {
+  cancelFrame(timer);
+  timer = nextFrame(function() {
+    scrollX -= 1;
+
+    if(-scrollX >= targetPos) {
+      scrollX = 0;
+    }
+
+    scrollBody.style.left = scrollX + 'px';
+    ani();
+  })
+}
+
+ani();
+```
+
+对于初学者来说，一个比较难以理解的地方就是 `nextFrame` 与 `cancelFrame` 的声明，这是一个类似于定时器的 `setTimeout` 的兼容性写法。`requestAnimationFrame` 是一个在 HTML5 中用于实现动画效果的API。
+
+通过面向对象的方式来扩展控制滚动方向、停止滚动等接口:
+
+```js
+(function(ROOT){
+  var lastTime = 0,
+    nextFrame = window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequesAnimationFrame ||
+                window.msRequestAnimationFrame ||
+                function(callback) {
+                  var currTime = +new Date,
+                    delay = Math.max(1000 / 60, 1000 / 60 - (currTime - lastTime));
+                  lastTime = currTime + delay;
+                  return setTimeout(callback, delay);
+                },
+    cancelFrame = window.cancelAnimationFrame ||
+                  window.webkitCancelAnimationFrame ||
+                  window.webkitCancelRequestAnimationFrame ||
+                  window.mozCancelRequestAnimationFrame ||
+                  window.msCancelRequestAnimationFrame ||
+                  clearTimeout;
+  
+  var timer = null;
+  
+  function Scroll(elem) {
+    this.elem = elem;
+    this.areaWidth = elem.offsetWidth;
+
+    this.scrollBody = elem.querySelector('.scroll_body');
+    this.itemWidth = this.areaWidth/this.scrollBody.children.length;
+    this.scrollX = 0;
+    this.targetPos = this.areaWidth;
+    this.init();
+  }
+
+  Scroll.prototype = {
+    constructor: Scroll,
+    init: function() {
+      this.scrollBody.style.width = this.areaWidth * 2 + 'px';
+      this.scrollBody.innerHTML = this.scrollBody.innerHTML + this.scrollBody.innerHTML;
+      this.moveRight();
+    },
+    moveLeft: function() {
+      var self = this;
+      cancelFrame(timer);
+      timer = nextFrame(function() {
+        self.scrollX -= 1;
+        if(-self.scrollX >= self.targetPos) {
+          self.scrollX = 0;
+        }
+    
+        self.scrollBody.style.left = self.scrollX + 'px';
+        self.moveLeft();
+      })
+    },
+    moveRight: function() {
+      var self = this;
+      cancelFrame(timer);
+      timer = nextFrame(function() {
+        self.scrollX += 1;
+        if(self.scrollX >= 0) {
+          self.scrollX = -self.targetPos;
+        }
+    
+        self.scrollBody.style.left = self.scrollX + 'px';
+        self.moveRight();
+      })
+    },
+    stop: function() {
+      cancelFrame(timer);
+    }
+  }
+
+  ROOT.Scroll = Scroll;  
+})(window);
+
+var scroll = new Scroll(document.querySelector('#scroll_area'));
+
+var left_btn = document.querySelector('.left');
+var right_btn = document.querySelector('.right');
+var stop_btn = document.querySelector('.stop');
+
+left_btn.onclick = function() {
+  scroll.moveLeft();
+}
+right_btn.onclick = function() {
+  scroll.moveRight();
+}
+stop_btn.onclick = function() {
+  scroll.stop();
+}
+```
