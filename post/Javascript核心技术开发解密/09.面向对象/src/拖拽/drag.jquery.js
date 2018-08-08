@@ -114,9 +114,9 @@
       transformArr = ['transform', 'webkitTransform', 'MozTransform', 'msTransform', 'OTransform'],
       i = 0,
       len = transformArr.length;
-    
-    for(;i<len;i++) {
-      if(transformArr[i] in divStyle) {
+
+    for (; i < len; i++) {
+      if (transformArr[i] in divStyle) {
         return transform = transformArr[i]
       }
     }
@@ -128,7 +128,7 @@
   window.Drag = Drag;
 })();
 
-//通过扩展方法将拖曳扩展为 jQuery 的一个实例方法
+// 通过扩展方法将拖曳扩展为 jQuery 的一个实例方法
 (function($) {
   $.fn.extend({
     canDrag: function() {

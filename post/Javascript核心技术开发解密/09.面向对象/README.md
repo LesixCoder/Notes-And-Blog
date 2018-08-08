@@ -632,7 +632,7 @@ autumn.addEventListener(
 );
 ```
 
-**拖曳的原理**
+#### 拖曳的原理
 
 可以结合 mousedown、mousemove、mouseup 这三个事件来实现拖曳。在这些事件触发的回调函数中得到了一个事件对象，通过事件对象即可获取当前鼠标所处的精确位置。
 
@@ -645,7 +645,7 @@ autumn.addEventListener(
 
 通过事件对象中提供的鼠标精确位置信息，在鼠标移动时可以轻易地计算出鼠标移动位置的差值，然后根据上面的关系，计算出目标元素的当前位置，这样拖曳就能够实现了。
 
-\*_代码实现_
+#### 代码实现
 
 准备工作
 
@@ -860,7 +860,7 @@ function end(event) {
       transformArr = ['transform', 'webkitTransform', 'MozTransform', 'msTransform', 'OTransform'],
       i = 0,
       len = transformArr.length;
-    
+
     for(;i<len;i++) {
       if(transformArr[i] in divStyle) {
         return transform = transformArr[i]
@@ -902,4 +902,193 @@ jQuery 中可以使用 `$.extend` 扩展 jQuery 工具方法，来使用 `$.fn.e
 
 ```js
 $('target').canDrag();
+```
+
+## 封装一个选项卡
+
+通常情况下，选项卡由两部分组成。一部分是头部，它包含一堆按钮，每一个按钮对应不同的页面，按钮包括选中与无法选中两种状态。另一部分则由一些具体的页面组成，当我们单击按钮时，就切换到对应的页面。
+
+> 如果每个页面中包含的是根据动态加载的数据渲染出来的界函，那么通常只会有一个页面，单击按钮时重新加载数据并重新渲染页面。
+
+先初始化html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>封装选项卡</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    ul, li {
+      list-style: none;
+      padding: 0;
+    }
+    .box {
+      max-width: 400px;
+      margin: 10px auto;
+      background: #efefef;
+    }
+    .box .tab_options {
+      height: 40px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid #ccc;
+    }
+    .box .tab_options li {
+      line-height: 40px;
+      cursor: pointer;
+    }
+    .box .tab_options li.active {
+      color: red;
+      border-bottom: 1px solid red;
+    }
+    .box .tab_content {
+      position: relative;
+      min-height: 400px;
+    }
+    .box .tab_content .item_box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      display: none;
+    }
+    .box .tab_content .item_box.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="box" id="tab_wrap">
+    <ul class="tab_options">
+      <li data-index="0" class="item active">tab1</li>
+      <li data-index="1" class="item">tab2</li>
+      <li data-index="2" class="item">tab3</li>
+      <li data-index="3" class="item">tab4</li>
+    </ul>
+    <div class="tab_content">
+      <div class="item_box active">tab box 1</div>
+      <div class="item_box">tab box 2</div>
+      <div class="item_box">tab box 3</div>
+      <div class="item_box">tab box 4</div>
+    </div>
+  </div>
+</body>
+</html>
+```
+
+### 实现原理
+
+在 HTML 代码中，每一个头部按钮都保存了一个 `data-index` 属性，这个属性告诉我们这是第几个按钮，这个值同时也对应第几页。 因此只需声明一个 `index` 变量来保存当前页的序列，井在单击时把当前页的值修改为 `data-index` 的值就可以了。与此同时，把当前按钮修改为选中状态，其他按钮修改为未选中状态，让当前页显示，其他页隐藏即可。
+
+```js
+var tabHeader = document.querySelector('.tab_options'); 
+var items = tabHeader.children;
+var tabContent = document.querySelector('.tab_content'); 
+var itemboxes = tabContent.children;
+var index = 0;
+
+tabHeader.addEventListener('click', function(e) {
+  var a = [].slice.call(e.target.classList).indexOf('item');
+  if(a > -1 && index != e.target.dataset.index) {
+    items[index].classList.remove('active');
+    itemboxes[index].classList.remove('active');
+    index = e.target.dataset.index;
+    items[index].classList.add('active');
+    itemboxes[index].classList.add('active');
+  }
+}, false)
+```
+
+此时假设要新增一个功能，即在 HTML 中新增两个按钮，单击它们就可以分别切换到上一页或下一页
+
+```html
+<button class="next">Next</button>
+<button class="prev">Prev</button>
+```
+
+为了更直观地实现这个功能，我们将选项卡封装为一个对象
+
+```js
+!function(ROOT) {
+  // var index = 0;
+  function Tab(elem) {
+    this.index = 0;
+    this.tabHeader = elem.firstElementChild;
+    this.items = this.tabHeader.children;
+    this.tabContent = elem.lastElementChild;
+    this.itemboxes = this.tabContent.children;
+    this.max = this.items.length - 1;
+
+    this.init();
+  }
+
+  Tab.prototype = {
+    constructor: Tab,
+    init:function() {
+      this.tabHeader.addEventListener('click', this.clickHandler.bind(this), false);
+    },
+    clickHandler: function(e) {
+      var a = [].slice.call(e.target.classList).indexOf('item');
+      if(a > -1) {
+        this.switchTo(e.target.dataset.index);
+      }
+    },
+    switchTo: function(i) {
+      if(i == this.index) {
+        return;
+      }
+      this.items[this.index].classList.remove('active');
+      this.itemboxes[this.index].classList.remove('active');
+      this.index = i;
+      this.items[this.index].classList.add('active');
+      this.itemboxes[this.index].classList.add('active');
+    },
+    next: function() {
+      var tgIndex = 0;
+      if(this.index >= this.max) {
+        tgIndex = 0;
+      } else {
+        tgIndex = this.index + 1;
+      }
+      this.switchTo(tgIndex);
+    },
+    pre: function() {
+      var tgIndex = 0;
+      if(this.index == 0) {
+        tgIndex = this.max;
+      } else {
+        tgIndex = this.index - 1;
+      }
+      this.switchTo(tgIndex);
+    },
+    getIndex: function() {
+      return this.index;
+    }
+  }
+
+  ROOT.Tab = Tab;
+}(window);
+```
+
+在上面的代码中，将切换功能封装成了基础的 `switchTo` 方法，它接收一个表示页面序列的参数，只要我们调用这个方法，就能够切换到对应的页面。因此基于这个基础方法，就能够很容易地扩展出下一页 `next` 与上一页 `pre` 的方法。
+
+```js
+var tab = new Tab(document.querySelector('#tab_wrap'));
+
+document.querySelector('.next').addEventListener('click', function() {
+  tab.next();
+  console.log(tab.getIndex());
+}, false);
+
+document.querySelector('.prev').addEventListener('click', function() {
+  tab.pre();
+  console.log(tab.getIndex());
+}, false);
 ```

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>拖拽封装</title>
+  <style>
+    .drag {
+      width: 20px;
+      height: 20px;
+      background-color: orange;
+      transform: translateX(0px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="drag" id="target"></div>
+
+  <script src="https://cdn.bootcss.com/jquery/1.12.2/jquery.min.js"></script>
+  <script src="./drag.jquery.js"></script>
+  <script>
+    new Drag('target');
+    // $('target').canDrag();
+  </script>
+</body>
+
+</html>

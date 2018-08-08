@@ -114,9 +114,9 @@
       transformArr = ['transform', 'webkitTransform', 'MozTransform', 'msTransform', 'OTransform'],
       i = 0,
       len = transformArr.length;
-    
-    for(;i<len;i++) {
-      if(transformArr[i] in divStyle) {
+
+    for (; i < len; i++) {
+      if (transformArr[i] in divStyle) {
         return transform = transformArr[i]
       }
     }
@@ -129,4 +129,4 @@
 })();
 
 // 使用
-new Drag('target');
+// new Drag('target');

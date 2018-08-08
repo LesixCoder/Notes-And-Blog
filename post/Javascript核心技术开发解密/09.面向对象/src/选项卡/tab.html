@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>封装选项卡</title>
+  <style>
+    body {
+      margin: 0;
+    }
+    ul, li {
+      list-style: none;
+      padding: 0;
+    }
+    .box {
+      max-width: 400px;
+      margin: 10px auto;
+      background: #efefef;
+    }
+    .box .tab_options {
+      height: 40px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid #ccc;
+    }
+    .box .tab_options li {
+      line-height: 40px;
+      cursor: pointer;
+    }
+    .box .tab_options li.active {
+      color: red;
+      border-bottom: 1px solid red;
+    }
+    .box .tab_content {
+      position: relative;
+      min-height: 400px;
+    }
+    .box .tab_content .item_box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      text-align: center;
+      display: none;
+    }
+    .box .tab_content .item_box.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="box" id="tab_wrap">
+    <ul class="tab_options">
+      <li data-index="0" class="item active">tab1</li>
+      <li data-index="1" class="item">tab2</li>
+      <li data-index="2" class="item">tab3</li>
+      <li data-index="3" class="item">tab4</li>
+    </ul>
+    <div class="tab_content">
+      <div class="item_box active">tab box 1</div>
+      <div class="item_box">tab box 2</div>
+      <div class="item_box">tab box 3</div>
+      <div class="item_box">tab box 4</div>
+    </div>
+  </div>
+  <button class="prev">上一个</button>
+  <button class="next">下一个</button>
+
+  <div class="box" id="tab_wrap2">
+      <ul class="tab_options">
+        <li data-index="0" class="item active">tab1</li>
+        <li data-index="1" class="item">tab2</li>
+        <li data-index="2" class="item">tab3</li>
+        <li data-index="3" class="item">tab4</li>
+      </ul>
+      <div class="tab_content">
+        <div class="item_box active">tab box 1</div>
+        <div class="item_box">tab box 2</div>
+        <div class="item_box">tab box 3</div>
+        <div class="item_box">tab box 4</div>
+      </div>
+    </div>
+  
+  <script src="./tab.module.js"></script>
+  <script>
+    var tab1 = new Tab(document.querySelector('#tab_wrap'));
+    var tab2 = new Tab(document.querySelector('#tab_wrap2'));
+
+    document.querySelector('.next').addEventListener('click', function() {
+      tab1.next();
+      tab2.next();
+      console.log(tab1.getIndex(), tab2.getIndex());
+    }, false);
+
+    document.querySelector('.prev').addEventListener('click', function() {
+      tab1.pre();
+      tab2.pre();
+      console.log(tab1.getIndex(), tab2.getIndex());
+    }, false);
+  </script>
+</body>
+</html>
