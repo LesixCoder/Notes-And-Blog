@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>es6app</title>
+  <style>
+    .target {
+      width: 100px;
+      height: 100px;
+      background: #ccc;
+      transition: .3s;
+    }
+    .target.hide {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="target"></div>
+  <div class="control_wrap">
+    <div>
+      <button class="show">show/hide</button>
+    </div>
+    <div>
+      <input type="text" class="bgcolor_input" placeholder="input background color" />
+      <button class="bgcolor_btn">sure</button>
+    </div>
+    <div>
+      <input type="text" class="bdcolor_input" placeholder="input border color" />
+      <button class="bdcolor_btn">sure</button>
+    </div>
+    <div>
+      <span>width</span>
+      <button class="width_reduce">-5</button>
+      <button class="width_add">+5</button>
+    </div>
+    <div>
+      <span>height</span>
+      <button class="height_reduce">-</button>
+      <input type="text" class="height_input" readonly />
+      <button class="height_add">+</button>
+    </div>
+  </div>
+</body>
+</html>
