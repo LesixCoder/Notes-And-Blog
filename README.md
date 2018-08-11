@@ -77,7 +77,7 @@
 ### 源码学习
 
 - [x] [jQuery源码精简demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
-- [x] [Promise/A+ 规范js实现]()
+- [x] [Promise/A+ 规范js实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
 
 #### 个人博客
 
