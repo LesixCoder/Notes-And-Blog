@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Echarts</title>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+  <script type="application/javascript" src="https://cdn.staticfile.org/moment.js/2.21.0/moment.min.js"></script>
+  <script src="https://cdn.staticfile.org/echarts/4.1.0/echarts.min.js"></script>
+  <style>
+    #chart {
+      width: 600px;
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="chart"></div>
+
+  <script>
+    const empsRows = [{
+        RowId: '001',
+        EmpId: '10',
+        Lastname: 'Smith',
+        Firstname: 'Joe',
+        Salary: 40000
+      },
+      {
+        RowId: '002',
+        EmpId: '12',
+        Lastname: 'Jones',
+        Firstname: 'Mary',
+        Salary: 50000
+      },
+      {
+        RowId: '003',
+        EmpId: '11',
+        Lastname: 'Johnson',
+        Firstname: 'Cathy',
+        Salary: 44000
+      },
+      {
+        RowId: '004',
+        EmpId: '22',
+        Lastname: 'Jones',
+        Firstname: 'Bob',
+        Salary: 55000
+      },
+      {
+        RowId: '005',
+        EmpId: '24',
+        Lastname: 'Steve',
+        Firstname: 'Mike',
+        Salary: 62000
+      }
+    ]
+
+    const option = {
+      dataset: {
+        source: empsRows
+      },
+      xAxis: {
+        type: 'category'
+      },
+      yAxis: {
+        type: 'value',
+        scale: true
+      },
+      series: {
+        type: 'scatter',
+        encode: {
+          x: 'Firstname',
+          y: 'Salary'
+        }
+      }
+    }
+
+    const chartEl = document.querySelector('#chart')
+    const myChart = echarts.init(chartEl)
+    myChart.setOption(option)
+  </script>
+</body>
+
+</html>
