@@ -2,7 +2,7 @@
 
 > 持续更新中...
 
-### 读书笔记
+### 已读/读书笔记
 
 - [Javascript高级程序设计笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
   - [x] [4-6 章](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/4-6)
@@ -10,6 +10,10 @@
   - [x] [13-14 章](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/13-14)
   - [x] [15-20 章](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/15-20)
   - [x] [21-25 章](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/21-25)
+
+- Javascript忍者秘籍
+
+- Javascript设计模式与开发实践
 
 - [Javascript核心技术开发解密笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86)
   - [x] [三种基础数据结构](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86/01.%E4%B8%89%E9%87%8D%E5%9F%BA%E7%A1%80%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)
@@ -23,6 +27,10 @@
   - [x] [面向对象](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86/09.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
   - [x] [ES6 与模块化](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86/10.ES6%20%E4%B8%8E%E6%A8%A1%E5%9D%97%E5%8C%96)
 
+- HTTP2 基础教程
+
+- Nodejs实战
+
 - [高效前端：Web高效编程与优化实践笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5)
   - [x] [Effective 14: 实现前端裁剪压缩图片](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2014/%E5%AE%9E%E7%8E%B0%E5%89%8D%E7%AB%AF%E8%A3%81%E5%89%AA%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87.md)
   - [x] [Effective 15: 实现跨浏览器的HTML5表单验证](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2015/%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84HTML5%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81.md)
@@ -30,6 +38,23 @@
   - [x] [Effective 31: 明白移动端 click 及自定义事件](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2031/%E7%90%86%E8%A7%A3%E7%A7%BB%E5%8A%A8%E7%AB%AFclick%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BA%8B%E4%BB%B6.md)
   - [x] [Effective 32: 学习 JS 高级技巧](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2032/%E5%AD%A6%E4%B9%A0JS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7.md)
   - [x] [Effective 33: 前端的单元测试与自动化测试](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2033/%E5%89%8D%E7%AB%AF%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.md)
+
+- [Nodejs 微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1)
+  - [x] [微服务架构](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/01.%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.md)
+  - [x] [基于Seneca和PM2构建Node.js微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/02.%E5%9F%BA%E4%BA%8ESeneca%E5%92%8CPM2%E6%9E%84%E5%BB%BANode.js%E5%BE%AE%E6%9C%8D%E5%8A%A1.md) 
+  - [x] [从单块软件到微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/03.%E4%BB%8E%E5%8D%95%E5%9D%97%E8%BD%AF%E4%BB%B6%E5%88%B0%E5%BE%AE%E6%9C%8D%E5%8A%A1.md)
+  - [x] [编写你的第一个Node.js微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/04.%E7%BC%96%E5%86%99%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AANode.js%E5%BE%AE%E6%9C%8D%E5%8A%A1.md)
+
+### 预读
+
+- 你不知道的JavaScript(上、中、下)
+- 编程之美
+- HTML5 Canvas核心技术 图形动画与游戏开发
+- CSS世界
+- WebKit技术内幕
+- 3D数学基础：图形与游戏开发
+- 深入浅出Node.js
+- Node.js：来一打 C++ 扩展
 
 ### 设计模式
 
