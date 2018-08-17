@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>代理性能</title>
+</head>
+
+<body>
+  <script>
+    function createNegativeArrayProxy(array) {
+      if (!Array.isArray(array)) {
+        throw new TypeError('Expected an array');
+      }
+      return new Proxy(array, {
+        // 返回新的代理。该代理使用传入的数组作为代理目标
+        get: (target, index) => {
+          // 当读取数组元素时调用 get 方法。
+          index = +index; // 使用一元+操作符将属性名变成的数值。
+          return target[index < 0 ? target.length + index : index]; // 如果访问的是负向索引，则逆向访问数组。如果访问的是正向索引，则正常访问数组。
+        },
+        set: (target, index, val) => {
+          index = +index;
+          return (target[index < 0 ? target.length + index : index] = val);
+        }
+      });
+    }
+
+    function measure(items) {
+      const startTime = new Date().getTime();
+      for (let i = 0; i < 500000; i++) {
+        items[0] === 'Yoshi';
+        items[1] === 'Kuma';
+        items[2] === 'Hattori';
+      }
+      return new Date().getTime() - startTime;
+    }
+    const ninjas = ['Yoshi', 'Kuma', 'Hattori'];
+    const proxiedNinjas = createNegativeArrayProxy(ninjas);
+
+    console.log("Proxies are around", Math.round(measure(proxiedNinjas) / measure(ninjas)));
+  </script>
+</body>
+
+</html>
