@@ -13,17 +13,6 @@
 
 - Javascript忍者秘籍
 
-- Javascript忍者秘籍2
-  - [运行时的页面构建过程](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/02.%E8%BF%90%E8%A1%8C%E6%97%B6%E7%9A%84%E9%A1%B5%E9%9D%A2%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B.md)
-  - [理解函数](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/03.%E7%90%86%E8%A7%A3%E5%87%BD%E6%95%B0.md)
-  - [函数进阶：理解函数调用](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/04.%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6%EF%BC%9A%E7%90%86%E8%A7%A3%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8.md)
-  - [精通函数：闭包和作用域](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/05.%E7%B2%BE%E9%80%9A%E5%87%BD%E6%95%B0%EF%BC%9A%E9%97%AD%E5%8C%85%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
-  - [未来的函数：生成器和promise](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/06.%E6%9C%AA%E6%9D%A5%E7%9A%84%E5%87%BD%E6%95%B0%EF%BC%9A%E7%94%9F%E6%88%90%E5%99%A8%E5%92%8Cpromise.md)
-  - [面向对象与原型](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/07.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%8E%E5%8E%9F%E5%9E%8B.md)
-  - [控制对象的访问](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/08.%E6%8E%A7%E5%88%B6%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%AE%BF%E9%97%AE.md)
-  - [处理集合](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/09.%E5%A4%84%E7%90%86%E9%9B%86%E5%90%88.md)
-  - [正则表达式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/10.%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
-
 - Javascript设计模式与开发实践
 
 - [Javascript核心技术开发解密笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86)
@@ -37,6 +26,17 @@
   - [x] [函数与函数式编程](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86/08.%E5%87%BD%E6%95%B0%E4%B8%8E%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B)
   - [x] [面向对象](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86/09.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
   - [x] [ES6 与模块化](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86/10.ES6%20%E4%B8%8E%E6%A8%A1%E5%9D%97%E5%8C%96)
+
+- Javascript忍者秘籍2
+  - [运行时的页面构建过程](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/02.%E8%BF%90%E8%A1%8C%E6%97%B6%E7%9A%84%E9%A1%B5%E9%9D%A2%E6%9E%84%E5%BB%BA%E8%BF%87%E7%A8%8B.md)
+  - [理解函数](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/03.%E7%90%86%E8%A7%A3%E5%87%BD%E6%95%B0.md)
+  - [函数进阶：理解函数调用](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/04.%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6%EF%BC%9A%E7%90%86%E8%A7%A3%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8.md)
+  - [精通函数：闭包和作用域](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/05.%E7%B2%BE%E9%80%9A%E5%87%BD%E6%95%B0%EF%BC%9A%E9%97%AD%E5%8C%85%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F.md)
+  - [未来的函数：生成器和promise](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/06.%E6%9C%AA%E6%9D%A5%E7%9A%84%E5%87%BD%E6%95%B0%EF%BC%9A%E7%94%9F%E6%88%90%E5%99%A8%E5%92%8Cpromise.md)
+  - [面向对象与原型](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/07.%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%8E%E5%8E%9F%E5%9E%8B.md)
+  - [控制对象的访问](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/08.%E6%8E%A7%E5%88%B6%E5%AF%B9%E8%B1%A1%E7%9A%84%E8%AE%BF%E9%97%AE.md)
+  - [处理集合](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/09.%E5%A4%84%E7%90%86%E9%9B%86%E5%90%88.md)
+  - [正则表达式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Javascript%E5%BF%8D%E8%80%85%E7%A7%98%E7%B1%8D2/10.%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.md)
 
 - HTTP2 基础教程
 
