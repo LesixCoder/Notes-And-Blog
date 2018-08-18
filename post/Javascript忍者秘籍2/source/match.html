@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Reg</title>
+</head>
+<body>
+  <div id="square" style="transform:translateY(15px);"></div>
+  <script>
+    function getTranslateY(elem){
+      const transformValue = elem.style.transform;
+      if(transformValue){
+        //  const match = transformValue.match(/translateY\(([^\)]+)\)/);
+          const match = transformValue.match(/translateY\(([^\)]+)\)/);
+          return match ? match[1] : "";
+      }
+      return "";
+    }
+    const square = document.getElementById("square");
+    console.log(getTranslateY(square));
+  </script>
+</body>
+</html>
