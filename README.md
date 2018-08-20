@@ -13,6 +13,8 @@
 
 - Javascript忍者秘籍
 
+- 正则表达式必知必会
+
 - Javascript设计模式与开发实践
 
 - [Javascript核心技术开发解密笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E6%A0%B8%E5%BF%83%E6%8A%80%E6%9C%AF%E5%BC%80%E5%8F%91%E8%A7%A3%E5%AF%86)
