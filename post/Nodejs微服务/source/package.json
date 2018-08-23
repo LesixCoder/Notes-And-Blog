@@ -12,5 +12,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "seneca": "^3.7.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
   }
 }
