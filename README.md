@@ -137,6 +137,7 @@
 ### Webpack
 
 - [x] [webpack4]()
+- [深入浅出webpack](http://webpack.wuhaolin.cn/)
 
 ### 源码学习
 
