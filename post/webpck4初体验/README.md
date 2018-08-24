@@ -1,7 +1,7 @@
 ## webpack4 配置
 
 - [webpack基本配置介绍](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C/01.webpack%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%BB%8B%E7%BB%8D.md)
-- [配置loader](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C/01.webpack%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE%E4%BB%8B%E7%BB%8D.md)
+- [配置loader](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C/02.%E9%85%8D%E7%BD%AEloader.md)
 - [配置plugin](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C/03.%E9%85%8D%E7%BD%AEplugin.md)
 - [更好地使用 webpack-dev-server](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C/04.%E6%9B%B4%E5%A5%BD%E5%9C%B0%E4%BD%BF%E7%94%A8%20webpack-dev-server.md)
 - [开发和生产环境的构建配置差异](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C/05.%E5%BC%80%E5%8F%91%E5%92%8C%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83%E7%9A%84%E6%9E%84%E5%BB%BA%E9%85%8D%E7%BD%AE%E5%B7%AE%E5%BC%82.md)
