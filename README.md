@@ -136,7 +136,7 @@
 
 ### Webpack
 
-- [x] [webpack4]()
+- [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
 - [深入浅出webpack](http://webpack.wuhaolin.cn/)
 
 ### 源码学习
