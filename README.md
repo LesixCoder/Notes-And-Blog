@@ -174,6 +174,8 @@
 
 ### python
 
+- [x] [Python学习笔记]()
+
 - [Python入门基础教程](http://www.pylixm.top/python-start/)
 - [機器學習：使用Python](https://machine-learning-python.kspax.io/)
 - [Python进阶](https://eastlakeside.gitbooks.io/interpy-zh/content/)
