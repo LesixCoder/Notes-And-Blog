@@ -117,27 +117,50 @@
 - [x] [散列表](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/07.%E6%95%A3%E5%88%97%E8%A1%A8.md)
 - [x] [树](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/08.%E6%A0%91.md)
 
-### Nodejs 学习笔记总结
+### Javascript
+
+- [JavaScript 编程精解 中文第三版](https://wizardforcel.gitbooks.io/eloquent-js-3e/content/)
+- [JavaScript 轻量级函数式编程](https://wizardforcel.gitbooks.io/functional-light-js/content/)
+
+- [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
+
+### Nodejs
+
+#### 学习笔记总结
 
 - [x] [资源压缩-zlib](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/01.%E8%B5%84%E6%BA%90%E5%8E%8B%E7%BC%A9-zlib)
 - [x] [文件系统操作-fs](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/02.%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C-fs)
 - [x] [域名解析-dns](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/03.%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90-dns)
 - [x] [网络服务-http](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/04.%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1-http)
 
-### Nodejs 进阶
+#### Nodejs 进阶
 
 - [x] [服务端字符编解码&乱码处理](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/post/01.Nodejs%E8%BF%9B%E9%98%B6%EF%BC%9A%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AD%97%E7%AC%A6%E7%BC%96%E8%A7%A3%E7%A0%81%26%E4%B9%B1%E7%A0%81%E5%A4%84%E7%90%86.md)
 - [x] [MD5入门介绍及crypto模块的应用](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/post/02.Nodejs%E8%BF%9B%E9%98%B6%EF%BC%9AMD5%E5%85%A5%E9%97%A8%E4%BB%8B%E7%BB%8D%E5%8F%8Acrypto%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BA%94%E7%94%A8.md)
 - [x] [Express 常用中间件 body-parser 实现解析](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/post/03.Nodejs%20%E8%BF%9B%E9%98%B6%EF%BC%9AExpress%20%E5%B8%B8%E7%94%A8%E4%B8%AD%E9%97%B4%E4%BB%B6%20body-parser%20%E5%AE%9E%E7%8E%B0%E8%A7%A3%E6%9E%90.md)
 
-### Nodejs 实战
+#### Nodejs 实战
 
 - [x] [Express 创建web服务器笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
+
+- [Node.js 设计模式 中文第二版](https://wizardforcel.gitbooks.io/node-js-design-patterns-second-edition/content/)
+- [Nodejs开发加密货币](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
+- [Koa2进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
+- [Node.js 包教包不会](https://marswong.gitbooks.io/node-advanced-tutorial/content/)
+- [Web 平台区块链开发](https://azard.gitbooks.io/web-blockchain-development/content/)
+- [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
+
+### TypeScript
+
+- [TypeScript 入门教程](https://ts.xcatliu.com/)
+- [TypeScript Handbook](https://zhongsp.gitbooks.io/typescript-handbook/content/)
 
 ### React
 
 - [React 模式](http://sangka-z.com/react-in-patterns-cn/)
 - [Redux 中文文档](http://www.redux.org.cn/)
+- [Redux 最佳实践](https://bestredux.com/)
+- [從零開始學 ReactJS：給初學者的 React 入門教學書](https://kdchang.gitbooks.io/react101/content/)
 
 ### Webpack
 
@@ -154,19 +177,33 @@
 - [Python入门基础教程](http://www.pylixm.top/python-start/)
 - [機器學習：使用Python](https://machine-learning-python.kspax.io/)
 - [Python进阶](https://eastlakeside.gitbooks.io/interpy-zh/content/)
+- [Python3网络爬虫开发实战](https://germey.gitbooks.io/python3webspider/content/)
+
+### linux
+
+- [鸟哥的 Linux 私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/)
+- [Linux性能调优指南](https://lihz1990.gitbooks.io/transoflptg/content/)
 
 ### 其它
 
+- [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
+- [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
 - [现代化前端工程师权威指南](https://guoyongfeng.github.io/book/?q=%E5%9F%BA%E4%BA%8EES6%E7%9A%84Package%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B)
 - [chrome插件](http://www.cnplugins.com/)
+- [Web全栈技术指南](https://getfullstack.com/)
+- [笨办法学C](https://wizardforcel.gitbooks.io/lcthw/content/)
+- [微服务学习笔记](https://skyao.gitbooks.io/learning-microservice/content/)
+- [Nginx学习笔记](https://skyao.gitbooks.io/learning-nginx/content/)
 
-### 高质量博客
+### 高质量博客/聚合
 
 - [阮一峰](http://www.ruanyifeng.com/blog/)
 - [张鑫旭](http://www.zhangxinxu.com/)
 - [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
 - [Zindex's blog](http://zxc0328.github.io)
 - [宅居](http://otakustay.com/)
+- [前端周刊](https://frontend-weekly.com/)
+- [码农头条-开发者头条](https://fed.caibaojian.com/)
 
 #### 个人博客
 
