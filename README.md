@@ -174,7 +174,7 @@
 
 ### python
 
-- [x] [Python学习笔记]()
+- [x] [Python学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 
 - [Python入门基础教程](http://www.pylixm.top/python-start/)
 - [機器學習：使用Python](https://machine-learning-python.kspax.io/)
