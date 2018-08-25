@@ -134,6 +134,11 @@
 
 - [x] [Express 创建web服务器笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 
+### React
+
+- [React 模式](http://sangka-z.com/react-in-patterns-cn/)
+- [Redux 中文文档](http://www.redux.org.cn/)
+
 ### Webpack
 
 - [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
@@ -143,6 +148,25 @@
 
 - [x] [jQuery源码精简demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
 - [x] [Promise/A+ 规范js实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
+
+### python
+
+- [Python入门基础教程](http://www.pylixm.top/python-start/)
+- [機器學習：使用Python](https://machine-learning-python.kspax.io/)
+- [Python进阶](https://eastlakeside.gitbooks.io/interpy-zh/content/)
+
+### 其它
+
+- [现代化前端工程师权威指南](https://guoyongfeng.github.io/book/?q=%E5%9F%BA%E4%BA%8EES6%E7%9A%84Package%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B)
+- [chrome插件](http://www.cnplugins.com/)
+
+### 高质量博客
+
+- [阮一峰](http://www.ruanyifeng.com/blog/)
+- [张鑫旭](http://www.zhangxinxu.com/)
+- [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
+- [Zindex's blog](http://zxc0328.github.io)
+- [宅居](http://otakustay.com/)
 
 #### 个人博客
 
