@@ -73,6 +73,19 @@ var defer = function() {
 };
 ```
 
+- 首先
+  - 声明promise对象
+    - `var promise = new Promise();`
+  - 给promise对象增加then方法
+    - `promise.then = function (callback) {}`
+  - 给defer对象返回resolve和promise
+  - value，在resolve事件里传参，是第几个就执行第几个
+
+cnode里的William17写的挺好的，完整的实现可以参考
+
+- [https://cnodejs.org/topic/5603cb8a152fdd025f0f5014](https://cnodejs.org/topic/5603cb8a152fdd025f0f5014)
+- [https://github.com/William17/taxi](https://github.com/William17/taxi)
+
 q是一个不错的项目，也是比较早的promise实现，它把q的7个版本是如何实现的都详细记录了
 
 > 参考 [https://github.com/kriskowal/q/tree/v1/design](https://github.com/kriskowal/q/tree/v1/design)
@@ -99,3 +112,15 @@ fs.readFileAsync("myfile.json").then(JSON.parse).then(function (json) {
 我们都知道 nodejs API fs有 `fs.readFile`、`fs.readFileSync`，但是没有 `fs.readFileAsync`，实际上`fs.readFileAsync` 是 bluebird 加上去的
 
 > 参考：[http://liubin.org/promises-book/#introduction](http://liubin.org/promises-book/#introduction)
+
+### 检测是否完全符合Promise/A+规范
+
+```sh
+npm i promises-aplus-tests -g
+```
+
+具体用法请看 [promise test](https://github.com/promises-aplus/promises-tests)，然后
+
+```sh
+promises-aplus-tests  promise.js
+```
