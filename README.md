@@ -123,10 +123,29 @@
 - [JavaScript 轻量级函数式编程](https://wizardforcel.gitbooks.io/functional-light-js/content/)
 
 - [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
+- [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
+- [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
+- [Javascript编程指南 (源码)](http://pij.robinqu.me/)
+- [javascript 的 12 个怪癖](https://github.com/justjavac/12-javascript-quirks)
+- [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+- [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html)
+- [学用 JavaScript 设计模式 (开源中国)](https://www.oschina.net/translate/learning-javascript-design-patterns)
+- [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+- [ECMAScript 6 入门 (作者：阮一峰)](http://es6.ruanyifeng.com/)
 
 ### Nodejs
 
-#### 学习笔记总结
+- [Node入门](https://www.nodebeginner.org/index-zh-cn.html)
+- [七天学会NodeJS](http://nqdeng.github.io/7-days-nodejs/)
+- [Nodejs Wiki Book (繁体中文)](https://github.com/nodejs-tw/nodejs-wiki-book)
+- [express.js 中文文档](http://expressjs.jser.us/)
+- [koa 中文文档](https://github.com/guo-yu/koa-guide)
+- [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)
+- [Express框架](http://javascript.ruanyifeng.com/nodejs/express.html)
+- [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
+- [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.com/package/learnyounode-zh-cn)
+
+#### Nodejs 学习笔记总结
 
 - [x] [资源压缩-zlib](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/01.%E8%B5%84%E6%BA%90%E5%8E%8B%E7%BC%A9-zlib)
 - [x] [文件系统操作-fs](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/02.%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C-fs)
@@ -146,7 +165,6 @@
 - [Node.js 设计模式 中文第二版](https://wizardforcel.gitbooks.io/node-js-design-patterns-second-edition/content/)
 - [Nodejs开发加密货币](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
 - [Koa2进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
-- [Node.js 包教包不会](https://marswong.gitbooks.io/node-advanced-tutorial/content/)
 - [Web 平台区块链开发](https://azard.gitbooks.io/web-blockchain-development/content/)
 - [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
 
@@ -172,6 +190,50 @@
 - [x] [jQuery源码精简demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
 - [x] [Promise/A+ 规范js实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
 
+### Web
+
+- [关于浏览器和网络的 20 项须知](http://www.20thingsilearned.com/zh-CN/home)
+- [浏览器开发工具的秘密](http://jinlong.github.io/2013/08/29/devtoolsecrets/)
+- [Chrome 开发者工具中文手册](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
+- [Chrome扩展开发文档](http://open.chrome.360.cn/extension_dev/overview.html)
+- [移动Web前端知识库](https://github.com/AlloyTeam/Mars)
+- [移动前端开发收藏夹](https://github.com/hoosin/mobile-web-favorites)
+- [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
+- [前端资源分享（一）](https://github.com/hacke2/hacke2.github.io/issues/1)
+- [前端资源分享（二）](https://github.com/hacke2/hacke2.github.io/issues/3)
+- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
+- [Nginx学习笔记](https://skyao.gitbooks.io/learning-nginx/content/)
+- [Nginx开发从入门到精通 (淘宝团队出品)](http://tengine.taobao.org/book/index.html)
+
+### linux
+
+- [Linux 命令行(中文版)](http://billie66.github.io/TLCL/book/)
+- [鸟哥的 Linux 私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/)
+- [Linux性能调优指南](https://lihz1990.gitbooks.io/transoflptg/content/)
+- [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+- [笨方法学Vimscript 中译本](http://learnvimscriptthehardway.onefloweroneworld.com/)
+- [Vim 中文文档](https://github.com/vimcn/vimcdoc)
+
+### Docker
+
+- [Docker中文指南](https://github.com/widuu/chinese_docker/blob/master/SUMMARY.md)
+- [Docker —— 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
+
+### 数据库
+
+- [MySQL索引背后的数据结构及算法原理](http://www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
+- [带有详细注释的 Redis 3.0 代码](https://github.com/huangz1990/redis-3.0-annotated)
+- [带有详细注释的 Redis 2.6 代码](https://github.com/huangz1990/annotated_redis_source)
+- [The Little MongoDB Book](https://github.com/justinyhuang/the-little-mongodb-book-cn/blob/master/mongodb.md)
+- [The Little Redis Book](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
+
+### 工程项目
+
+- [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
+- [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
+- [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
+- [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
+
 ### python
 
 - [x] [Python学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
@@ -181,10 +243,12 @@
 - [Python进阶](https://eastlakeside.gitbooks.io/interpy-zh/content/)
 - [Python3网络爬虫开发实战](https://germey.gitbooks.io/python3webspider/content/)
 
-### linux
+### GO
 
-- [鸟哥的 Linux 私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/)
-- [Linux性能调优指南](https://lihz1990.gitbooks.io/transoflptg/content/)
+- [Go编程基础](https://github.com/Unknwon/go-fundamental-programming)
+- [Go入门指南](https://github.com/Unknwon/the-way-to-go_ZH_CN)
+- [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+- [Go实战开发](https://github.com/astaxie/go-best-practice)
 
 ### 其它
 
@@ -195,9 +259,13 @@
 - [Web全栈技术指南](https://getfullstack.com/)
 - [笨办法学C](https://wizardforcel.gitbooks.io/lcthw/content/)
 - [微服务学习笔记](https://skyao.gitbooks.io/learning-microservice/content/)
-- [Nginx学习笔记](https://skyao.gitbooks.io/learning-nginx/content/)
 - [面试图谱](https://yuchengkai.cn/docs/zh/frontend/)
+- [GitHub秘籍](https://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html)
 - [gitbook简明教程](http://www.chengweiyang.cn/gitbook/basic-usage/README.html)
+- [Mac 开发配置手册](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/)
+- [Dart 语言导览](http://dart.lidian.info/wiki/Language_Tour)
+- [Golang 学习笔记、Python 学习笔记、C 学习笔记 (PDF)](https://github.com/qyuhen/book)
+- [精彩博客集合](https://github.com/hacke2/hacke2.github.io/issues/2)
 
 ### 高质量博客/聚合
 
