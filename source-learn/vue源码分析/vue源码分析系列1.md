@@ -1,8 +1,8 @@
-## vue 源码分析系列 1
+# vue 源码分析系列 1
 
 我们要分析 vue 的源码，首先从全局看下 vue 的运行机制是怎样的，然后逐步分析。
 
-### Vue.js 运行机制全局概览
+## Vue.js 运行机制全局概览
 
 我们先看一张图：
 
@@ -48,7 +48,7 @@ render function 会被转化成 VNode 节点，Virtual DOM 其实就是一棵以
 
 当修改一个值的时候，会通过 `setter -> Watcher -> update` 的流程来修改对应的视图。数据变化后，执行 render function 就可以得到一个新的 VNode 节点，如果想要得到新的视图，按往常最简单的方式就是直接解析这个 VNode 节点，然后 `innerHTML` 直接全部渲染到真实 DOM 中。但是这样做会有性能问题，因为我们只改了其中一小部分，全部更改似乎有点【浪费】。这就要说下 `patch` 了，我们会将新的 VNode 与旧的 VNode 一起传入 `patch` 进行比较，经过 diff 算法得出它们的差异。最后我们只需要将这些发生变化的的对应 DOM 进行修改即可。
 
-### 响应式系统的基本原理
+## 响应式系统的基本原理
 
 前面我们从全局角度分析了整个 vue 的运行机制，我们都知道 Vue.js 是一款 MVVM 框架，数据模型仅仅是普通的 JavaScript 对象，但是对这些对象进行操作时，却能影响对应视图，它的核心实现就是【响应式系统】。
 
@@ -71,7 +71,7 @@ Object.defineProperty(obj, prop, descriptor);
 - `get`，获取属性的方法。
 - `set`，设置属性的方法。
 
-#### 实现 observer（可观察的）
+### 实现 observer（可观察的）
 
 知道了 `Object.defineProperty` 以后，我们来用它使对象变成可观察的。首先我们定义一个 `cb` 函数，这个函数用来模拟视图更新，调用它即代表更新视图，内部可以是一些更新视图的方法。
 
@@ -139,7 +139,7 @@ let o = new Vue({
 
 然后我们再说说【依赖收集】
 
-#### 依赖收集追踪原理
+### 依赖收集追踪原理
 
 先举个 vue 的例子：
 
@@ -288,7 +288,7 @@ class Vue {
 }
 ```
 
-#### 小结
+### 小结
 
 首先在 `observer` 的过程中会注册 `get` 方法，该方法用来进行【依赖收集】。在它的闭包中会有一个 `Dep` 对象，这个对象用来存放 `Watcher` 对象的实例。其实【依赖收集】的过程就是把 `Watcher` 实例存放到对应的 `Dep` 对象中去。`get` 方法可以让当前的 `Watcher` 对象（`Dep.target`）存放到它的 `subs` 中（`addSub`）方法，在数据变化时，`set` 会调用 `Dep` 对象的 `notify` 方法通知它内部所有的 `Watcher` 对象进行视图更新。
 
@@ -300,3 +300,130 @@ class Vue {
 这个我们在 Vue 的构造类中处理。新建一个 `Watcher` 对象只需要 new 出来，这时候 `Dep.target` 已经指向了这个 new 出来的 `Watcher` 对象来。而触发 `get` 方法也很简单，实际上只要把 render function 进行渲染，那么其中的依赖的对象都会被【读取】，这里我们通过打印来模拟这个过程，读取 `test` 来触发 `get` 进行【依赖收集】。
 
 本章我们介绍了【依赖收集】的过程，配合之前的响应式原理，已经把整个【响应式系统】介绍完毕了。其主要就是 get 进行【依赖收集】。set 通过观察者来更新视图。
+
+## 实现 Virtual DOM
+
+我们全面介绍过，render function 最终会转化为 VNode 节点，VNode 归根结底就是一个 JavaScript 对象，只要这个类的一些属性可以正确直观地描述清楚当前节点的信息即可。我们来实现一个简单的 VNode 类，加入一些基本属性，为了便于理解，我们先不考虑复杂的情况。
+
+```js
+class VNode {
+  constructor(tag, data, children, text, elm) {
+    /*当前节点的标签名*/
+    this.tag = tag;
+    /*当前节点的一些数据信息，比如props、attrs等数据*/
+    this.data = data;
+    /*当前节点的子节点，是一个数组*/
+    this.children = children;
+    /*当前节点的文本*/
+    this.text = text;
+    /*当前虚拟节点对应的真实dom节点*/
+    this.elm = elm;
+  }
+}
+```
+
+vue 组件：
+
+```html
+<template>
+  <span class="demo" v-show="isShow">
+    This is a span.
+  </span>
+</template>
+```
+
+用 js 表示是这样的：
+
+```js
+function render() {
+  return new VNode(
+    'span',
+    {
+      /* 指令集合数组 */
+      directives: [
+        {
+          /* v-show指令 */
+          rawName: 'v-show',
+          expression: 'isShow',
+          name: 'show',
+          value: true
+        }
+      ],
+      /* 静态class */
+      staticClass: 'demo'
+    },
+    [new VNode(undefined, undefined, undefined, 'This is a span.')]
+  );
+}
+```
+
+转换成 VNode 以后的情况:
+
+```js
+{
+  tag: 'span',
+  data: {
+    /* 指令集合数组 */
+    directives: [
+        {
+          /* v-show指令 */
+          rawName: 'v-show',
+          expression: 'isShow',
+          name: 'show',
+          value: true
+        }
+    ],
+    /* 静态class */
+    staticClass: 'demo'
+  },
+  text: undefined,
+  children: [
+    /* 子节点是一个文本VNode节点 */
+    {
+      tag: undefined,
+      data: undefined,
+      text: 'This is a span.',
+      children: undefined
+    }
+  ]
+}
+```
+
+然后我们可以将 VNode 进一步封装一下，可以实现一些产生常用 VNode 的方法。
+
+- 创建一个空节点
+
+```js
+function createEmptyVNode() {
+  const node = new VNode();
+  node.text = '';
+  return node;
+}
+```
+
+创建一个文本节点
+
+```js
+function createTextVNode(val) {
+  return new VNode(undefined, undefined, undefined, String(val));
+}
+```
+
+克隆一个 VNode 节点
+
+```js
+function cloneVNode(node) {
+  const cloneVnode = new VNode(
+    node.tag,
+    node.data,
+    node.children,
+    node.text,
+    node.elm
+  );
+  return cloneVnode;
+}
+```
+
+总的来说，VNode 就是一个 JavaScript 对象，用 JavaScript 对象的属性来描述当前节点的一些状态，用 VNode 节点的形式来模拟一棵 Virtual DOM 树。
+
+下一篇我们会介绍 template 模板的编译。
