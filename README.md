@@ -189,6 +189,7 @@
 
 - [x] [jQuery源码精简demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
 - [x] [Promise/A+ 规范js实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
+- [x] [vue源码分析](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/source-learn/vue%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/vue%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%B3%BB%E5%88%971.md)
 
 ### Web
 
