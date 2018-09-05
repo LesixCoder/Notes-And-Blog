@@ -1,7 +1,5 @@
 ## 读书笔记及源码学习整理(时间不分先后)
 
-> 持续更新中...
-
 ### 已读/读书笔记
 
 - [Javascript高级程序设计笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
