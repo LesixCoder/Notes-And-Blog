@@ -232,15 +232,19 @@
 - [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
 - [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
 - [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
+- [深入理解OpenStack自动化部署](https://pom.nops.cloud/)
 
-### python
+### python&机器学习
 
 - [x] [Python学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 
 - [Python入门基础教程](http://www.pylixm.top/python-start/)
+- [Python机器学习](https://ljalphabeta.gitbooks.io/python-/content/)
 - [機器學習：使用Python](https://machine-learning-python.kspax.io/)
 - [Python进阶](https://eastlakeside.gitbooks.io/interpy-zh/content/)
 - [Python3网络爬虫开发实战](https://germey.gitbooks.io/python3webspider/content/)
+- [斯坦福机器学习笔记](https://yoyoyohamapi.gitbooks.io/mit-ml/content/)
+- [神经网络与深度学习](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/)
 
 ### GO
 
@@ -264,6 +268,7 @@
 - [Mac 开发配置手册](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/)
 - [Dart 语言导览](http://dart.lidian.info/wiki/Language_Tour)
 - [Golang 学习笔记、Python 学习笔记、C 学习笔记 (PDF)](https://github.com/qyuhen/book)
+- [彗星计划](https://comet-project.gitbooks.io/cto-tech-manual/content/)
 - [精彩博客集合](https://github.com/hacke2/hacke2.github.io/issues/2)
 
 ### 高质量博客/聚合
