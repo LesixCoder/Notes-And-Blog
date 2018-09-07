@@ -130,6 +130,7 @@
 - [学用 JavaScript 设计模式 (开源中国)](https://www.oschina.net/translate/learning-javascript-design-patterns)
 - [深入理解JavaScript系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 - [ECMAScript 6 入门 (作者：阮一峰)](http://es6.ruanyifeng.com/)
+- [JavaScript高级程序设计（第3版）](http://yuedu.163.com/book_reader/4b721fda975b436b8761b3fb9e362a17_4)
 
 ### Nodejs
 
@@ -165,11 +166,17 @@
 - [Koa2进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
 - [Web 平台区块链开发](https://azard.gitbooks.io/web-blockchain-development/content/)
 - [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
+- [Node.js进阶之路](http://yuedu.163.com/book_reader/662c332534f144e0ae9e48f84cc0c45b_4)
+- [Node.js区块链开发](http://yuedu.163.com/book_reader/fff0e4b14d9844e184b2b3fa1bd4cb7a_4)
 
 ### TypeScript
 
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
 - [TypeScript Handbook](https://zhongsp.gitbooks.io/typescript-handbook/content/)
+
+### Vue
+
+- [Vue移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
 
 ### React
 
@@ -203,6 +210,8 @@
 - [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 - [Nginx学习笔记](https://skyao.gitbooks.io/learning-nginx/content/)
 - [Nginx开发从入门到精通 (淘宝团队出品)](http://tengine.taobao.org/book/index.html)
+- [实战微信小程序：JavaScript、WXML与Flexbox综合开发](http://yuedu.163.com/book_reader/cd1033a369894cb89ae74570b120b807_4)
+- [WebKit技术内幕](http://yuedu.163.com/book_reader/fd628521474b438cb1b7e87213542ed9_4)
 
 ### linux
 
@@ -238,6 +247,8 @@
 
 - [x] [Python学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 
+- [Python编程：从入门到实践](http://yuedu.163.com/book_reader/91310717c3204819ad3cd1dea2f48c19_4)
+- [“笨办法”学Python（第3版）](http://yuedu.163.com/book_reader/2e64fef6a63b4a598b2b9213b04250cf_4)
 - [Python入门基础教程](http://www.pylixm.top/python-start/)
 - [Python机器学习](https://ljalphabeta.gitbooks.io/python-/content/)
 - [機器學習：使用Python](https://machine-learning-python.kspax.io/)
@@ -283,9 +294,28 @@
 
 - [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
 
+### 产品&设计
+
+- [产品设计思维：电商产品设计全攻略](http://yuedu.163.com/book_reader/7f6e55fbec324728a873dd74e056b24b_4)
+- [产品经理手册（原书第4版）](http://yuedu.163.com/book_reader/e1afcc037a6042559c142703bf7a2b9c_4)
+- [产品的视角：从热闹到门道](http://yuedu.163.com/book_reader/78b2d5e345044c1a8e307d7ef588643a_4)
+- [产品经理面试攻略](http://yuedu.163.com/book_reader/dfcc0df156dc48da9fd15c6a4b52fac8_4)
+- [上瘾：让用户养成使用习惯的四大产品逻辑](http://yuedu.163.com/book_reader/e56e65cd1bda465dac1299661c805d46_4)
+- [网易一千零一夜：互联网产品项目管理实战](http://yuedu.163.com/book_reader/23d4397960b849809a4c93714507d825_4)
+- [结网@改变世界的互联网产品经理（修订版）](http://yuedu.163.com/book_reader/729bb09d1b054c6ba33e4c5e939b7ad9_4)
+
 ### 收集的不错的博客资源
 
 - [https://github.com/forthealllight/blog/issues](https://github.com/forthealllight/blog/issues)
+
+### 编程之外
+
+- [今日简史：人类命运大议题](http://yuedu.163.com/book_reader/0840e1aa05914107b1a7b2f7ee9b84fb_4)
+- [三体(全集)](http://yuedu.163.com/book_reader/1cde4dd77c9c41a48614c22b93b9cb8f_4)
+- [影响力](http://yuedu.163.com/book_reader/d6f842ca72044b24adda32ae4d51c2af_4)
+- [深度工作：如何有效使用每一点脑力](http://yuedu.163.com/book_reader/ab410d42629a41069e81068991acfcfc_4)
+- [霍金三部曲经典套装：时间简史+果壳中的宇宙+大设计](http://yuedu.163.com/source/cd51691701354642b36fc50be08b9cd6_4)
+- [高情商聊天术](http://yuedu.163.com/book_reader/3e1ae22e47914d899053ff9e269f53d0_4)
 
 #### 个人博客
 
