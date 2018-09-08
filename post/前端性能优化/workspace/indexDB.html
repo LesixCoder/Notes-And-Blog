@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>indexDB</title>
+</head>
+<body>
+	<div id="name"></div>
+	<div id="gender"></div>
+	<script type="text/javascript">
+		function openDB(name, callback){
+			// 建立打开indexeDB
+			var request = window.indexedDB.open(name)
+			request.onerror = function(e) {
+				console.log("open indexedDB error")
+			}
+			request.onsuccess = function(e) {
+				myDB.db = e.target.result;
+				callback && callback()
+				console.log(indexedDB.deleteDatabase())
+			}
+
+			// from no databse to first version, first version to secend
+			request.onupgradenneeded = function(){
+				var store = myDB.db.createObjectStore('books', {
+					keyPath: 'isbn'
+				})
+				var titleIndex = store.createIndex('by_title', 'title', {
+					unique: true
+				})
+				var authorIndex = store.createIndex('by_author', 'author')
+
+				sotre.put({
+					title: 'Quarry Memories',
+					author: 'Fred',
+					isbn: 123456
+				})
+
+				sotre.put({
+					title: 'Water Buffaloes',
+					author: 'Fred',
+					isbn: 234567
+				})
+
+				sotre.put({
+					title: 'Bedrock Nights',
+					author: 'Barney',
+					isbn: 345678
+				})
+			}
+		}
+		var myDB = {
+			name: 'testdb',
+			version: '1',
+			db: null
+		}
+
+		function addData(db, storeName){
+			// object store
+			var transaction = db.transaction('books', 'readwrite')
+			var store = transaction.objectStore('books')
+			// 获取当前indexdb中的数据
+			// var request = sotre.get(234567)
+			// request.onsuccess = function(e) {
+			// 	console.log(e.target.result)
+			// }
+
+			// 添加信息到indexdb中
+			// store.add({
+			// 	title: 'Flowers',
+			// 	author: 'Quan',
+			// 	isbn: 222
+			// })
+
+			// store.delete(222)
+			store.get(222).onsuccess = function (e) {
+				books = e.target.result
+				console.log(books)
+				books.author = 'James'
+				var request = store.put({books})
+				request.onsuccess = function(e) {
+					console.log('update success')
+				}
+			}
+		}
+
+		openDB (myDB.name, function(){
+			// 删除indexdb
+			// myDB.db.close()
+			// window.indexedDB.deleteDatabase(myDB.db)
+
+			// 往indexdb中添加数据
+		})
+
+		setTimeout(function(){
+			addData(myDB.db)
+		}, 2000)
+
+		// objectStore 不同于数据库的表
+
+		// 删除indexdb
+	</script>
+</body>
+</html>
