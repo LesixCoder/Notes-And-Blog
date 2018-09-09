@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>jquery test 1</p>
+    <p>jquery test 2</p>
+    <p>jquery test 3</p>
+
+    <div id="div1">
+        <p>jquery test in div</p>
+    </div>
+
+    <script type="text/javascript" src="./my-jquery.js"></script>
+    <script type="text/javascript">
+        var $p = $('p')
+        $p.css('font-size', '40px')
+        alert($p.html())
+
+        var $div1 = $('#div1')
+        $div1.css('color', 'blue')
+        alert($div1.html())
+    </script>
+</body>
+</html>

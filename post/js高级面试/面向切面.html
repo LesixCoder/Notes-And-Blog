@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 统计当前所有函数谁耗时最长
+		function test(){
+			console.log('2');
+			return {data:'123'};
+		}
+		Function.prototype.before = function(callback){
+			var __self = this;
+			return function(){
+				if(callback.apply(this, arguments) == false) return false;
+				return __self.apply(__self, arguments);
+			}
+		}
+		Function.prototype.after = function(callback){
+			var __self = this;
+			return function(){
+				var result = __self.apply(__self, arguments);
+				if(result == false) return false;
+				callback.apply(this, arguments);
+				return result;
+			}
+		}
+
+		test.before(function(){
+			console.log('1')
+		}).after(function(){
+			console.log('3')
+		})()
+	</script>
+</body>
+</html>

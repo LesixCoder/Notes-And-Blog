@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{name}}</p>
+        <p>{{age}}</p>
+    </div>
+
+    <script type="text/javascript">
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                name: 'zhangsan',
+                age: 20 
+            }
+        })
+
+        // vm.name
+        // vm.age
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>promise test</p>
+
+    <!-- <script src="https://cdn.bootcss.com/bluebird/3.5.1/bluebird.min.js"></script> -->
+    <script type="text/javascript">
+
+        function loadImg(src) {
+            var promise = new Promise(function (resolve, reject) {
+                var img = document.createElement('img')
+                img.onload = function () {
+                    resolve(img)
+                }
+                img.onerror = function () {
+                    reject('图片加载失败')
+                }
+                img.src = src
+            })
+            return promise
+        }
+
+        // var src = 'https://www.imooc.com/static/img/index/logo_new.png'
+        // var result = loadImg(src)
+        // result.then(function (img) {
+        //     console.log(1, img.width)
+        //     return img
+        // }, function () {
+        //     console.log('error 1')
+        // }).then(function (img) {
+        //     console.log(2, img.height)
+        // })
+
+        // var src = 'https://www.imooc.com/static/img/index/logo_new.png'
+        // var result = loadImg(src)
+        // result.then(function (img) {
+        //     console.log(1, img.width)
+        //     return img
+        // }).then(function (img) {
+        //     console.log(2, img.height)
+        // }).catch(function (ex) {
+        //     // 统一捕获异常
+        //     console.log(ex)
+        // })
+
+        // var src1 = 'https://www.imooc.com/static/img/index/logo_new.png'
+        // var result1 = loadImg(src1)
+        // var src2 = 'https://img1.mukewang.com/545862fe00017c2602200220-100-100.jpg'
+        // var result2 = loadImg(src2)
+        // result1.then(function (img1) {
+        //     console.log('第一个图片加载完成', img1.width)
+        //     return result2  // 重要！！！
+        // }).then(function (img2) {
+        //     console.log('第二个图片加载完成', img2.width)
+        // }).catch(function (ex) {
+        //     console.log(ex)
+        // })
+
+        var src1 = 'https://www.imooc.com/static/img/index/logo_new.png'
+        var result1 = loadImg(src1)
+        var src2 = 'https://img1.mukewang.com/545862fe00017c2602200220-100-100.jpg'
+        var result2 = loadImg(src2)
+        Promise.all([result1, result2]).then(function (datas) {
+            console.log('all', datas[0])
+            console.log('all', datas[1])
+        })
+        Promise.race([result1, result2]).then(function (data) {
+            console.log('race', data)
+        })
+
+    </script>
+</body>
+</html>

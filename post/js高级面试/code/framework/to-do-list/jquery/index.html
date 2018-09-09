@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>to-do-list by jquery</title>
+</head>
+<body>
+    <div>
+        <input type="text" name="" id="txt-title">
+        <button id="btn-submit">submit</button>
+    </div>
+    <div>
+        <ul id="ul-list"></ul>
+    </div>
+    
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        var $txtTitle = $('#txt-title')
+        var $btnSubmit = $('#btn-submit')
+        var $ulList = $('#ul-list')
+        $btnSubmit.click(function () {
+            var title = $txtTitle.val()
+            if (!title) {
+                return
+            }
+            var $li = $('<li>' + title + '</li>')
+            $ulList.append($li)
+            $txtTitle.val('')
+        })
+    </script>
+</body>
+</html>

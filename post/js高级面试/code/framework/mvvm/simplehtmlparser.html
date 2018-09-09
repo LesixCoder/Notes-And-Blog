@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>simple html parser</p>
+
+    <script type="text/javascript" src="./simplehtmlparser.js"></script>
+    <script type="text/javascript">
+        var html = '<div id="app">\n' +
+                '   <p>{{proce}}</p>\n' +
+                '   <p v-show="show">hello parser</p>\n' +
+                '   <!--my-comment-->\n' +
+                '</div>';
+
+        console.log('模板：\n', html)
+
+        // 定义变量
+        var root, currentELem, parentElem
+
+        // 处理器
+        var handler = {
+            startElement: function (tagName, attrs) {
+                // 一个标签的开始 ，可以获取属性
+                // console.log('start', tagName)
+
+                // 重定义 parentElem
+                parentElem = currentELem
+
+                currentELem = {
+                    tag: tagName,
+                    attrs: attrs,
+                    children: [],
+                    parent: parentElem
+                }
+
+                if (!root) {
+                    root = currentELem
+                }
+            },
+            endElement: function (tagName) {
+                // 一个标签的结束
+                // console.log('end', tagName)
+
+                if (parentElem && currentELem !== parentElem) {
+                    parentElem.children.push(currentELem)
+                    currentELem = parentElem
+                }
+            },
+            characters: function (s) {
+                // 文本节点
+                // console.log('char', s)
+
+                currentELem.children.push(s)
+            },
+            comment: function (s) {
+                // 注释节点
+                // console.log('comment', s)
+            }
+        };
+
+        // parse
+        var parser = new SimpleHtmlParser();
+        parser.parse(html, handler);
+
+        // 打印结果
+        console.log(root)
+    </script>
+</body>
+</html>

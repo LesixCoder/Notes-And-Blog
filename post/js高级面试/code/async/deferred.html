@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>deferred test</p>
+
+    <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+        // var wait = function () {
+        //     var task = function () {
+        //         console.log('执行完成')
+        //     }
+        //     setTimeout(task, 2000)
+        // }
+        // wait()
+
+        // 已经封装好的（A 员工）
+        function waitHandle() {
+            // 定义
+            var dtd = $.Deferred()
+            var wait = function (dtd) {
+                var task = function () {
+                    console.log('执行完成')
+                    // 成功
+                    dtd.resolve()
+                    // 失败
+                    // dtd.reject()
+                }
+                setTimeout(task, 1000)
+                // wait 返回
+                return dtd.promise()
+            }
+            // 最终返回
+            return wait(dtd)
+        }
+
+        // 使用（B 员工）
+        var w = waitHandle()  // promise 对象
+        $.when(w).then(function () {
+            console.log('ok 1')
+        }, function () {
+            console.log('err 1')
+        })
+
+    </script>
+</body>
+</html>

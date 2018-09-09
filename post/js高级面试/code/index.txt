@@ -1,0 +1,25 @@
+更多资源联系q810642693
+
+phpstorm快捷键：
+// ctrl+shift+n    查找文件
+//  ctrl+j            插入活动代码提示
+//  ctrl+alt+t        当前位置插入环绕代码
+//  alt+insert        生成代码菜单
+
+//  ctrl+q            查看代码注释
+//  ctrl+d            复制当前行
+//  ctrl+y            删除当前行
+//  shift+F6          重命名
+//  ctrl+shift+u      字母大小写转换
+//  ctrl+f            查找
+//  ctrl+r            替换
+//  F4                查看源码
+//  ctrl+shift+i      查看变量或方法定义源
+//  ctrl+g            跳转行
+//  ctrl+alt+F12      跳转至当前文件在磁盘上的位置
+//  alt+down          查看下一个方法
+//  alt+up            查看上一个方法
+//  ctrl+alt+l        重新格式化代码
+//  ctrl+shift+down   statement向下移动
+//  ctrl+shift+up     statement向上移动
+//  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>test</p>
+    
+    <script type="text/javascript">
+        var obj = {
+            name: 'zhangsan',
+            age: 20,
+            getAddress: function () {
+                alert('beijing')
+            }
+        }
+
+        // function fn() {
+        //     alert(obj.name)
+        //     alert(obj.age)
+        //     obj.getAddress()
+        // }
+        // fn()
+
+        function fn1() {
+            with(obj) {
+                alert(age)
+                alert(name)
+                getAddress()
+            }
+        }
+        fn1()
+    </script>
+</body>
+</html>

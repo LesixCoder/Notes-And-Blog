@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn1">扫一扫</button>
+    <button id="btn2">分享</button>
+
+    <script type="text/javascript" src="./invoke.js"></script>
+    <script type="text/javascript">
+        // function invokeScan() {
+        //     window['_invoke_scan_callback_'] = function (result) {
+        //         alert(result)
+        //     }
+
+        //     var iframe = document.createElement('iframe')
+        //     iframe.style.display = 'none'
+        //     // iframe.src = 'weixin://dl/scan'  // 重要！
+        //     iframe.src = 'weixin://dl/scan?k1=v1&k2=v2&k3=v3&callback=_invoke_scan_callback_'
+        //     var body = document.body
+        //     body.appendChild(iframe)
+        //     setTimeout(function () {
+        //         body.removeChild(iframe)
+        //         iframe = null
+        //     })
+        // }
+
+        document.getElementById('btn1').addEventListener('click', function () {
+            // invokeScan()
+            window.invoke.scan({}, function () {})
+        })
+        document.getElementById('btn2').addEventListener('click', function () {
+            window.invoke.share({
+                title: 'xxx',
+                content: 'yyy'
+            }, function (result) {
+                if (result.errno === 0) {
+                    alert('分享成功')
+                } else {
+                    alert(result.message)
+                }
+            })
+        })
+    </script>
+</body>
+</html>

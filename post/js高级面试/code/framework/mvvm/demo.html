@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="./vue-2.5.13.js"></script>
+</head>
+<body>
+    <div id="app">
+        <p>{{price}}</p>
+    </div>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+            data: {
+                price: 100
+            }
+        })
+
+        // 以下是手写的 ppt 中的 render 函数
+        function render() {
+            with(this) {  // this 就是 vm
+                return _c(
+                    'div',
+                    {
+                        attrs: {'id': 'app'}
+                    },
+                    [
+                        _c('p', [_v(_s(price))])
+                    ]
+                )
+            }
+        }
+
+        function render1() {
+            return vm._c(
+                'div',
+                {
+                    attrs: {'id': 'app'}
+                },
+                [
+                    vm._c('p', [vm._v(vm._s(vm.price))])
+                ]
+            )
+        }
+
+    </script>
+</body>
+</html>

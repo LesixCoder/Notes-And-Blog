@@ -1,0 +1,23 @@
+{
+  "name": "rollup-wfp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "rollup": "^0.52.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
+}
