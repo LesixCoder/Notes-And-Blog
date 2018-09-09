@@ -1,0 +1,22 @@
+doctype html
+html
+	head
+		title 登录
+		meta(name="viewport",content="width=device-width, initial-scale=1")
+		link(rel="stylesheet",href="/materialize/css/materialize.css")
+	body
+		.loginWrapper.container
+			.row.section
+				.col.s6.offset-s3
+					h4 登录
+					form(name="loginForm")
+						.input-field
+							input(name="username",placeholder="用户名")
+						.input-field
+							input(name="password",type="password",placeholder="密码")
+						.input-field
+							button.waves-effect.waves-light.btn 登录
+		script(src="/jspm_packages/system.js")
+		script(src="/config.js")
+		script.
+			System.import('scripts/login');

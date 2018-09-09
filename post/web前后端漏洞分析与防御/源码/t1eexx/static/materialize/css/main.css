@@ -1,0 +1,55 @@
+.top-nav{
+	/*height:30px;*/
+	/*line-height: 30px;*/
+	font-size:32px;
+}
+.indexBody{
+	padding-top:30px;
+}
+
+img.cover{
+	width:100%;
+	height:300px;
+}
+
+.postWrapper{
+	border-bottom:1px solid #f0f0f0;
+}
+.postWrapper .row{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.postWrapper img{
+	width:100%;
+	height:150px;
+}
+.postWrapper a{
+	color: #333;
+}
+.postWrapper a:hover{
+	color:#039be5;
+}
+.postWrapper .info span{
+	color:#999;
+	margin-right:15px;
+}
+
+.commentTitle{
+	margin-top:0;
+}
+
+.commentWrapper li{
+	border-bottom:1px solid #f0f0f0;
+	margin-top:10px;
+	padding-bottom:10px;
+}
+.commentWrapper li .nick{
+	color:#999;
+}
+.commentWrapper li .info{
+	color:#999;
+}
+
+.postTitle{
+	text-align: center;
+}

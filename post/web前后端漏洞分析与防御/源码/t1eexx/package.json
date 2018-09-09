@@ -1,0 +1,38 @@
+{
+  "name": "safety-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon server.js -e\"js pug\"",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "jspm": "^0.16.53"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-pug": "^3.0.0-2",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "static"
+    },
+    "dependencies": {
+      "axios": "npm:axios@^0.16.0",
+      "form-serialize": "npm:form-serialize@^0.7.1"
+    },
+    "devDependencies": {}
+  }
+}

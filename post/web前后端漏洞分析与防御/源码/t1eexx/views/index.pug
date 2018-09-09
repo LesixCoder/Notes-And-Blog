@@ -1,0 +1,49 @@
+doctype html
+html
+	head
+		title 昨日头条
+		meta(name="viewport",content="width=device-width, initial-scale=1")
+		link(rel="stylesheet",href="/materialize/css/materialize.css")
+		link(rel="stylesheet",href="/materialize/css/main.css")
+	body
+		.indexWrapper
+			nav.top-nav
+				.nav-wrapper.container
+					a.page-title(href="/")
+						span 昨日头条
+						if from
+							span - 欢迎来自!{from}的朋友
+			.container
+				.row.section.indexBody
+					.col.s8
+						a(href="/post/"+posts[0].id)
+							img(class="responsive-img cover",src=posts[0].imgUrl)
+						ul.section
+							each post in posts.slice(1)
+								li.postWrapper
+									.row
+										.col.s4
+											img(class="responsive-img",src=post.imgUrl)
+										.col.s8
+											h5
+												a(href="/post/"+post.id) #{post.title}
+											.info
+												span 搞笑新闻
+												span #{post.commentCount}评论
+												span #{post.createdAt.toISOString().replace(/T.*/,'')}
+					.col.s4
+						h5.commentTitle 最新评论
+						ul.section.commentWrapper
+							each comment in comments
+								li
+									.nick
+										| #{comment.username || '匿名用户'} #{comment.createdAt.toISOString().replace(/T.*/,'')}
+									.commentContent #{comment.content}
+									.info
+										| 文章
+										a(href="/post/"+comment.postId) #{comment.postTitle}
+		script(src="/jspm_packages/system.js")
+		script(src="/config.js")
+		script.
+			var from = "!{from}";
+			//- System.import('scripts/login');
