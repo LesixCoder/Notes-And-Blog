@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基础知识</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a = 100;
+		var b = a;
+		a = 200
+		console.log(b) //100
+	</script>
+	<script type="text/javascript">
+		//写一个封装dom查询的例子
+		function Elem(id){
+			this.elem = document.getElementById(id);
+		}
+		Elem.prototype.html = function(val){
+			var elem = this.elem;
+			if(val){
+				elem.innerHTML = val;
+				return this
+			}else{
+				return elem.innerHTML;
+			}
+		}
+		Elem.prototype.on = function(type, fn){
+			var elem = this.elem;
+			elem.addEventListener(type, fn);
+			return this;
+		}
+		var div1 = new Elem('article');
+		//console.log(div1.html());
+		div1.html('<p><button>点击</button></p>').on('click', function(){
+			alert('111'); 
+			div1.html('<div>111</div>')
+		})
+	</script>
+</body>
+</html>

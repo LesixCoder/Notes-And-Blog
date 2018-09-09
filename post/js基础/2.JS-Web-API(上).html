@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基础知识</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var div1 = document.getElementById('div1')
+		//添加新节点
+		var p1 = document.createElement('p')
+		p1.innerHTML = 'this is p1'
+		div1.appendChild(p1)
+		//移动已有节点
+		var p2 = document.getElementById('p2')
+		div1.appendChild(p2)
+		//获取父元素和子元素
+		var div1 = document.getElementById('div1')
+		var parent = div1.parentElement
+		var child = div1.childNodes
+		div1.removeChild(child[0])
+	</script>
+	<script type="text/javascript">
+		//BOM
+		//navigator
+		var ua = navigator.userAgent
+		var isChrome = ua.indexOf('Chrome')
+		//screen
+		screen.width/screen.height
+		//location
+		location.href
+		location.protocol //'http:' 'https:' 协议
+		location.pathname //'/learn/index'
+		location.search //?后面参数
+		location.hash //#后面
+		//history
+		history.back()
+		history.forward()
+	</script>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开发环境</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//使用require.js
+		// util.js
+		define(function(){
+			return {
+				getFormatDate: function(date, type) {
+					if(type === 1){
+						return '2017-06-15'
+					}
+					if(type === 2){
+						return '2017年6月15日'
+					}
+				}
+			}
+		})
+		// a-util.js
+		define(['./util.js'], function(util) {
+			return {
+				aGetFormatDate: function(date) {
+					return util.getFormatDate(date, 2)
+				}
+			}
+		})
+		// a.js
+		define(['./a-util.js'], function(aUtil) {
+			return {
+				printDate: function(date) {
+					console.log(aUtil.aGetFormatDate(date))
+				}
+			}
+		})
+		// main.js
+		require(['./a.js'], function(a) {
+			var date = new Date()
+			a.printDate(date)
+		})
+	</script>
+	<script type="text/javascript" src="https://cdn.bootcss.com/require.js/2.3.3/require.min.js" data-main="./main.js"></script>
+
+	<script type="text/javascript">
+		
+	</script>
+		
+</body>
+</html>

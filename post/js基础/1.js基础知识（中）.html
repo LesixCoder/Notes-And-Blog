@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基础知识</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function Foo(name){
+			this.name = name
+		}
+		var f = new Foo('zhangsan')
+
+		var obj = {
+			name: 'A',
+			printName: function(){
+				console.log(this.name)
+			}
+		}
+		obj.printName()
+
+		function fn() {
+			console.log(this)
+		}
+		fn()
+
+		//call apply bind
+		function fn1(name, age) {
+			alert(name)
+			console.log(this)
+		}
+		fn1.call({x:100},'zhangsan',20) //this指向{x:100}
+		fn1.apply({x:100},['zhangsan',20]) //this指向{x:100}
+
+		var fn2 = function(name, age) {
+			alert(name)
+			console.log(this)
+		}.bind({y:200}) //必须为函数表达式
+		fn2('zhangsan', 20)
+	</script>
+	<script type="text/javascript">
+		//闭包
+		function F1() {
+			var a = 100
+			return function() {
+				console.log(a)
+			}
+		}
+		var f1 = F1()
+		var a = 200
+		f1() //100
+
+		//1.函数作为返回值
+		//2.函数作为参数来传递
+
+		function F1() {
+			var a = 100
+			return function() {
+				console.log(a)
+			}
+		}
+		var f1 = F1()
+		function F2(fn){
+			var a = 200
+			fn()
+		}
+		F2(f1) //100,a在声明的作用域中去找
+
+		
+	</script>
+</body>
+</html>

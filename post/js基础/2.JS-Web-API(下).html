@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS-Web-API(下)</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//通用事件绑定 
+		var btn = document.getElementById('btn1')
+		btn.addEventListener('click', function(event){
+			console.log('clicked')
+		})
+
+		function bindEvent(elem, type, fn){
+			elem.addEventListener(type, fn)
+		}
+		//关于ie低版本的兼容性
+		attachEvent绑定事件
+	</script>
+	<div id="div1">
+		<a href="#">a1</a>
+		<a href="#">a2</a>
+		<a href="#">a3</a>
+		<a href="#">a4</a>
+	</div>
+	<script type="text/javascript">
+		//事件冒泡
+
+		//代理
+		var div1 = document.getElementById('div1')
+		div1.addEventListener('click', function(e){
+			var target = e.target
+			if(target.nodeName === 'A'){
+				alert(target.innerHTML)
+			}
+		})
+	</script>
+	<script type="text/javascript">
+		//完善通用事件绑定
+		function bindEvent(elem, type, selector, fn){
+			if(fn == null){
+				fn = selector
+				selector = null
+			}
+			elem.addEventListener(type, function(e){
+				var target
+				if(selector){
+					target = e.target
+					if(target.matches(selector)){
+						fn.call(target, e)
+					}
+				} else{
+					fn(e)
+				}
+			})
+		} 
+		//使用代理
+		var div1 = document.getElementById('div1')
+		bindEvent(div1, 'click', 'a', function(e){
+			console.log(this.innerHTML)
+		})
+		// 不使用代理
+		var a = document.getElementById('a1')
+		bindEvent(div1, 'click', function(e){
+			console.log(a.innerHTML)
+		})
+	</script>
+	<script type="text/javascript">
+		//ajax
+		var xhr = new XMLHttpRequest()
+		xhr.open('GET', 'api', false)
+		xhr.onreadystatechange = function() {
+			// 这里的函数异步执行
+			if(xhr.readyState == 4){
+				if(xhr.status == 200){
+					console.log(xhr.responseText)
+				}
+			}
+		}
+		xhr.send(null)
+		// IE兼容性
+		ActiveXObject
+	</script>
+	<script>
+		// JSONP实现原理
+		window.callback = function(data){
+			console.log(data)
+		}
+	</script>
+	<script src="http://coding.m/imooc.com/api.js"></script>
+</body>
+</html>
