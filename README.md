@@ -177,6 +177,7 @@
 ### Vue
 
 - [Vue移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
+- [vue+koa2移动电商](http://jspang.com/post/vue-koa.html)
 
 ### React
 
