@@ -161,6 +161,7 @@
 
 - [x] [Express 创建web服务器笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 
+- [Node.js Design Patterns Second Edition](https://github.com/xingbofeng/Node.js-Design-Patterns-Second-Edition)
 - [Node.js 设计模式 中文第二版](https://wizardforcel.gitbooks.io/node-js-design-patterns-second-edition/content/)
 - [Nodejs开发加密货币](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
 - [Koa2进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
