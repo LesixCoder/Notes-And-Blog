@@ -314,6 +314,7 @@
 - [一灯同学——刘轩](https://segmentfault.com/u/liuxuan_5845129fbf248/articles)
 - [深入浅出nodejs系列博文](http://www.infoq.com/cn/profile/田永强)
 - [使用Node.js实现文件流转存服务](https://div.io/topic/1930)
+- [vue项目](https://github.com/moveondo)
 
 ### 编程之外
 
