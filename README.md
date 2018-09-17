@@ -179,6 +179,7 @@
 
 - [Vue移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
 - [vue+koa2移动电商](http://jspang.com/post/vue-koa.html)
+- [https://github.com/answershuto/learnVue](https://github.com/answershuto/learnVue)
 
 ### React
 
@@ -315,6 +316,9 @@
 - [深入浅出nodejs系列博文](http://www.infoq.com/cn/profile/田永强)
 - [使用Node.js实现文件流转存服务](https://div.io/topic/1930)
 - [vue项目](https://github.com/moveondo)
+- [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
+- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
 
 ### 编程之外
 
