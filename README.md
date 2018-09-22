@@ -286,6 +286,7 @@
 - [彗星计划](https://comet-project.gitbooks.io/cto-tech-manual/content/)
 - [精彩博客集合](https://github.com/hacke2/hacke2.github.io/issues/2)
 - [北京大学在coursera上开设的「程序设计与算法」专项课程](https://github.com/chiuchiuuu/programming-and-algorithm)
+- [读书达人_EPUB电子书下载_MOBI电子书下载_KINDLE电子书下载](http://www.dushudaren.com/category/科技互联网计算机技术/)
 
 ### 高质量博客/聚合
 
