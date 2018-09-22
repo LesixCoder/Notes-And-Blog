@@ -285,6 +285,7 @@
 - [Golang 学习笔记、Python 学习笔记、C 学习笔记 (PDF)](https://github.com/qyuhen/book)
 - [彗星计划](https://comet-project.gitbooks.io/cto-tech-manual/content/)
 - [精彩博客集合](https://github.com/hacke2/hacke2.github.io/issues/2)
+- [北京大学在coursera上开设的「程序设计与算法」专项课程](https://github.com/chiuchiuuu/programming-and-algorithm)
 
 ### 高质量博客/聚合
 
@@ -321,6 +322,10 @@
 - [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
 - [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
 - [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+
+### 精选博文
+
+- [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
 
 ### 编程之外
 
