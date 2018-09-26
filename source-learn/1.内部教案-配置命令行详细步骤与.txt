@@ -1,0 +1,40 @@
+1.下载seti_ui https://github.com/willmanduffy/seti-iterm 放到指定的位置 比如桌面
+打开iterm2->preferences->profiles->colors->colors presets->import选中刚才的文件
+2.vim 打开文件 ~/.bash_profile 开启term的颜色支持
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+export PS1='\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+3.把你喜欢的字符画放到对应的位置 起名 webcome.txt
+4.安装https://github.com/busyloop/lolcat  gem install lolcat
+vi ~/.bash_profile 加到最上面这里 让你先开心一下 
+lolcat  ~/Desktop/codeLab/webcome.txt
+5.下载安装字体库
+https://github.com/powerline/fonts
+安装完字体库之后，把iTerm 2的设置里的Profile中的Text 选项卡中里的Regular Font和Non-ASCII Font的字体都设置成 Powerline的字体，我这里设置的字体是12pt Meslo LG S DZ Regular for Powerline
+6.安装oh-my-zsh 
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+===========================如果这时候你满意了就可以停止了===================
+ 7.高亮指示
+ 进入到cd.zshrc  ~/.
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+3）打开.zshrc文件，在最后添加下面内容
+source XXX/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+注意：xxx代表.zshrc所在目录
+4）cd ~/.oh-my-zsh/custom/plugins
+5）再次打开.zshrc文件，在最后面添加下面内容
+plugins=(zsh-syntax-highlighting)
+8.换主题
+1）下载agnoster主题
+
+到下载的工程里面运行install文件,主题将安装到~/.oh-my-zsh/themes目录下
+
+2）设置该主题
+进入~/.zshrc打开.zshrc文件，然后将ZSH_THEME后面的字段改为agnoster。ZSH_THEME="agnoster"（agnoster即为要设置的主题）
+
+到下载的工程里面运行install文件,主题将安装到~/.oh-my-zsh/themes目录下
+
+2）设置该主题
+进入~/.zshrc打开.zshrc文件，然后将ZSH_THEME后面的字段改为agnoster。ZSH_THEME="agnoster"（agnoster即为要设置的主题）
+
+9. vi ~/.bash_profile  把最顶上那句话复制下来删掉
+vi ~/.zshrc   放到他的最上面即可
