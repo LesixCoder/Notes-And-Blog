@@ -161,6 +161,7 @@
 
 - [x] [Express 创建web服务器笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 
+- [Node.js实战：使用Egg.js + Vue.js + Docker构建渐进式、可持续集成与交付应用](https://cnodejs.org/topic/5ae935101b02288048bd0b97)
 - [Node.js Design Patterns Second Edition](https://github.com/xingbofeng/Node.js-Design-Patterns-Second-Edition)
 - [Node.js 设计模式 中文第二版](https://wizardforcel.gitbooks.io/node-js-design-patterns-second-edition/content/)
 - [Nodejs开发加密货币](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
@@ -179,6 +180,7 @@
 
 - [Vue移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
 - [vue+koa2移动电商](http://jspang.com/post/vue-koa.html)
+- [https://github.com/answershuto/learnVue](https://github.com/answershuto/learnVue)
 
 ### React
 
@@ -283,6 +285,9 @@
 - [Golang 学习笔记、Python 学习笔记、C 学习笔记 (PDF)](https://github.com/qyuhen/book)
 - [彗星计划](https://comet-project.gitbooks.io/cto-tech-manual/content/)
 - [精彩博客集合](https://github.com/hacke2/hacke2.github.io/issues/2)
+- [北京大学在coursera上开设的「程序设计与算法」专项课程](https://github.com/chiuchiuuu/programming-and-algorithm)
+- [读书达人_EPUB电子书下载_MOBI电子书下载_KINDLE电子书下载](http://www.dushudaren.com/category/科技互联网计算机技术/)
+- [每天一本编程书，每天进步一点点](https://salttiger.com/archives/)
 
 ### 高质量博客/聚合
 
@@ -293,6 +298,7 @@
 - [宅居](http://otakustay.com/)
 - [前端周刊](https://frontend-weekly.com/)
 - [码农头条-开发者头条](https://fed.caibaojian.com/)
+- [NodeLover博客](https://nodelover.me/courses)
 
 - [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
 
@@ -314,6 +320,14 @@
 - [一灯同学——刘轩](https://segmentfault.com/u/liuxuan_5845129fbf248/articles)
 - [深入浅出nodejs系列博文](http://www.infoq.com/cn/profile/田永强)
 - [使用Node.js实现文件流转存服务](https://div.io/topic/1930)
+- [vue项目](https://github.com/moveondo)
+- [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
+- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+
+### 精选博文
+
+- [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
 
 ### 编程之外
 
