@@ -329,6 +329,7 @@
 
 - [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
 - [Webpack揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
+- [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
 
 ### 编程之外
 
