@@ -324,6 +324,7 @@
 - [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
 - [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
 - [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+- [前端AI实战——告诉世界前端也能做AI](https://juejin.im/post/5bbb30e6f265da0aa94a2a6c)
 
 ### 精选博文
 
