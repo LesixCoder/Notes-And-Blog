@@ -288,6 +288,7 @@
 - [北京大学在coursera上开设的「程序设计与算法」专项课程](https://github.com/chiuchiuuu/programming-and-algorithm)
 - [读书达人_EPUB电子书下载_MOBI电子书下载_KINDLE电子书下载](http://www.dushudaren.com/category/科技互联网计算机技术/)
 - [每天一本编程书，每天进步一点点](https://salttiger.com/archives/)
+- [周读](http://www.ireadweek.com/index.php/bookList/1.html)
 
 ### 高质量博客/聚合
 
