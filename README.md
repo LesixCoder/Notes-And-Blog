@@ -294,4 +294,45 @@
 ### 高质量博客/聚合
 
 - [阮一峰](http://www.ruanyifeng.com/blog/)
-- [张鑫
+- [张鑫旭](http://www.zhangxinxu.com/)
+- [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
+- [Zindex's blog](http://zxc0328.github.io)
+- [宅居](http://otakustay.com/)
+- [前端周刊](https://frontend-weekly.com/)
+- [码农头条-开发者头条](https://fed.caibaojian.com/)
+- [NodeLover博客](https://nodelover.me/courses)
+ - [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
+ ### 产品&设计
+ - [产品设计思维：电商产品设计全攻略](http://yuedu.163.com/book_reader/7f6e55fbec324728a873dd74e056b24b_4)
+- [产品经理手册（原书第4版）](http://yuedu.163.com/book_reader/e1afcc037a6042559c142703bf7a2b9c_4)
+- [产品的视角：从热闹到门道](http://yuedu.163.com/book_reader/78b2d5e345044c1a8e307d7ef588643a_4)
+- [产品经理面试攻略](http://yuedu.163.com/book_reader/dfcc0df156dc48da9fd15c6a4b52fac8_4)
+- [上瘾：让用户养成使用习惯的四大产品逻辑](http://yuedu.163.com/book_reader/e56e65cd1bda465dac1299661c805d46_4)
+- [网易一千零一夜：互联网产品项目管理实战](http://yuedu.163.com/book_reader/23d4397960b849809a4c93714507d825_4)
+- [结网@改变世界的互联网产品经理（修订版）](http://yuedu.163.com/book_reader/729bb09d1b054c6ba33e4c5e939b7ad9_4)
+ ### 收集的不错的博客资源
+ - [https://github.com/forthealllight/blog/issues](https://github.com/forthealllight/blog/issues)
+- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [微前端的那些事儿](https://github.com/phodal/microfrontends)
+- [一灯同学——刘轩](https://segmentfault.com/u/liuxuan_5845129fbf248/articles)
+- [带你五步学会Vue SSR——刘轩](https://segmentfault.com/a/1190000016636656)
+- [深入浅出nodejs系列博文](http://www.infoq.com/cn/profile/田永强)
+- [使用Node.js实现文件流转存服务](https://div.io/topic/1930)
+- [vue项目](https://github.com/moveondo)
+- [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
+- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+- [前端AI实战——告诉世界前端也能做AI](https://juejin.im/post/5bbb30e6f265da0aa94a2a6c)
+ ### 精选博文
+ - [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
+- [Webpack揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
+- [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
+ ### 编程之外
+ - [今日简史：人类命运大议题](http://yuedu.163.com/book_reader/0840e1aa05914107b1a7b2f7ee9b84fb_4)
+- [三体(全集)](http://yuedu.163.com/book_reader/1cde4dd77c9c41a48614c22b93b9cb8f_4)
+- [影响力](http://yuedu.163.com/book_reader/d6f842ca72044b24adda32ae4d51c2af_4)
+- [深度工作：如何有效使用每一点脑力](http://yuedu.163.com/book_reader/ab410d42629a41069e81068991acfcfc_4)
+- [霍金三部曲经典套装：时间简史+果壳中的宇宙+大设计](http://yuedu.163.com/source/cd51691701354642b36fc50be08b9cd6_4)
+- [高情商聊天术](http://yuedu.163.com/book_reader/3e1ae22e47914d899053ff9e269f53d0_4)
+ #### 个人博客
+ [https://coder.liusixin.cn](https://coder.liusixin.cn)
