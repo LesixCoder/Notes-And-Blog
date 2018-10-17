@@ -1,0 +1,7 @@
+{
+  "name": "msg-flash-test",
+  "version": "0.0.1",
+  "dependencies": {
+    "egg-session": "^3.1.0"
+  }
+}
