@@ -34,9 +34,9 @@ $ npm i egg-msg-flash --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.msgFlash = {
+exports.flash = {
   enable: true,
-  package: 'egg-msg-flash',
+  package: "egg-msg-flash"
 };
 ```
 
@@ -44,15 +44,33 @@ exports.msgFlash = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.msgFlash = {
-};
+exports.flash = {};
 ```
 
 see [config/config.default.js](config/config.default.js) for more detail.
 
 ## Example
 
-<!-- example here -->
+```js
+ctx.flash = {
+  type: "success",
+  message: {
+    some: "one"
+  }
+};
+
+// or
+
+ctx.flash_success({ some: "one" });
+ctx.flash_info();
+ctx.flash_warning();
+
+ctx.request.flash(type, message);
+
+// get flash by
+
+ctx.flash;
+```
 
 ## Questions & Suggestions
 

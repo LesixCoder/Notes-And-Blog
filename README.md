@@ -135,6 +135,7 @@
 - [深入理解 JavaScript 系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 - [ECMAScript 6 入门 (作者：阮一峰)](http://es6.ruanyifeng.com/)
 - [JavaScript 高级程序设计（第 3 版）](http://yuedu.163.com/book_reader/4b721fda975b436b8761b3fb9e362a17_4)
+- [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/#introduction)
 
 ### Nodejs
 
@@ -185,6 +186,8 @@
 - [Vue 移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
 - [vue+koa2 移动电商](http://jspang.com/post/vue-koa.html)
 - [https://github.com/answershuto/learnVue](https://github.com/answershuto/learnVue)
+- [【vuejs进阶】 vuejs路由实现原理](https://mp.weixin.qq.com/s/dRMUm3rShetPleZ2lbZf1w)
+- [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
 
 ### React
 
@@ -193,11 +196,14 @@
 - [Redux 最佳实践](https://bestredux.com/)
 - [從零開始學 ReactJS：給初學者的 React 入門教學書](https://kdchang.gitbooks.io/react101/content/)
 - [如何从零学习 React 技术栈](https://gitbook.cn/m/mazi/comp/column?columnId=59ae12fdbc511269a95f9616&utm_source=columnweixinshare&utm_campaign=%E5%A6%82%E4%BD%95%E4%BB%8E%E9%9B%B6%E5%AD%A6%E4%B9%A0%20React%20%E6%8A%80%E6%9C%AF%E6%A0%88)
+- [React 16 Fiber源码速览](http://zxc0328.github.io/2017/09/28/react-16-source/)
+- [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
 
-### Webpack
+### Webpack/gulp
 
 - [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
 - [深入浅出 webpack](http://webpack.wuhaolin.cn/)
+- [Gulp资料大全：入门、插件、脚手架、包清单](https://www.jianshu.com/p/df65ae89b862)
 
 ### 源码学习
 
@@ -331,12 +337,14 @@
 - [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
 - [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
 - [前端 AI 实战——告诉世界前端也能做 AI](https://juejin.im/post/5bbb30e6f265da0aa94a2a6c)
+- [【RD-api】开发者各种api【福利】](https://segmentfault.com/a/1190000016738645)
 
 ### 精选博文
 
 - [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
 - [Webpack 揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
 - [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
+- [浅谈前端优化（二）- 资源的最大化利用之图片尺寸的精确匹配](https://www.liujiaweb.com/115.html?from=timeline#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1)
 
 ### 编程之外
 
