@@ -345,6 +345,7 @@
 - [Webpack 揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
 - [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
 - [浅谈前端优化（二）- 资源的最大化利用之图片尺寸的精确匹配](https://www.liujiaweb.com/115.html?from=timeline#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1)
+- [用预编译去理解函数声明提升和变量声明提升](http://weblogger.club/2018/10/19/activation-object/)
 
 ### 编程之外
 
