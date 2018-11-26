@@ -257,6 +257,7 @@
 - [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
 - [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
 - [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
+- [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
 
 ### python&机器学习
 
