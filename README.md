@@ -188,6 +188,7 @@
 - [https://github.com/answershuto/learnVue](https://github.com/answershuto/learnVue)
 - [【vuejs进阶】 vuejs路由实现原理](https://mp.weixin.qq.com/s/dRMUm3rShetPleZ2lbZf1w)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
+- [VUE前端解决方案](https://jusfoun-fe.github.io/guide/docs/project/all.html)
 
 ### React
 
