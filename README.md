@@ -280,6 +280,7 @@
 - [Go 入门指南](https://github.com/Unknwon/the-way-to-go_ZH_CN)
 - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
 - [Go 实战开发](https://github.com/astaxie/go-best-practice)
+- [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）](https://github.com/yangwenmai/learning-golang)
 
 ### 其它
 
