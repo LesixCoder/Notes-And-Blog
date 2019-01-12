@@ -148,6 +148,7 @@
 - [Express 框架](http://javascript.ruanyifeng.com/nodejs/express.html)
 - [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
 - [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.com/package/learnyounode-zh-cn)
+- [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
 
 #### Nodejs 学习笔记总结
 
