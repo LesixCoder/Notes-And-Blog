@@ -305,6 +305,7 @@
 - [读书达人\_EPUB 电子书下载\_MOBI 电子书下载\_KINDLE 电子书下载](http://www.dushudaren.com/category/科技互联网计算机技术/)
 - [每天一本编程书，每天进步一点点](https://salttiger.com/archives/)
 - [周读](http://www.ireadweek.com/index.php/bookList/1.html)
+- [Cordova](https://doc.xuwenliang.com/docs/cordova/1448)
 
 ### 高质量博客/聚合
 
