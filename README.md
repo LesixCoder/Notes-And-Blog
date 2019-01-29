@@ -229,6 +229,7 @@
 - [Nginx 开发从入门到精通 (淘宝团队出品)](http://tengine.taobao.org/book/index.html)
 - [实战微信小程序：JavaScript、WXML 与 Flexbox 综合开发](http://yuedu.163.com/book_reader/cd1033a369894cb89ae74570b120b807_4)
 - [WebKit 技术内幕](http://yuedu.163.com/book_reader/fd628521474b438cb1b7e87213542ed9_4)
+- [混合移动应用的消息推送之 websocket](https://www.ibm.com/developerworks/cn/mobile/mo-cn-websocket/index.html)
 
 ### linux
 
