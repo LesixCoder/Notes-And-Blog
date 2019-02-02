@@ -50,17 +50,17 @@
 - [高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
 
   - [x] [Effective 14: 实现前端裁剪压缩图片](/post/高效前端：Web高效编程与优化实践/Effective%2014/实现前端裁剪压缩图片.md)
-  - [x] [Effective 15: 实现跨浏览器的 HTML5 表单验证](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2015/%E5%AE%9E%E7%8E%B0%E8%B7%A8%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9A%84HTML5%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81.md)
-  - [x] [Effective 26: 掌握前端本地文件操作与上传](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2026/%E6%8E%8C%E6%8F%A1%E5%89%8D%E7%AB%AF%E6%9C%AC%E5%9C%B0%E6%96%87%E4%BB%B6%E6%93%8D%E4%BD%9C%E4%B8%8E%E4%B8%8A%E4%BC%A0.md)
-  - [x] [Effective 31: 明白移动端 click 及自定义事件](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2031/%E7%90%86%E8%A7%A3%E7%A7%BB%E5%8A%A8%E7%AB%AFclick%E5%8F%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E4%BA%8B%E4%BB%B6.md)
-  - [x] [Effective 32: 学习 JS 高级技巧](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2032/%E5%AD%A6%E4%B9%A0JS%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7.md)
-  - [x] [Effective 33: 前端的单元测试与自动化测试](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E9%AB%98%E6%95%88%E5%89%8D%E7%AB%AF%EF%BC%9AWeb%E9%AB%98%E6%95%88%E7%BC%96%E7%A8%8B%E4%B8%8E%E4%BC%98%E5%8C%96%E5%AE%9E%E8%B7%B5/Effective%2033/%E5%89%8D%E7%AB%AF%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E4%B8%8E%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95.md)
+  - [x] [Effective 15: 实现跨浏览器的 HTML5 表单验证](/post/高效前端：Web高效编程与优化实践/Effective%2015/实现跨浏览器的HTML5表单验证.md)
+  - [x] [Effective 26: 掌握前端本地文件操作与上传](/post/高效前端：Web高效编程与优化实践/Effective%2026/掌握前端本地文件操作与上传.md)
+  - [x] [Effective 31: 明白移动端 click 及自定义事件](/post/高效前端：Web高效编程与优化实践/Effective%2031/理解移动端click及自定义事件.md)
+  - [x] [Effective 32: 学习 JS 高级技巧](/post/高效前端：Web高效编程与优化实践/Effective%2032/学习JS高级技巧.md)
+  - [x] [Effective 33: 前端的单元测试与自动化测试](/post/高效前端：Web高效编程与优化实践/Effective%2033/前端的单元测试与自动化测试.md)
 
-- [Nodejs 微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1)
-  - [x] [微服务架构](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/01.%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84.md)
-  - [x] [基于 Seneca 和 PM2 构建 Node.js 微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/02.%E5%9F%BA%E4%BA%8ESeneca%E5%92%8CPM2%E6%9E%84%E5%BB%BANode.js%E5%BE%AE%E6%9C%8D%E5%8A%A1.md)
-  - [x] [从单块软件到微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/03.%E4%BB%8E%E5%8D%95%E5%9D%97%E8%BD%AF%E4%BB%B6%E5%88%B0%E5%BE%AE%E6%9C%8D%E5%8A%A1.md)
-  - [x] [编写你的第一个 Node.js 微服务](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%BE%AE%E6%9C%8D%E5%8A%A1/04.%E7%BC%96%E5%86%99%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AANode.js%E5%BE%AE%E6%9C%8D%E5%8A%A1.md)
+- [Nodejs 微服务](/post/Nodejs微服务)
+  - [x] [微服务架构](/post/Nodejs微服务/01.微服务架构.md)
+  - [x] [基于 Seneca 和 PM2 构建 Node.js 微服务](/post/Nodejs微服务/02.基于Seneca和PM2构建Node.js微服务.md)
+  - [x] [从单块软件到微服务](/post/Nodejs微服务/03.从单块软件到微服务.md)
+  - [x] [编写你的第一个 Node.js 微服务](/post/Nodejs微服务/04.编写你的第一个Node.js微服务.md)
 
 ### 预读
 
@@ -75,31 +75,31 @@
 
 ### 设计模式
 
-- [x] [面向对象的 JS](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84JS.md)
+- [x] [面向对象的 JS](/post/设计模式/面向对象的JS.md)
 
 - 创建型设计模式
-  - [x] [简单工厂模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
-  - [x] [工厂方法模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.md)
-  - [x] [抽象工厂模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.md)
-  - [x] [建造者模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.md)
-  - [x] [原型模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.md)
-  - [x] [单例模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/01.%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F.md)
+  - [x] [简单工厂模式](/post/设计模式/01.创建型设计模式/简单工厂模式.md)
+  - [x] [工厂方法模式](/post/设计模式/01.创建型设计模式/工厂方法模式.md)
+  - [x] [抽象工厂模式](/post/设计模式/01.创建型设计模式/抽象工厂模式.md)
+  - [x] [建造者模式](/post/设计模式/01.创建型设计模式/建造者模式.md)
+  - [x] [原型模式](/post/设计模式/01.创建型设计模式/原型模式.md)
+  - [x] [单例模式](/post/设计模式/01.创建型设计模式/单例模式.md)
 - 结构型设计模式
-  - [x] [外观模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F.md)
-  - [x] [适配器模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.md)
-  - [x] [代理模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F.md)
-  - [x] [装饰者模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.md)
-  - [x] [桥接模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.md)
-  - [x] [组合模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.md)
-  - [x] [享元模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/02.%E7%BB%93%E6%9E%84%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F.md)
+  - [x] [外观模式](/post/设计模式/02.结构型设计模式/外观模式.md)
+  - [x] [适配器模式](/post/设计模式/02.结构型设计模式/适配器模式.md)
+  - [x] [代理模式](/post/设计模式/02.结构型设计模式/代理模式.md)
+  - [x] [装饰者模式](/post/设计模式/02.结构型设计模式/装饰者模式.md)
+  - [x] [桥接模式](/post/设计模式/02.结构型设计模式/桥接模式.md)
+  - [x] [组合模式](/post/设计模式/02.结构型设计模式/组合模式.md)
+  - [x] [享元模式](/post/设计模式/02.结构型设计模式/享元模式.md)
 - 行为型设计模式
-  - [x] [模板方法模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.md)
-  - [x] [观察者模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F.md)
-  - [x] [状态模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.md)
-  - [x] [策略模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.md)
-  - [x] [职责链模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%81%8C%E8%B4%A3%E9%93%BE%E6%A8%A1%E5%BC%8F.md)
-  - [x] [命令模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.md)
-  - [x] [访问者模式](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/03.%E8%A1%8C%E4%B8%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F.md)
+  - [x] [模板方法模式](/post/设计模式/03.行为型设计模式/模板方法模式.md)
+  - [x] [观察者模式](/post/设计模式/03.行为型设计模式/观察者模式.md)
+  - [x] [状态模式](/post/设计模式/03.行为型设计模式/状态模式.md)
+  - [x] [策略模式](/post/设计模式/03.行为型设计模式/策略模式.md)
+  - [x] [职责链模式](/post/设计模式/03.行为型设计模式/职责链模式.md)
+  - [x] [命令模式](/post/设计模式/03.行为型设计模式/命令模式.md)
+  - [x] [访问者模式](/post/设计模式/03.行为型设计模式/访问者模式.md)
   - [ ] 中介者模式
   - [ ] 备忘录模式
   - [ ] 迭代器模式
@@ -107,22 +107,19 @@
 
 ### 数据结构与算法
 
-- [x] [数组](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/01.%E6%95%B0%E7%BB%84.md)
-- [x] [栈](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/02.%E6%A0%88.md)
-- [x] [队列](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/03.%E9%98%9F%E5%88%97.md)
-- [x] [链表](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/04.%E9%93%BE%E8%A1%A8.md)
-- [x] [集合](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/05.%E9%9B%86%E5%90%88.md)
-- [x] [字典](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/06.%E5%AD%97%E5%85%B8.md)
-- [x] [散列表](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/07.%E6%95%A3%E5%88%97%E8%A1%A8.md)
-- [x] [树](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/08.%E6%A0%91.md)
+- [x] [数组](/post/数据结构与算法/01.数组.md)
+- [x] [栈](/post/数据结构与算法/02.栈.md)
+- [x] [队列](/post/数据结构与算法/03.队列.md)
+- [x] [链表](/post/数据结构与算法/04.链表.md)
+- [x] [集合](/post/数据结构与算法/05.集合.md)
+- [x] [字典](/post/数据结构与算法/06.字典.md)
+- [x] [散列表](/post/数据结构与算法/07.散列表.md)
+- [x] [树](/post/数据结构与算法/08.树.md)
 
 ### Javascript
 
 - [JavaScript 编程精解 中文第三版](https://wizardforcel.gitbooks.io/eloquent-js-3e/content/)
 - [JavaScript 轻量级函数式编程](https://wizardforcel.gitbooks.io/functional-light-js/content/)
-
-- [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
-- [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
 - [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
 - [Javascript 编程指南 (源码)](http://pij.robinqu.me/)
 - [javascript 的 12 个怪癖](https://github.com/justjavac/12-javascript-quirks)
@@ -174,8 +171,15 @@
 - [Node.js 进阶之路](http://yuedu.163.com/book_reader/662c332534f144e0ae9e48f84cc0c45b_4)
 - [Node.js 区块链开发](http://yuedu.163.com/book_reader/fff0e4b14d9844e184b2b3fa1bd4cb7a_4)
 
+### 源码学习
+
+- [x] [jQuery 源码精简 demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
+- [x] [Promise/A+ 规范 js 实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
+- [x] [vue 源码分析](./source-learn/vue源码分析)
+
 ### TypeScript
 
+- [TypeScript 官方文档](https://www.tslang.cn/docs/home.html)
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
 - [TypeScript Handbook](https://zhongsp.gitbooks.io/typescript-handbook/content/)
 
@@ -183,7 +187,7 @@
 
 - [Vue 移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
 - [vue+koa2 移动电商](http://jspang.com/post/vue-koa.html)
-- [https://github.com/answershuto/learnVue](https://github.com/answershuto/learnVue)
+- [vue源码分析](https://github.com/answershuto/learnVue)
 - [【vuejs进阶】 vuejs路由实现原理](https://mp.weixin.qq.com/s/dRMUm3rShetPleZ2lbZf1w)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
 - [VUE前端解决方案](https://jusfoun-fe.github.io/guide/docs/project/all.html)
@@ -198,17 +202,25 @@
 - [React 16 Fiber源码速览](http://zxc0328.github.io/2017/09/28/react-16-source/)
 - [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
 
-### Webpack/gulp
+### 移动开发
+
+- [Cordova](https://doc.xuwenliang.com/docs/cordova/1448)
+
+### 工程化
 
 - [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
 - [深入浅出 webpack](http://webpack.wuhaolin.cn/)
 - [Gulp资料大全：入门、插件、脚手架、包清单](https://www.jianshu.com/p/df65ae89b862)
-
-### 源码学习
-
-- [x] [jQuery 源码精简 demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
-- [x] [Promise/A+ 规范 js 实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
-- [x] [vue 源码分析](./source-learn/vue源码分析)
+- [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
+- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
+- [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
+- [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
+- [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
+- [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
+- [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
+- [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
+- [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
+- [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
 
 ### Web
 
@@ -216,17 +228,18 @@
 - [浏览器开发工具的秘密](http://jinlong.github.io/2013/08/29/devtoolsecrets/)
 - [Chrome 开发者工具中文手册](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 - [Chrome 扩展开发文档](http://open.chrome.360.cn/extension_dev/overview.html)
+- [chrome 插件](http://www.cnplugins.com/)
 - [移动 Web 前端知识库](https://github.com/AlloyTeam/Mars)
 - [移动前端开发收藏夹](https://github.com/hoosin/mobile-web-favorites)
-- [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
 - [前端资源分享（一）](https://github.com/hacke2/hacke2.github.io/issues/1)
 - [前端资源分享（二）](https://github.com/hacke2/hacke2.github.io/issues/3)
-- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 - [Nginx 学习笔记](https://skyao.gitbooks.io/learning-nginx/content/)
 - [Nginx 开发从入门到精通 (淘宝团队出品)](http://tengine.taobao.org/book/index.html)
 - [实战微信小程序：JavaScript、WXML 与 Flexbox 综合开发](http://yuedu.163.com/book_reader/cd1033a369894cb89ae74570b120b807_4)
 - [WebKit 技术内幕](http://yuedu.163.com/book_reader/fd628521474b438cb1b7e87213542ed9_4)
 - [混合移动应用的消息推送之 websocket](https://www.ibm.com/developerworks/cn/mobile/mo-cn-websocket/index.html)
+- [现代化前端工程师权威指南](https://guoyongfeng.github.io/book/?q=%E5%9F%BA%E4%BA%8EES6%E7%9A%84Package%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B)
+- [Web 全栈技术指南](https://getfullstack.com/)
 
 ### linux
 
@@ -249,16 +262,6 @@
 - [带有详细注释的 Redis 2.6 代码](https://github.com/huangz1990/annotated_redis_source)
 - [The Little MongoDB Book](https://github.com/justinyhuang/the-little-mongodb-book-cn/blob/master/mongodb.md)
 - [The Little Redis Book](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
-
-### 工程项目
-
-- [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
-- [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
-- [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
-- [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
-- [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
-- [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
-- [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
 
 ### python&机器学习
 
@@ -286,9 +289,6 @@
 
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
-- [现代化前端工程师权威指南](https://guoyongfeng.github.io/book/?q=%E5%9F%BA%E4%BA%8EES6%E7%9A%84Package%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B)
-- [chrome 插件](http://www.cnplugins.com/)
-- [Web 全栈技术指南](https://getfullstack.com/)
 - [笨办法学 C](https://wizardforcel.gitbooks.io/lcthw/content/)
 - [微服务学习笔记](https://skyao.gitbooks.io/learning-microservice/content/)
 - [面试图谱](https://yuchengkai.cn/docs/zh/frontend/)
@@ -303,7 +303,8 @@
 - [读书达人\_EPUB 电子书下载\_MOBI 电子书下载\_KINDLE 电子书下载](http://www.dushudaren.com/category/科技互联网计算机技术/)
 - [每天一本编程书，每天进步一点点](https://salttiger.com/archives/)
 - [周读](http://www.ireadweek.com/index.php/bookList/1.html)
-- [Cordova](https://doc.xuwenliang.com/docs/cordova/1448)
+- [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
+- [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
 
 ### 高质量博客/聚合
 
@@ -318,6 +319,33 @@
 - [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
 - [轶哥博客](https://www.wyr.me/)
 
+### 收集的不错的博客资源
+
+- [https://github.com/forthealllight/blog/issues](https://github.com/forthealllight/blog/issues)
+- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [一灯同学——刘轩](https://segmentfault.com/u/liuxuan_5845129fbf248/articles)
+- [vue 项目](https://github.com/moveondo)
+- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+- [【RD-api】开发者各种api【福利】](https://segmentfault.com/a/1190000016738645)
+- [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
+- [berwin](https://github.com/berwin/Blog)
+
+### 精选博文
+
+- [微前端的那些事儿](https://github.com/phodal/microfrontends)
+- [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
+- [Webpack 揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
+- [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
+- [浅谈前端优化（二）- 资源的最大化利用之图片尺寸的精确匹配](https://www.liujiaweb.com/115.html?from=timeline#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1)
+- [用预编译去理解函数声明提升和变量声明提升](http://weblogger.club/2018/10/19/activation-object/)
+- [年终回顾，为你汇总一份「前端技术清单](https://blog.fundebug.com/2018/11/16/frontend-tech-list/)
+- [带你五步学会 Vue SSR——刘轩](https://segmentfault.com/a/1190000016636656)
+- [深入浅出 nodejs 系列博文](http://www.infoq.com/cn/profile/田永强)
+- [使用 Node.js 实现文件流转存服务](https://div.io/topic/1930)
+- [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
+- [前端 AI 实战——告诉世界前端也能做 AI](https://juejin.im/post/5bbb30e6f265da0aa94a2a6c)
+
 ### 产品&设计
 
 - [产品设计思维：电商产品设计全攻略](http://yuedu.163.com/book_reader/7f6e55fbec324728a873dd74e056b24b_4)
@@ -327,34 +355,6 @@
 - [上瘾：让用户养成使用习惯的四大产品逻辑](http://yuedu.163.com/book_reader/e56e65cd1bda465dac1299661c805d46_4)
 - [网易一千零一夜：互联网产品项目管理实战](http://yuedu.163.com/book_reader/23d4397960b849809a4c93714507d825_4)
 - [结网@改变世界的互联网产品经理（修订版）](http://yuedu.163.com/book_reader/729bb09d1b054c6ba33e4c5e939b7ad9_4)
-
-### 收集的不错的博客资源
-
-- [https://github.com/forthealllight/blog/issues](https://github.com/forthealllight/blog/issues)
-- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
-- [微前端的那些事儿](https://github.com/phodal/microfrontends)
-- [一灯同学——刘轩](https://segmentfault.com/u/liuxuan_5845129fbf248/articles)
-- [带你五步学会 Vue SSR——刘轩](https://segmentfault.com/a/1190000016636656)
-- [深入浅出 nodejs 系列博文](http://www.infoq.com/cn/profile/田永强)
-- [使用 Node.js 实现文件流转存服务](https://div.io/topic/1930)
-- [vue 项目](https://github.com/moveondo)
-- [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
-- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
-- [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
-- [前端 AI 实战——告诉世界前端也能做 AI](https://juejin.im/post/5bbb30e6f265da0aa94a2a6c)
-- [【RD-api】开发者各种api【福利】](https://segmentfault.com/a/1190000016738645)
-- [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
-- [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
-- [berwin](https://github.com/berwin/Blog)
-
-### 精选博文
-
-- [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
-- [Webpack 揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
-- [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
-- [浅谈前端优化（二）- 资源的最大化利用之图片尺寸的精确匹配](https://www.liujiaweb.com/115.html?from=timeline#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1)
-- [用预编译去理解函数声明提升和变量声明提升](http://weblogger.club/2018/10/19/activation-object/)
-- [年终回顾，为你汇总一份「前端技术清单](https://blog.fundebug.com/2018/11/16/frontend-tech-list/)
 
 ### 编程之外
 
