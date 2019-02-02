@@ -1,8 +1,8 @@
-## 读书笔记及源码学习整理
+## 学习笔记及源码学习整理
 
-### 已读/读书笔记
+### 读书笔记
 
-- [Javascript 高级程序设计笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)
+- [Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
 
   - [x] [4-6 章](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/4-6)
   - [x] [7-10 章](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Javascript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/7-10)
