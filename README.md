@@ -305,6 +305,7 @@
 - [周读](http://www.ireadweek.com/index.php/bookList/1.html)
 - [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
 - [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
+- [科学上网](https://sphard2.github.io/gfw/)
 
 ### 高质量博客/聚合
 
