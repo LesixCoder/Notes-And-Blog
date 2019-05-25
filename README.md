@@ -143,6 +143,8 @@
 - [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
 - [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.com/package/learnyounode-zh-cn)
 - [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
+- [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
+- [Koa与Node.js开发实战 代码](https://github.com/ikcamp/koa-miniprogram)
 
 #### Nodejs 学习笔记总结
 
@@ -305,6 +307,7 @@
 - [周读](http://www.ireadweek.com/index.php/bookList/1.html)
 - [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
 - [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
+- [LeetCode js讲解](https://github.com/azl397985856/leetcode)
 - [科学上网](https://sphard2.github.io/gfw/)
 - [字符画](https://asciiart.website/index.php)
 
