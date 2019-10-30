@@ -23,7 +23,7 @@
     "koa-router": "^7.1.1",
     "koa-static": "^3.0.0",
     "mysql": "^2.13.0",
-    "sequelize": "^3.30.4"
+    "sequelize": "^5.15.1"
   },
   "jspm": {
     "directories": {
