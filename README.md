@@ -4,7 +4,7 @@
 
 #### ⭐️[Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
 
-<details >
+<details>
   <summary>点击关闭/打开所有章节</summary>
   <br/>
 
@@ -18,7 +18,7 @@
 
 #### ⭐️[Javascript 核心技术开发解密笔记](/post/Javascript核心技术开发解密)
 
-<details >
+<details>
   <summary>点击关闭/打开所有章节</summary>
   <br/>
 
@@ -35,34 +35,43 @@
 
 </details>
 
-- Javascript 忍者秘籍 2
+#### ⭐️Javascript 忍者秘籍 2
 
-  - [运行时的页面构建过程](/post/Javascript忍者秘籍2/02.运行时的页面构建过程.md)
-  - [理解函数](/post/Javascript忍者秘籍2/03.理解函数.md)
-  - [函数进阶：理解函数调用](/post/Javascript忍者秘籍2/04.函数进阶：理解函数调用.md)
-  - [精通函数：闭包和作用域](/post/Javascript忍者秘籍2/05.精通函数：闭包和作用域.md)
-  - [未来的函数：生成器和 promise](/post/Javascript忍者秘籍2/06.未来的函数：生成器和promise.md)
-  - [面向对象与原型](/post/Javascript忍者秘籍2/07.面向对象与原型.md)
-  - [控制对象的访问](/post/Javascript忍者秘籍2/08.控制对象的访问.md)
-  - [处理集合](/post/Javascript忍者秘籍2/09.处理集合.md)
-  - [正则表达式](/post/Javascript忍者秘籍2/10.正则表达式.md)
-  - [代码模块化](/post/Javascript忍者秘籍2/11.代码模块化.md)
-  - [DOM 操作](/post/Javascript忍者秘籍2/12.DOM操作.md)
-  - [历久弥新的事件](/post/Javascript忍者秘籍2/13.历久弥新的事件.md)
-  - [跨浏览器开发技巧](/post/Javascript忍者秘籍2/14.跨浏览器开发技巧.md)
-  - [附录](/post/Javascript忍者秘籍2/15.附录.md)
+<details>
+  <summary>点击关闭/打开所有章节</summary>
+  <br/>
 
-- HTTP2 基础教程
-- Nodejs 实战
+- [x] [运行时的页面构建过程](/post/Javascript忍者秘籍2/02.运行时的页面构建过程.md)
+- [x] [理解函数](/post/Javascript忍者秘籍2/03.理解函数.md)
+- [x] [函数进阶：理解函数调用](/post/Javascript忍者秘籍2/04.函数进阶：理解函数调用.md)
+- [x] [精通函数：闭包和作用域](/post/Javascript忍者秘籍2/05.精通函数：闭包和作用域.md)
+- [x] [未来的函数：生成器和 promise](/post/Javascript忍者秘籍2/06.未来的函数：生成器和promise.md)
+- [x] [面向对象与原型](/post/Javascript忍者秘籍2/07.面向对象与原型.md)
+- [x] [控制对象的访问](/post/Javascript忍者秘籍2/08.控制对象的访问.md)
+- [x] [处理集合](/post/Javascript忍者秘籍2/09.处理集合.md)
+- [x] [正则表达式](/post/Javascript忍者秘籍2/10.正则表达式.md)
+- [x] [代码模块化](/post/Javascript忍者秘籍2/11.代码模块化.md)
+- [x] [DOM 操作](/post/Javascript忍者秘籍2/12.DOM操作.md)
+- [x] [历久弥新的事件](/post/Javascript忍者秘籍2/13.历久弥新的事件.md)
+- [x] [跨浏览器开发技巧](/post/Javascript忍者秘籍2/14.跨浏览器开发技巧.md)
+- [x] [附录](/post/Javascript忍者秘籍2/15.附录.md)
 
-- [高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
+</details>
 
-  - [x] [Effective 14: 实现前端裁剪压缩图片](/post/高效前端：Web高效编程与优化实践/Effective%2014/实现前端裁剪压缩图片.md)
-  - [x] [Effective 15: 实现跨浏览器的 HTML5 表单验证](/post/高效前端：Web高效编程与优化实践/Effective%2015/实现跨浏览器的HTML5表单验证.md)
-  - [x] [Effective 26: 掌握前端本地文件操作与上传](/post/高效前端：Web高效编程与优化实践/Effective%2026/掌握前端本地文件操作与上传.md)
-  - [x] [Effective 31: 明白移动端 click 及自定义事件](/post/高效前端：Web高效编程与优化实践/Effective%2031/理解移动端click及自定义事件.md)
-  - [x] [Effective 32: 学习 JS 高级技巧](/post/高效前端：Web高效编程与优化实践/Effective%2032/学习JS高级技巧.md)
-  - [x] [Effective 33: 前端的单元测试与自动化测试](/post/高效前端：Web高效编程与优化实践/Effective%2033/前端的单元测试与自动化测试.md)
+#### ⭐️[高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
+
+<details>
+  <summary>点击关闭/打开所有章节</summary>
+  <br/>
+
+- [x] [Effective 14: 实现前端裁剪压缩图片](/post/高效前端：Web高效编程与优化实践/Effective%2014/实现前端裁剪压缩图片.md)
+- [x] [Effective 15: 实现跨浏览器的 HTML5 表单验证](/post/高效前端：Web高效编程与优化实践/Effective%2015/实现跨浏览器的HTML5表单验证.md)
+- [x] [Effective 26: 掌握前端本地文件操作与上传](/post/高效前端：Web高效编程与优化实践/Effective%2026/掌握前端本地文件操作与上传.md)
+- [x] [Effective 31: 明白移动端 click 及自定义事件](/post/高效前端：Web高效编程与优化实践/Effective%2031/理解移动端click及自定义事件.md)
+- [x] [Effective 32: 学习 JS 高级技巧](/post/高效前端：Web高效编程与优化实践/Effective%2032/学习JS高级技巧.md)
+- [x] [Effective 33: 前端的单元测试与自动化测试](/post/高效前端：Web高效编程与优化实践/Effective%2033/前端的单元测试与自动化测试.md)
+
+</details>
 
 - [Nodejs 微服务](/post/Nodejs微服务)
   - [x] [微服务架构](/post/Nodejs微服务/01.微服务架构.md)
