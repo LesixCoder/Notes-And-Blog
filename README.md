@@ -1,8 +1,8 @@
-## 学习笔记及源码学习整理
+## 阅读笔记及博客整理
 
-### 读书笔记
+### 阅读笔记
 
-#### ⭐️[Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
+#### 🔥[Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
 
 <details>
   <summary>点击关闭/打开所有章节</summary>
@@ -16,7 +16,7 @@
 
 </details>
 
-#### ⭐️[Javascript 核心技术开发解密笔记](/post/Javascript核心技术开发解密)
+#### 🔥[Javascript 核心技术开发解密笔记](/post/Javascript核心技术开发解密)
 
 <details>
   <summary>点击关闭/打开所有章节</summary>
@@ -35,7 +35,7 @@
 
 </details>
 
-#### ⭐️Javascript 忍者秘籍 2
+#### 🔥Javascript 忍者秘籍 2
 
 <details>
   <summary>点击关闭/打开所有章节</summary>
@@ -58,7 +58,7 @@
 
 </details>
 
-#### ⭐️[高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
+#### 🚀[高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
 
 <details>
   <summary>点击关闭/打开所有章节</summary>
@@ -73,24 +73,26 @@
 
 </details>
 
-- [Nodejs 微服务](/post/Nodejs微服务)
-  - [x] [微服务架构](/post/Nodejs微服务/01.微服务架构.md)
-  - [x] [基于 Seneca 和 PM2 构建 Node.js 微服务](/post/Nodejs微服务/02.基于Seneca和PM2构建Node.js微服务.md)
-  - [x] [从单块软件到微服务](/post/Nodejs微服务/03.从单块软件到微服务.md)
-  - [x] [编写你的第一个 Node.js 微服务](/post/Nodejs微服务/04.编写你的第一个Node.js微服务.md)
+#### 🚀[Nodejs 微服务](/post/Nodejs微服务)
 
-### 预读
+<details>
+  <summary>点击关闭/打开所有章节</summary>
+  <br/>
 
-- 你不知道的 JavaScript(上、中、下)
-- 编程之美
-- HTML5 Canvas 核心技术 图形动画与游戏开发
-- CSS 世界
-- WebKit 技术内幕
-- 3D 数学基础：图形与游戏开发
-- 深入浅出 Node.js
-- Node.js：来一打 C++ 扩展
+- [x] [微服务架构](/post/Nodejs微服务/01.微服务架构.md)
+- [x] [基于 Seneca 和 PM2 构建 Node.js 微服务](/post/Nodejs微服务/02.基于Seneca和PM2构建Node.js微服务.md)
+- [x] [从单块软件到微服务](/post/Nodejs微服务/03.从单块软件到微服务.md)
+- [x] [编写你的第一个 Node.js 微服务](/post/Nodejs微服务/04.编写你的第一个Node.js微服务.md)
 
-### 设计模式
+</details>
+
+### 程序员内功修炼
+
+#### 🦆‍设计模式
+
+<details>
+  <summary>点击关闭/打开所有内容</summary>
+  <br/>
 
 - [x] [面向对象的 JS](/post/设计模式/面向对象的JS.md)
 
@@ -122,7 +124,13 @@
   - [ ] 迭代器模式
   - [ ] 解释器模式
 
-### 数据结构与算法
+</details>
+
+#### 🦉数据结构与算法
+
+<details>
+  <summary>点击关闭/打开所有内容</summary>
+  <br/>
 
 - [x] [数组](/post/数据结构与算法/01.数组.md)
 - [x] [栈](/post/数据结构与算法/02.栈.md)
@@ -133,23 +141,40 @@
 - [x] [散列表](/post/数据结构与算法/07.散列表.md)
 - [x] [树](/post/数据结构与算法/08.树.md)
 
-### Javascript
+</details>
 
-- [JavaScript 编程精解 中文第三版](https://wizardforcel.gitbooks.io/eloquent-js-3e/content/)
+- [JavaScript 算法与数据结构（star 64.6k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
+- [我接触过的前端数据结构与算法【掘金】](https://juejin.im/post/5958bac35188250d892f5c91)
+- [前端该如何准备数据结构和算法？【掘金】](https://juejin.im/post/5d5b307b5188253da24d3cd1)
+- [ES6的Set和Map数据结构，由你制造【掘金】](https://juejin.im/post/5acc57eff265da237f1e9f7c#comment)
+- [leetcode 题解【Blog】](http://lucifer.ren/leetcode/)
+- [Interview = 简历指南 + LeetCode + Kaggle（star 5.6k）](https://github.com/apachecn/Interview)
+
+### 博客
+
+#### 🐒Javascript
+
 - [JavaScript 轻量级函数式编程](https://wizardforcel.gitbooks.io/functional-light-js/content/)
-- [JavaScript 标准参考教程（alpha）](http://javascript.ruanyifeng.com/)
-- [Javascript 编程指南 (源码)](http://pij.robinqu.me/)
-- [javascript 的 12 个怪癖](https://github.com/justjavac/12-javascript-quirks)
+- [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
+- [Javascript 编程指南](http://pij.robinqu.me/)
+- [javascript 的 12 个怪癖 - 迷渡](https://github.com/justjavac/12-javascript-quirks)
 - [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
-- [命名函数表达式探秘](http://justjavac.com/named-function-expressions-demystified.html)
-- [学用 JavaScript 设计模式 (开源中国)](https://www.oschina.net/translate/learning-javascript-design-patterns)
-- [深入理解 JavaScript 系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
-- [ECMAScript 6 入门 (作者：阮一峰)](http://es6.ruanyifeng.com/)
-- [JavaScript 高级程序设计（第 3 版）](http://yuedu.163.com/book_reader/4b721fda975b436b8761b3fb9e362a17_4)
+- [命名函数表达式探秘 - 迷渡](http://justjavac.com/named-function-expressions-demystified.html)
+- [深入理解 JavaScript 系列 - 汤姆大叔](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+- [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
 - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/#introduction)
+- [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
+
+#### 🤖机器学习
+
+- [机器学习100天（star 15.2k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 
 ### Nodejs
 
+- [《Koa2进阶学习笔记》已完结（star 4k）](https://github.com/chenshenhai/koa2-note)
+- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.6k）](https://github.com/chyingp/nodejs-learning-guide)
+- [Node.js 最佳实践（star 42.2k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 - [Node 入门](https://www.nodebeginner.org/index-zh-cn.html)
 - [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/)
 - [Nodejs Wiki Book (繁体中文)](https://github.com/nodejs-tw/nodejs-wiki-book)
@@ -160,21 +185,7 @@
 - [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
 - [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.com/package/learnyounode-zh-cn)
 - [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
-- [Node.js 最佳实践](https://github.com/i0natan/nodebestpractices/blob/master/README.chinese.md)
 - [Koa与Node.js开发实战 代码](https://github.com/ikcamp/koa-miniprogram)
-
-#### Nodejs 学习笔记总结
-
-- [x] [资源压缩-zlib](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/01.%E8%B5%84%E6%BA%90%E5%8E%8B%E7%BC%A9-zlib)
-- [x] [文件系统操作-fs](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/02.%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E6%93%8D%E4%BD%9C-fs)
-- [x] [域名解析-dns](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/03.%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90-dns)
-- [x] [网络服务-http](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/_post/04.%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1-http)
-
-#### Nodejs 进阶
-
-- [x] [服务端字符编解码&乱码处理](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/post/01.Nodejs%E8%BF%9B%E9%98%B6%EF%BC%9A%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%AD%97%E7%AC%A6%E7%BC%96%E8%A7%A3%E7%A0%81%26%E4%B9%B1%E7%A0%81%E5%A4%84%E7%90%86.md)
-- [x] [MD5 入门介绍及 crypto 模块的应用](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/post/02.Nodejs%E8%BF%9B%E9%98%B6%EF%BC%9AMD5%E5%85%A5%E9%97%A8%E4%BB%8B%E7%BB%8D%E5%8F%8Acrypto%E6%A8%A1%E5%9D%97%E7%9A%84%E5%BA%94%E7%94%A8.md)
-- [x] [Express 常用中间件 body-parser 实现解析](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/post/03.Nodejs%20%E8%BF%9B%E9%98%B6%EF%BC%9AExpress%20%E5%B8%B8%E7%94%A8%E4%B8%AD%E9%97%B4%E4%BB%B6%20body-parser%20%E5%AE%9E%E7%8E%B0%E8%A7%A3%E6%9E%90.md)
 
 #### Nodejs 实战
 
@@ -204,6 +215,7 @@
 
 ### Vue
 
+- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（1.3k）](https://github.com/qq281113270/vue)
 - [Vue 移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
 - [vue+koa2 移动电商](http://jspang.com/post/vue-koa.html)
 - [vue源码分析](https://github.com/answershuto/learnVue)
