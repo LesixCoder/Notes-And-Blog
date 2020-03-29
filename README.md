@@ -143,87 +143,68 @@
 
 </details>
 
-- [JavaScript 算法与数据结构（star 64.6k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
-- [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
-- [我接触过的前端数据结构与算法【掘金】](https://juejin.im/post/5958bac35188250d892f5c91)
-- [前端该如何准备数据结构和算法？【掘金】](https://juejin.im/post/5d5b307b5188253da24d3cd1)
-- [ES6的Set和Map数据结构，由你制造【掘金】](https://juejin.im/post/5acc57eff265da237f1e9f7c#comment)
-- [leetcode 题解【Blog】](http://lucifer.ren/leetcode/)
-- [Interview = 简历指南 + LeetCode + Kaggle（star 5.6k）](https://github.com/apachecn/Interview)
-
-### 博客
-
-#### 🐒Javascript
-
-- [JavaScript 轻量级函数式编程](https://wizardforcel.gitbooks.io/functional-light-js/content/)
-- [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
-- [Javascript 编程指南](http://pij.robinqu.me/)
-- [javascript 的 12 个怪癖 - 迷渡](https://github.com/justjavac/12-javascript-quirks)
-- [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
-- [命名函数表达式探秘 - 迷渡](http://justjavac.com/named-function-expressions-demystified.html)
-- [深入理解 JavaScript 系列 - 汤姆大叔](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
-- [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
-- [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/#introduction)
-- [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
-
-#### 🤖机器学习
-
-- [机器学习100天（star 15.2k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
-
-### Nodejs
-
-- [《Koa2进阶学习笔记》已完结（star 4k）](https://github.com/chenshenhai/koa2-note)
-- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.6k）](https://github.com/chyingp/nodejs-learning-guide)
-- [Node.js 最佳实践（star 42.2k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
-- [Node 入门](https://www.nodebeginner.org/index-zh-cn.html)
-- [七天学会 NodeJS](http://nqdeng.github.io/7-days-nodejs/)
-- [Nodejs Wiki Book (繁体中文)](https://github.com/nodejs-tw/nodejs-wiki-book)
-- [express.js 中文文档](http://expressjs.jser.us/)
-- [koa 中文文档](https://github.com/guo-yu/koa-guide)
-- [使用 Express + MongoDB 搭建多人博客](https://github.com/nswbmw/N-blog)
-- [Express 框架](http://javascript.ruanyifeng.com/nodejs/express.html)
-- [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
-- [Learn You The Node.js For Much Win! (中文版)](https://www.npmjs.com/package/learnyounode-zh-cn)
-- [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
-- [Koa与Node.js开发实战 代码](https://github.com/ikcamp/koa-miniprogram)
-
-#### Nodejs 实战
-
-- [x] [Express 创建 web 服务器笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Nodejs%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
-
-- [Node.js 实战：使用 Egg.js + Vue.js + Docker 构建渐进式、可持续集成与交付应用](https://cnodejs.org/topic/5ae935101b02288048bd0b97)
-- [Node.js Design Patterns Second Edition](https://github.com/xingbofeng/Node.js-Design-Patterns-Second-Edition)
-- [Node.js 设计模式 中文第二版](https://wizardforcel.gitbooks.io/node-js-design-patterns-second-edition/content/)
-- [Nodejs 开发加密货币](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
-- [Koa2 进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
-- [Web 平台区块链开发](https://azard.gitbooks.io/web-blockchain-development/content/)
-- [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
-- [Node.js 进阶之路](http://yuedu.163.com/book_reader/662c332534f144e0ae9e48f84cc0c45b_4)
-- [Node.js 区块链开发](http://yuedu.163.com/book_reader/fff0e4b14d9844e184b2b3fa1bd4cb7a_4)
-
-### 源码学习
+#### 🐌源码学习
 
 - [x] [jQuery 源码精简 demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
 - [x] [Promise/A+ 规范 js 实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
 - [x] [vue 源码分析](./source-learn/vue源码分析)
 
-### TypeScript
+### 博客
 
-- [TypeScript 官方文档](https://www.tslang.cn/docs/home.html)
-- [TypeScript 入门教程](https://ts.xcatliu.com/)
-- [TypeScript Handbook](https://zhongsp.gitbooks.io/typescript-handbook/content/)
+#### 🦋数据结构与算法
 
-### Vue
+- [JavaScript 算法与数据结构（star 64.6k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [Interview = 简历指南 + LeetCode + Kaggle（star 5.6k）](https://github.com/apachecn/Interview)
+- [leetcode 题解【Blog】](http://lucifer.ren/leetcode/)
+- [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
+- [我接触过的前端数据结构与算法【掘金】](https://juejin.im/post/5958bac35188250d892f5c91)
+- [前端该如何准备数据结构和算法？【掘金】](https://juejin.im/post/5d5b307b5188253da24d3cd1)
+- [ES6的Set和Map数据结构，由你制造【掘金】](https://juejin.im/post/5acc57eff265da237f1e9f7c#comment)
 
+#### 🐒Javascript
+
+- 语言标准
+  - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
+  - [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
+  - [Javascript 编程指南](http://pij.robinqu.me/)
+  - [javascript 的 12 个怪癖 - 迷渡](https://github.com/justjavac/12-javascript-quirks)
+  - [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/)
+  - [命名函数表达式探秘 - 迷渡](http://justjavac.com/named-function-expressions-demystified.html)
+  - [深入理解 JavaScript 系列 - 汤姆大叔](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
+  - [JavaScript Promise迷你书（中文版）](http://liubin.org/promises-book/#introduction)
+  - [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
+
+- 函数式编程
+  - [JavaScript 轻量级函数式编程（star 440）](https://github.com/ikcamp/Functional-Light-JS)
+  - [函数式编程入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
+  - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
+
+#### 🐵Nodejs
+
+- [Node.js 最佳实践（star 42.2k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
+- [Node.js 包教不包会（15.6k）](https://github.com/alsotang/node-lessons)
+- [一起学 Node.js（14.4k）](https://github.com/nswbmw/N-blog)
+- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.6k）](https://github.com/chyingp/nodejs-learning-guide)
+- [《Koa2进阶学习笔记》已完结（star 4k）](https://github.com/chenshenhai/koa2-note)
+- [Node Koa2 实战（star 978）](https://github.com/ikcamp/koa2-tutorial)
+- [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
+- [《Node.js区块链开发》](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
+- [Koa2 进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
+- [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
+
+#### 🐜TypeScript
+
+- [TypeScript Deep Dive（star 9.4k）](https://github.com/basarat/typescript-book)
+- [TypeScript 入门教程（star 6.1k）](https://github.com/xcatliu/typescript-tutorial)
+- [TypeScript 使用手册（star 3.8k）](https://github.com/zhongsp/TypeScript)
+
+#### 🐞Vue
+
+- [Vue.js 源码解析（star 8.8k）](https://github.com/answershuto/learnVue)
 - [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（1.3k）](https://github.com/qq281113270/vue)
-- [Vue 移动开发实战技巧](http://yuedu.163.com/book_reader/bcbcc62a49ef4e02a468c6f434fd4a29_4)
-- [vue+koa2 移动电商](http://jspang.com/post/vue-koa.html)
-- [vue源码分析](https://github.com/answershuto/learnVue)
-- [【vuejs进阶】 vuejs路由实现原理](https://mp.weixin.qq.com/s/dRMUm3rShetPleZ2lbZf1w)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
-- [VUE前端解决方案](https://jusfoun-fe.github.io/guide/docs/project/all.html)
 
-### React
+#### 🐠React
 
 - [React 模式](http://sangka-z.com/react-in-patterns-cn/)
 - [Redux 中文文档](http://www.redux.org.cn/)
@@ -233,27 +214,36 @@
 - [React 16 Fiber源码速览](http://zxc0328.github.io/2017/09/28/react-16-source/)
 - [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
 
-### 移动开发
+#### 🦀移动开发
 
 - [Cordova](https://doc.xuwenliang.com/docs/cordova/1448)
 
-### 工程化
+#### 🐊工程化
 
-- [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
-- [深入浅出 webpack](http://webpack.wuhaolin.cn/)
-- [Gulp资料大全：入门、插件、脚手架、包清单](https://www.jianshu.com/p/df65ae89b862)
-- [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
-- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
-- [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
-- [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
-- [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
-- [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
-- [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
-- [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
-- [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
-- [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
+- webpack
+  - [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
+  - [深入浅出 webpack](http://webpack.wuhaolin.cn/)
 
-### Web
+- gulp
+  - [Gulp资料大全：入门、插件、脚手架、包清单](https://www.jianshu.com/p/df65ae89b862)
+
+- 规范
+  - [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
+  - [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
+  - [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
+  - [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
+  - [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
+  - [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
+  - [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
+
+- 部署
+  - [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
+  - [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
+
+- 自动化
+  - [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
+
+#### 🐢Web
 
 - [关于浏览器和网络的 20 项须知](http://www.20thingsilearned.com/zh-CN/home)
 - [浏览器开发工具的秘密](http://jinlong.github.io/2013/08/29/devtoolsecrets/)
@@ -272,7 +262,7 @@
 - [现代化前端工程师权威指南](https://guoyongfeng.github.io/book/?q=%E5%9F%BA%E4%BA%8EES6%E7%9A%84Package%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B)
 - [Web 全栈技术指南](https://getfullstack.com/)
 
-### linux
+#### 🐍linux
 
 - [Linux 命令行(中文版)](http://billie66.github.io/TLCL/book/)
 - [鸟哥的 Linux 私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/)
@@ -281,12 +271,12 @@
 - [笨方法学 Vimscript 中译本](http://learnvimscriptthehardway.onefloweroneworld.com/)
 - [Vim 中文文档](https://github.com/vimcn/vimcdoc)
 
-### Docker
+#### 🐳Docker
 
 - [Docker 中文指南](https://github.com/widuu/chinese_docker/blob/master/SUMMARY.md)
 - [Docker —— 从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
 
-### 数据库
+#### 🐸数据库
 
 - [MySQL 索引背后的数据结构及算法原理](http://www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
 - [带有详细注释的 Redis 3.0 代码](https://github.com/huangz1990/redis-3.0-annotated)
@@ -294,10 +284,10 @@
 - [The Little MongoDB Book](https://github.com/justinyhuang/the-little-mongodb-book-cn/blob/master/mongodb.md)
 - [The Little Redis Book](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
 
-### python&机器学习
+#### 🤖python&机器学习
 
 - [x] [Python 学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
-
+- [机器学习100天（star 15.2k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 - [Python 编程：从入门到实践](http://yuedu.163.com/book_reader/91310717c3204819ad3cd1dea2f48c19_4)
 - [“笨办法”学 Python（第 3 版）](http://yuedu.163.com/book_reader/2e64fef6a63b4a598b2b9213b04250cf_4)
 - [Python 入门基础教程](http://www.pylixm.top/python-start/)
@@ -308,7 +298,7 @@
 - [斯坦福机器学习笔记](https://yoyoyohamapi.gitbooks.io/mit-ml/content/)
 - [神经网络与深度学习](https://hit-scir.gitbooks.io/neural-networks-and-deep-learning-zh_cn/content/)
 
-### GO
+#### 🐧GO
 
 - [Go 编程基础](https://github.com/Unknwon/go-fundamental-programming)
 - [Go 入门指南](https://github.com/Unknwon/the-way-to-go_ZH_CN)
@@ -316,7 +306,7 @@
 - [Go 实战开发](https://github.com/astaxie/go-best-practice)
 - [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）](https://github.com/yangwenmai/learning-golang)
 
-### 其它
+#### 🌲其它
 
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
