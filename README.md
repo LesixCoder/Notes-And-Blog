@@ -4,11 +4,15 @@
 
 - [Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
 
-  - [x] [4-6 章](/post/Javascript高级程序设计/4-6)
-  - [x] [7-10 章](/post/Javascript高级程序设计/7-10)
-  - [x] [13-14 章](/post/Javascript高级程序设计/13-14)
-  - [x] [15-20 章](/post/Javascript高级程序设计/15-20)
-  - [x] [21-25 章](/post/Javascript高级程序设计/21-25)
+<details >
+  <summary>点击关闭/打开所有章节</summary>
+  <br/>
+- [x] [4-6 章](/post/Javascript高级程序设计/4-6)
+- [x] [7-10 章](/post/Javascript高级程序设计/7-10)
+- [x] [13-14 章](/post/Javascript高级程序设计/13-14)
+- [x] [15-20 章](/post/Javascript高级程序设计/15-20)
+- [x] [21-25 章](/post/Javascript高级程序设计/21-25)
+</details>
 
 - Javascript 忍者秘籍
 - 正则表达式必知必会
