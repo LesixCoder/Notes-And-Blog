@@ -58,7 +58,7 @@
 
 </details>
 
-#### 🚀[高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
+#### ⭐️[高效前端：Web 高效编程与优化实践笔记](/post/高效前端：Web高效编程与优化实践)
 
 <details>
   <summary>点击关闭/打开所有章节</summary>
@@ -73,7 +73,7 @@
 
 </details>
 
-#### 🚀[Nodejs 微服务](/post/Nodejs微服务)
+#### ⭐️[Nodejs 微服务](/post/Nodejs微服务)
 
 <details>
   <summary>点击关闭/打开所有章节</summary>
@@ -86,9 +86,7 @@
 
 </details>
 
-### 程序员内功修炼
-
-#### 🦆‍设计模式
+#### 💥‍设计模式
 
 <details>
   <summary>点击关闭/打开所有内容</summary>
@@ -126,7 +124,7 @@
 
 </details>
 
-#### 🦉数据结构与算法
+#### 💥数据结构与算法
 
 <details>
   <summary>点击关闭/打开所有内容</summary>
@@ -143,7 +141,7 @@
 
 </details>
 
-#### 🐌源码学习
+#### ☄️源码学习
 
 - [x] [jQuery 源码精简 demo](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/jQuery)
 - [x] [Promise/A+ 规范 js 实现](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/source-learn/promise)
@@ -151,17 +149,28 @@
 
 ### 博客
 
-#### 🦋数据结构与算法
+#### 🐜数据结构与算法
 
+- [技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++（star 95.8k）](https://github.com/CyC2018/CS-Notes)
 - [JavaScript 算法与数据结构（star 64.6k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [用动画的形式呈现解LeetCode题目的思路（star 51.6k）](https://github.com/MisterBooo/LeetCodeAnimation)
+- [leetcode 题解（star 29.2k）](https://github.com/azl397985856/leetcode)
+- [手把手撕LeetCode题目（star 14.2k）](https://github.com/labuladong/fucking-algorithm)
 - [Interview = 简历指南 + LeetCode + Kaggle（star 5.6k）](https://github.com/apachecn/Interview)
-- [leetcode 题解【Blog】](http://lucifer.ren/leetcode/)
+- [前端算法系统练习指南](http://47.98.159.95/leetcode-js/nav/)
 - [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
 - [我接触过的前端数据结构与算法【掘金】](https://juejin.im/post/5958bac35188250d892f5c91)
 - [前端该如何准备数据结构和算法？【掘金】](https://juejin.im/post/5d5b307b5188253da24d3cd1)
 - [ES6的Set和Map数据结构，由你制造【掘金】](https://juejin.im/post/5acc57eff265da237f1e9f7c#comment)
 
-#### 🐒Javascript
+#### 🕷设计模式
+
+- [《JavaScript 设计模式与开发实践》读书笔记（star 472）](https://github.com/JChehe/blog/issues/35)
+- [JavaScript 中常见设计模式整理【掘金】](https://juejin.im/post/5afe6430518825428630bc4d)
+- [JavaScript 常见设计模式解析【掘金】](https://juejin.im/post/58f4c702a0bb9f006aa80f25#heading-0)
+- [JavaScript设计模式es6（23种)【掘金】](https://juejin.im/post/5e021eb96fb9a01628014095#heading-42)
+
+#### 🐝Javascript
 
 - 语言标准
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
@@ -179,7 +188,7 @@
   - [函数式编程入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
   - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 
-#### 🐵Nodejs
+#### 🦋Nodejs
 
 - [Node.js 最佳实践（star 42.2k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 - [Node.js 包教不包会（15.6k）](https://github.com/alsotang/node-lessons)
@@ -192,19 +201,19 @@
 - [Koa2 进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
 - [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
 
-#### 🐜TypeScript
+#### 🐞TypeScript
 
 - [TypeScript Deep Dive（star 9.4k）](https://github.com/basarat/typescript-book)
 - [TypeScript 入门教程（star 6.1k）](https://github.com/xcatliu/typescript-tutorial)
 - [TypeScript 使用手册（star 3.8k）](https://github.com/zhongsp/TypeScript)
 
-#### 🐞Vue
+#### 🦎Vue
 
 - [Vue.js 源码解析（star 8.8k）](https://github.com/answershuto/learnVue)
 - [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（1.3k）](https://github.com/qq281113270/vue)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
 
-#### 🐠React
+#### 🐬React
 
 - [React 模式](http://sangka-z.com/react-in-patterns-cn/)
 - [Redux 中文文档](http://www.redux.org.cn/)
@@ -214,34 +223,32 @@
 - [React 16 Fiber源码速览](http://zxc0328.github.io/2017/09/28/react-16-source/)
 - [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
 
-#### 🦀移动开发
+#### 🚀Webpack
 
-- [Cordova](https://doc.xuwenliang.com/docs/cordova/1448)
+- [搜罗一切webpack的好文章好工具（star 3.3k）](https://github.com/webpack-china/awesome-webpack-cn)
+- [制定你自己的前端工作流（star 1.5k）](https://github.com/luoxue-victor/fe-workflow)
+- [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
 
-#### 🐊工程化
+#### 🚗 Gulp
 
-- webpack
-  - [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
-  - [深入浅出 webpack](http://webpack.wuhaolin.cn/)
+- [awesome-gulp（star 558）](https://github.com/alferov/awesome-gulp)
+- [awesome-gulp-cn（star 123）](https://github.com/Pines-Cheng/awesome-gulp-cn)
 
-- gulp
-  - [Gulp资料大全：入门、插件、脚手架、包清单](https://www.jianshu.com/p/df65ae89b862)
+#### 🚧规范化
 
-- 规范
-  - [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
-  - [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
-  - [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
-  - [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
-  - [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
-  - [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
-  - [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
+- [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
+- [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
+- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
+- [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
+- [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
+- [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
+- [Git 分布式工作流程 转](https://my.oschina.net/arniu/blog/223540)
 
-- 部署
-  - [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
-  - [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
+#### 🚜工程化
 
-- 自动化
-  - [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
+- [持续集成（第二版） (译言网)](http://auth.yeeyan.org/#/login?backurl=http:%2F%2Farticle.yeeyan.org%2Fview%2F2251%2F94882)
+- [深入理解 OpenStack 自动化部署](https://pom.nops.cloud/)
+- [让开发自动化系列专栏](https://www.ibm.com/developerworks/cn/java/j-ap/)
 
 #### 🐢Web
 
@@ -330,47 +337,58 @@
 - [科学上网](https://sphard2.github.io/gfw/)
 - [字符画](https://asciiart.website/index.php)
 
-### 高质量博客/聚合
+### 团队技术博客
 
+- [淘系前端团队（FED）](https://fed.taobao.org/)
+- [腾讯 AlloyTeam](http://www.alloyteam.com/)
+- [腾讯社交用户体验设计(ISUX)](https://isux.tencent.com/)
+- [百度FEX](http://fex.baidu.com/)
+- [京东WecTeam 前端周刊](https://github.com/wecteam/weekly)
+- [京东设计中心](https://jdc.jd.com/)
+- [美团技术团队](https://tech.meituan.com/)
+- [奇舞团博客](http://75team.com/links/)
+- [奇舞周刊](https://weekly.75team.com/)
+- [网易云博客](https://sq.163yun.com/blog)
+- [政采云前端团队（ZooTeam）](https://zoo.team/)
+- [有赞技术团队](https://tech.youzan.com/)
+
+### 高质量个人博客
+- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
+- [收集优质的中文前端博客](https://github.com/FrankFang/best-chinese-front-end-blogs)
+- [张云龙（20.5k）](https://github.com/fouber/blog)
+- [冴羽（star 16.5k）](https://github.com/mqyqingfeng/Blog)
+- [马云云在Github的学习片段（star 10.9k）](https://github.com/markyun/My-blog)
+- [木易杨，公众号「高级前端进阶」（star 7.9k）](https://github.com/yygmind/blog)
+- [关注基础知识，打造优质前端博客，公众号[前端工匠]（star 4.5k）](https://github.com/ljianshu/Blog)
+- [梁少峰的个人博客（star 4.3k）](https://github.com/youngwind/blog)
+- [大前端的瑞士军刀，只记录有用的（star 4k）](https://github.com/nieweidong/fetool)
+- [berwin刘博文的个人博客（star 2.7k）](https://github.com/berwin/Blog)
+- [蚂蚁数据体验技术团队（star 2.3k）](https://github.com/ProtoTeam/blog)
+- [Jony的博客，记录学习工作的点点滴滴（star 1.5k）](https://github.com/forthealllight/blog)
+- [前端开发技术日报（star 1.5k）](https://github.com/kujian/frontendDaily)
+- [大前端技术为主，读书笔记、随笔、理财为辅，做个终身学习者（1k）](https://github.com/biaochenxuying/blog)
 - [阮一峰](http://www.ruanyifeng.com/blog/)
 - [张鑫旭](http://www.zhangxinxu.com/)
-- [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
-- [Zindex's blog](http://zxc0328.github.io)
-- [宅居](http://otakustay.com/)
 - [前端周刊](https://frontend-weekly.com/)
-- [码农头条-开发者头条](https://fed.caibaojian.com/)
 - [NodeLover 博客](https://nodelover.me/courses)
 - [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
-- [轶哥博客](https://www.wyr.me/)
-
-### 收集的不错的博客资源
-
-- [https://github.com/forthealllight/blog/issues](https://github.com/forthealllight/blog/issues)
-- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
-- [一灯同学——刘轩](https://segmentfault.com/u/liuxuan_5845129fbf248/articles)
-- [vue 项目](https://github.com/moveondo)
-- [https://github.com/FrankFang/wheels](https://github.com/FrankFang/wheels)
+- [Zindex's blog](http://zxc0328.github.io)
+- [springleo's blog](https://lq782655835.github.io/blogs/team-standard/0.standard-ai-summary.html#%E9%A2%84%E8%A7%88)
+- [你的前端食堂](https://github.com/Geekhyt/front-end-canteen/)
+- [qishaoxuan.github.io](https://qishaoxuan.github.io/blog/)
 - [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
-- [【RD-api】开发者各种api【福利】](https://segmentfault.com/a/1190000016738645)
+
+### 知识聚合
+
+- [前端进阶之道](https://yuchengkai.cn/)
 - [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
-- [berwin](https://github.com/berwin/Blog)
 - [前端知识点总结](https://jasonandjay.github.io/study/)
-- [springleo's blog](https://lq782655835.github.io/blogs/team-standard/0.standard-ai-summary.html)
 
 ### 精选博文
 
-- [微前端的那些事儿](https://github.com/phodal/microfrontends)
-- [Python 爬取我们喜欢的小视频](https://mp.weixin.qq.com/s/kS1TyMXeZ3jwJfB6lGEjpA)
-- [Webpack 揭秘——走向高阶前端的必经之路](https://juejin.im/post/5badd0c5e51d450e4437f07a)
-- [全栈项目上线（vue+node+mongodb）](https://segmentfault.com/a/1190000011808364)
-- [浅谈前端优化（二）- 资源的最大化利用之图片尺寸的精确匹配](https://www.liujiaweb.com/115.html?from=timeline#10006-weixin-1-52626-6b3bffd01fdde4900130bc5a2751b6d1)
-- [用预编译去理解函数声明提升和变量声明提升](http://weblogger.club/2018/10/19/activation-object/)
+- [微前端的那些事儿（star 2k）](https://github.com/phodal/microfrontends)
+- [Webpack 揭秘——走向高阶前端的必经之路【掘金】](https://juejin.im/post/5badd0c5e51d450e4437f07a)
 - [年终回顾，为你汇总一份「前端技术清单](https://blog.fundebug.com/2018/11/16/frontend-tech-list/)
-- [带你五步学会 Vue SSR——刘轩](https://segmentfault.com/a/1190000016636656)
-- [深入浅出 nodejs 系列博文](http://www.infoq.com/cn/profile/田永强)
-- [使用 Node.js 实现文件流转存服务](https://div.io/topic/1930)
-- [简单构建 ThinkJS + Vue2.0 前后端分离的多页应用](https://zhuanlan.zhihu.com/p/37130118)
-- [前端 AI 实战——告诉世界前端也能做 AI](https://juejin.im/post/5bbb30e6f265da0aa94a2a6c)
 
 ### 产品&设计
 
@@ -382,7 +400,7 @@
 - [网易一千零一夜：互联网产品项目管理实战](http://yuedu.163.com/book_reader/23d4397960b849809a4c93714507d825_4)
 - [结网@改变世界的互联网产品经理（修订版）](http://yuedu.163.com/book_reader/729bb09d1b054c6ba33e4c5e939b7ad9_4)
 
-### 编程之外
+### 技术之外
 
 - [今日简史：人类命运大议题](http://yuedu.163.com/book_reader/0840e1aa05914107b1a7b2f7ee9b84fb_4)
 - [三体(全集)](http://yuedu.163.com/book_reader/1cde4dd77c9c41a48614c22b93b9cb8f_4)
