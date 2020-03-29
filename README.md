@@ -2,34 +2,38 @@
 
 ### 读书笔记
 
-- [Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
+#### ⭐️[Javascript 高级程序设计笔记](/post/Javascript高级程序设计)
 
 <details >
   <summary>点击关闭/打开所有章节</summary>
   <br/>
+
 - [x] [4-6 章](/post/Javascript高级程序设计/4-6)
 - [x] [7-10 章](/post/Javascript高级程序设计/7-10)
 - [x] [13-14 章](/post/Javascript高级程序设计/13-14)
 - [x] [15-20 章](/post/Javascript高级程序设计/15-20)
 - [x] [21-25 章](/post/Javascript高级程序设计/21-25)
+
 </details>
 
-- Javascript 忍者秘籍
-- 正则表达式必知必会
-- Javascript 设计模式与开发实践
+#### ⭐️[Javascript 核心技术开发解密笔记](/post/Javascript核心技术开发解密)
 
-- [Javascript 核心技术开发解密笔记](/post/Javascript核心技术开发解密)
+<details >
+  <summary>点击关闭/打开所有章节</summary>
+  <br/>
 
-  - [x] [三种基础数据结构](/post/Javascript核心技术开发解密/01.三种基础数据结构)
-  - [x] [内存空间](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [执行上下文](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [变量对象](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [作用域与作用域链](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [闭包](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [this](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [函数与函数式编程](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [面向对象](/post/Javascript核心技术开发解密/02.内存空间)
-  - [x] [ES6 与模块化](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [三种基础数据结构](/post/Javascript核心技术开发解密/01.三种基础数据结构)
+- [x] [内存空间](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [执行上下文](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [变量对象](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [作用域与作用域链](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [闭包](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [this](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [函数与函数式编程](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [面向对象](/post/Javascript核心技术开发解密/02.内存空间)
+- [x] [ES6 与模块化](/post/Javascript核心技术开发解密/02.内存空间)
+
+</details>
 
 - Javascript 忍者秘籍 2
 
