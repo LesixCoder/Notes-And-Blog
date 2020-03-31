@@ -215,12 +215,12 @@
 
 #### 🐬React
 
-- [React 模式](http://sangka-z.com/react-in-patterns-cn/)
-- [Redux 中文文档](http://www.redux.org.cn/)
+- [ React.js小书（star 3.1k）](https://github.com/huzidaha/react-naive-book)
+- [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
+- [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
+- [⭐️Redux 中文文档](http://www.redux.org.cn/)
 - [Redux 最佳实践](https://bestredux.com/)
-- [從零開始學 ReactJS：給初學者的 React 入門教學書](https://kdchang.gitbooks.io/react101/content/)
-- [如何从零学习 React 技术栈](https://gitbook.cn/m/mazi/comp/column?columnId=59ae12fdbc511269a95f9616&utm_source=columnweixinshare&utm_campaign=%E5%A6%82%E4%BD%95%E4%BB%8E%E9%9B%B6%E5%AD%A6%E4%B9%A0%20React%20%E6%8A%80%E6%9C%AF%E6%A0%88)
-- [React 16 Fiber源码速览](http://zxc0328.github.io/2017/09/28/react-16-source/)
+- [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
 - [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
 
 #### 🚀Webpack
