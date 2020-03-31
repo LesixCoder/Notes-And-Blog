@@ -215,13 +215,23 @@
 
 #### 🐬React
 
-- [ React.js小书（star 3.1k）](https://github.com/huzidaha/react-naive-book)
-- [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
-- [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
-- [⭐️Redux 中文文档](http://www.redux.org.cn/)
-- [Redux 最佳实践](https://bestredux.com/)
-- [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
-- [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
+- react
+  - [ React.js小书（star 3.1k）](https://github.com/huzidaha/react-naive-book)
+  - [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
+  - [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
+  - [⭐️Redux 中文文档](http://www.redux.org.cn/)
+  - [Redux 最佳实践](https://bestredux.com/)
+  - [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
+  - [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
+
+#### 📱跨端应用
+
+- React-Native
+  - [React Native指南汇集了各类react-native学习资源、开源App和组件（star 15.8k）](https://github.com/reactnativecn/react-native-guide)
+  - [React Native 学习资源精选仓库（star 1.5k）](https://github.com/crazycodeboy/react-native-awesome)
+
+- Flutter
+  - [Flutter 超完整的开源项目，功能丰富，适合学习和日常使用（star 10.5k）](https://github.com/CarGuo/gsy_github_app_flutter)
 
 #### 🚀Webpack
 
@@ -353,34 +363,43 @@
 - [有赞技术团队](https://tech.youzan.com/)
 
 ### 高质量个人博客
-- [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
-- [收集优质的中文前端博客](https://github.com/FrankFang/best-chinese-front-end-blogs)
-- [张云龙（20.5k）](https://github.com/fouber/blog)
-- [冴羽（star 16.5k）](https://github.com/mqyqingfeng/Blog)
-- [马云云在Github的学习片段（star 10.9k）](https://github.com/markyun/My-blog)
-- [木易杨，公众号「高级前端进阶」（star 7.9k）](https://github.com/yygmind/blog)
-- [关注基础知识，打造优质前端博客，公众号[前端工匠]（star 4.5k）](https://github.com/ljianshu/Blog)
-- [梁少峰的个人博客（star 4.3k）](https://github.com/youngwind/blog)
-- [大前端的瑞士军刀，只记录有用的（star 4k）](https://github.com/nieweidong/fetool)
-- [berwin刘博文的个人博客（star 2.7k）](https://github.com/berwin/Blog)
-- [蚂蚁数据体验技术团队（star 2.3k）](https://github.com/ProtoTeam/blog)
-- [Jony的博客，记录学习工作的点点滴滴（star 1.5k）](https://github.com/forthealllight/blog)
-- [前端开发技术日报（star 1.5k）](https://github.com/kujian/frontendDaily)
-- [大前端技术为主，读书笔记、随笔、理财为辅，做个终身学习者（1k）](https://github.com/biaochenxuying/blog)
-- [阮一峰](http://www.ruanyifeng.com/blog/)
-- [张鑫旭](http://www.zhangxinxu.com/)
-- [前端周刊](https://frontend-weekly.com/)
-- [NodeLover 博客](https://nodelover.me/courses)
-- [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
-- [Zindex's blog](http://zxc0328.github.io)
-- [springleo's blog](https://lq782655835.github.io/blogs/team-standard/0.standard-ai-summary.html#%E9%A2%84%E8%A7%88)
-- [你的前端食堂](https://github.com/Geekhyt/front-end-canteen/)
-- [qishaoxuan.github.io](https://qishaoxuan.github.io/blog/)
-- [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+
+- Github
+  - [中文独立博客列表](https://github.com/timqian/chinese-independent-blogs)
+  - [收集优质的中文前端博客](https://github.com/FrankFang/best-chinese-front-end-blogs)
+  - [张云龙（20.5k）](https://github.com/fouber/blog)
+  - [冴羽（star 16.5k）](https://github.com/mqyqingfeng/Blog)
+  - [马云云在Github的学习片段（star 10.9k）](https://github.com/markyun/My-blog)
+  - [木易杨，公众号「高级前端进阶」（star 7.9k）](https://github.com/yygmind/blog)
+  - [关注基础知识，打造优质前端博客，公众号[前端工匠]（star 4.5k）](https://github.com/ljianshu/Blog)
+  - [梁少峰的个人博客（star 4.3k）](https://github.com/youngwind/blog)
+  - [大前端的瑞士军刀，只记录有用的（star 4k）](https://github.com/nieweidong/fetool)
+  - [berwin刘博文的个人博客（star 2.7k）](https://github.com/berwin/Blog)
+  - [蚂蚁数据体验技术团队（star 2.3k）](https://github.com/ProtoTeam/blog)
+  - [Jony的博客，记录学习工作的点点滴滴（star 1.5k）](https://github.com/forthealllight/blog)
+  - [前端开发技术日报（star 1.5k）](https://github.com/kujian/frontendDaily)
+  - [大前端技术为主，读书笔记、随笔、理财为辅，做个终身学习者（1k）](https://github.com/biaochenxuying/blog)
+  - [前端学习资料合集（包含深入解读JS系列，React、Vue源码分析，前端算法解析，收集大厂面经，前端工程化最佳实践，经典图书分享，推荐好用的前端工具等等，内容不定期更新中。一边记录，一边学习，一边分享）（star 493）](https://github.com/fyuanfen/note)
+  - [JavaScript 学习 — 完全整理（star 342）](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+
+- Blog
+  - [阮一峰](http://www.ruanyifeng.com/blog/)
+  - [张鑫旭](http://www.zhangxinxu.com/)
+  - [前端周刊](https://frontend-weekly.com/)
+  - [NodeLover 博客](https://nodelover.me/courses)
+  - [前端资源教程](https://cnodejs.org/topic/56ef3edd532839c33a99d00e)
+  - [Zindex's blog](http://zxc0328.github.io)
+  - [springleo's blog](https://lq782655835.github.io/blogs/team-standard/0.standard-ai-summary.html#%E9%A2%84%E8%A7%88)
+  - [你的前端食堂](https://github.com/Geekhyt/front-end-canteen/)
+  - [qishaoxuan.github.io](https://qishaoxuan.github.io/blog/)
+  - [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
 
 ### 知识聚合
 
+- [🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台（star 25.8k）](https://github.com/xitu/gold-miner)
+- [前端面试每日 3+1（star 10.4k）](https://github.com/haizlin/fe-interview)
 - [前端进阶之道](https://yuchengkai.cn/)
+- [🎒 🚀 🎉面试问题清单。该存储库是您准备技术面试所需的一切（star 4.1k）](https://github.com/FAQGURU/FAQGURU)
 - [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
 - [前端知识点总结](https://jasonandjay.github.io/study/)
 
