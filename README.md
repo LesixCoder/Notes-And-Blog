@@ -399,6 +399,7 @@
   - [你的前端食堂](https://github.com/Geekhyt/front-end-canteen/)
   - [qishaoxuan.github.io](https://qishaoxuan.github.io/blog/)
   - [染陌的技术空间](https://zhuanlan.zhihu.com/ranmo)
+  - [Vue技术内幕-逐行级别的 Vue 源码分析](http://caibaojian.com/vue-design/)
 
 ### 知识聚合
 
