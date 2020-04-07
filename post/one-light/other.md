@@ -1,4 +1,4 @@
-### 一灯14期笔记收集
+### 笔记收集
 
 - [https://github.com/Martin-Shao/yideng-note](https://github.com/Martin-Shao/yideng-note)
 - [https://github.com/weisuoke/big-FE-note](https://github.com/weisuoke/big-FE-note)
