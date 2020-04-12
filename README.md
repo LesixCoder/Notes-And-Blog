@@ -155,6 +155,7 @@
 - [JavaScript 算法与数据结构（star 64.6k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - [用动画的形式呈现解LeetCode题目的思路（star 51.6k）](https://github.com/MisterBooo/LeetCodeAnimation)
 - [leetcode 题解（star 29.2k）](https://github.com/azl397985856/leetcode)
+- [手把手撕LeetCode题目，扒各种算法套路的裤子（star 23.9k）](https://github.com/labuladong/fucking-algorithm)
 - [手把手撕LeetCode题目（star 14.2k）](https://github.com/labuladong/fucking-algorithm)
 - [Interview = 简历指南 + LeetCode + Kaggle（star 5.6k）](https://github.com/apachecn/Interview)
 - [【NO LONGER UPDATE】✏️ LeetCode solutions with JavaScript（star 1.5k）](https://github.com/lessfish/leetcode)
@@ -174,6 +175,8 @@
 #### 🐝Javascript
 
 - 语言标准
+  - [JavaScript 进阶问题列表（star 17.7k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
+  - [JavaScript开发者应懂的33个概念（star 10.1k）](https://github.com/stephentian/33-js-concepts)
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
   - [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
   - [Javascript 编程指南](http://pij.robinqu.me/)
@@ -223,6 +226,7 @@
 - react
   - [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
   - [⭐️Redux 中文文档](http://www.redux.org.cn/)
+  - [React 开发者指南（star 14.1k）](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
   - [ React.js小书（star 3.1k）](https://github.com/huzidaha/react-naive-book)
   - [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
   - [Redux 最佳实践](https://bestredux.com/)
@@ -330,6 +334,7 @@
 
 #### 🌲其它
 
+- [《Chrome插件开发全攻略》（star 4k）](https://github.com/sxei/chrome-plugin-demo)
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
 - [笨办法学 C](https://wizardforcel.gitbooks.io/lcthw/content/)
@@ -405,6 +410,8 @@
 
 - [🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台（star 25.8k）](https://github.com/xitu/gold-miner)
 - [前端面试每日 3+1（star 10.4k）](https://github.com/haizlin/fe-interview)
+- [前端入门和进阶学习笔记（star 10.3k）](https://github.com/qianguyihao/Web)
+- [宇宙最强的前端面试指南（star 1.2k）](https://github.com/azl397985856/fe-interview)
 - [前端进阶之道](https://yuchengkai.cn/)
 - [🎒 🚀 🎉面试问题清单。该存储库是您准备技术面试所需的一切（star 4.1k）](https://github.com/FAQGURU/FAQGURU)
 - [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
