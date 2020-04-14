@@ -152,7 +152,7 @@
 #### 🐜数据结构与算法
 
 - [技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++（star 95.8k）](https://github.com/CyC2018/CS-Notes)
-- [JavaScript 算法与数据结构（star 64.6k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [JavaScript 算法与数据结构（star 67k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - [用动画的形式呈现解LeetCode题目的思路（star 51.6k）](https://github.com/MisterBooo/LeetCodeAnimation)
 - [leetcode 题解（star 29.2k）](https://github.com/azl397985856/leetcode)
 - [手把手撕LeetCode题目，扒各种算法套路的裤子（star 23.9k）](https://github.com/labuladong/fucking-algorithm)
