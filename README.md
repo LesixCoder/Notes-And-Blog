@@ -175,6 +175,7 @@
 #### 🐝Javascript
 
 - 语言标准
+  - [JavaScript项目的最佳做法（star 20.6k）](https://github.com/elsewhencode/project-guidelines?utm_source=gold_browser_extension)
   - [JavaScript 进阶问题列表（star 17.7k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
   - [JavaScript开发者应懂的33个概念（star 10.1k）](https://github.com/stephentian/33-js-concepts)
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
