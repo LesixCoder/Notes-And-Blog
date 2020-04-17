@@ -437,15 +437,6 @@
 - [网易一千零一夜：互联网产品项目管理实战](http://yuedu.163.com/book_reader/23d4397960b849809a4c93714507d825_4)
 - [结网@改变世界的互联网产品经理（修订版）](http://yuedu.163.com/book_reader/729bb09d1b054c6ba33e4c5e939b7ad9_4)
 
-### 技术之外
-
-- [今日简史：人类命运大议题](http://yuedu.163.com/book_reader/0840e1aa05914107b1a7b2f7ee9b84fb_4)
-- [三体(全集)](http://yuedu.163.com/book_reader/1cde4dd77c9c41a48614c22b93b9cb8f_4)
-- [影响力](http://yuedu.163.com/book_reader/d6f842ca72044b24adda32ae4d51c2af_4)
-- [深度工作：如何有效使用每一点脑力](http://yuedu.163.com/book_reader/ab410d42629a41069e81068991acfcfc_4)
-- [霍金三部曲经典套装：时间简史+果壳中的宇宙+大设计](http://yuedu.163.com/source/cd51691701354642b36fc50be08b9cd6_4)
-- [高情商聊天术](http://yuedu.163.com/book_reader/3e1ae22e47914d899053ff9e269f53d0_4)
-
 #### 个人博客
 
 [https://coder.liusixin.cn](https://coder.liusixin.cn)
