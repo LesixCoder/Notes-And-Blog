@@ -427,16 +427,6 @@
 - [Webpack 揭秘——走向高阶前端的必经之路【掘金】](https://juejin.im/post/5badd0c5e51d450e4437f07a)
 - [年终回顾，为你汇总一份「前端技术清单](https://blog.fundebug.com/2018/11/16/frontend-tech-list/)
 
-### 产品&设计
-
-- [产品设计思维：电商产品设计全攻略](http://yuedu.163.com/book_reader/7f6e55fbec324728a873dd74e056b24b_4)
-- [产品经理手册（原书第 4 版）](http://yuedu.163.com/book_reader/e1afcc037a6042559c142703bf7a2b9c_4)
-- [产品的视角：从热闹到门道](http://yuedu.163.com/book_reader/78b2d5e345044c1a8e307d7ef588643a_4)
-- [产品经理面试攻略](http://yuedu.163.com/book_reader/dfcc0df156dc48da9fd15c6a4b52fac8_4)
-- [上瘾：让用户养成使用习惯的四大产品逻辑](http://yuedu.163.com/book_reader/e56e65cd1bda465dac1299661c805d46_4)
-- [网易一千零一夜：互联网产品项目管理实战](http://yuedu.163.com/book_reader/23d4397960b849809a4c93714507d825_4)
-- [结网@改变世界的互联网产品经理（修订版）](http://yuedu.163.com/book_reader/729bb09d1b054c6ba33e4c5e939b7ad9_4)
-
 #### 个人博客
 
 [https://coder.liusixin.cn](https://coder.liusixin.cn)
