@@ -245,6 +245,7 @@
 
 - Flutter
   - [Flutter 超完整的开源项目，功能丰富，适合学习和日常使用（star 10.5k）](https://github.com/CarGuo/gsy_github_app_flutter)
+  - [《Flutter实战》开源电子书](https://book.flutterchina.club/)
 
 #### 🚀Webpack
 
