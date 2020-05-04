@@ -340,6 +340,7 @@
 
 #### 🌲其它
 
+- [谷粒-Chrome插件英雄榜（star 15.2k）](https://github.com/zhaoolee/ChromeAppHeroes)
 - [《Chrome插件开发全攻略》（star 4k）](https://github.com/sxei/chrome-plugin-demo)
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
