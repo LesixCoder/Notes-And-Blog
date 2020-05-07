@@ -415,6 +415,7 @@
 
 ### 知识聚合
 
+- [技术面试手册（star 42.4k）](https://github.com/yangshun/tech-interview-handbook)
 - [🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台（star 25.8k）](https://github.com/xitu/gold-miner)
 - [前端面试每日 3+1（star 10.4k）](https://github.com/haizlin/fe-interview)
 - [前端入门和进阶学习笔记（star 10.3k）](https://github.com/qianguyihao/Web)
