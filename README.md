@@ -347,7 +347,6 @@
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
 - [笨办法学 C](https://wizardforcel.gitbooks.io/lcthw/content/)
 - [微服务学习笔记](https://skyao.gitbooks.io/learning-microservice/content/)
-- [面试图谱](https://yuchengkai.cn/docs/zh/frontend/)
 - [GitHub 秘籍](https://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/index.html)
 - [gitbook 简明教程](http://www.chengweiyang.cn/gitbook/basic-usage/README.html)
 - [Mac 开发配置手册](https://aaaaaashu.gitbooks.io/mac-dev-setup/content/)
