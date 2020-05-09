@@ -288,8 +288,6 @@
 - [前端资源分享（二）](https://github.com/hacke2/hacke2.github.io/issues/3)
 - [Nginx 学习笔记](https://skyao.gitbooks.io/learning-nginx/content/)
 - [Nginx 开发从入门到精通 (淘宝团队出品)](http://tengine.taobao.org/book/index.html)
-- [实战微信小程序：JavaScript、WXML 与 Flexbox 综合开发](http://yuedu.163.com/book_reader/cd1033a369894cb89ae74570b120b807_4)
-- [WebKit 技术内幕](http://yuedu.163.com/book_reader/fd628521474b438cb1b7e87213542ed9_4)
 - [混合移动应用的消息推送之 websocket](https://www.ibm.com/developerworks/cn/mobile/mo-cn-websocket/index.html)
 - [现代化前端工程师权威指南](https://guoyongfeng.github.io/book/?q=%E5%9F%BA%E4%BA%8EES6%E7%9A%84Package%E5%AE%9E%E6%88%98%E6%A1%88%E4%BE%8B)
 - [Web 全栈技术指南](https://getfullstack.com/)
