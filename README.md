@@ -319,8 +319,6 @@
 - [x] [Python 学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
 - [Python - 100天从新手到大师（star 83.4k）](https://github.com/jackfrued/Python-100-Days)
 - [机器学习100天（star 15.2k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
-- [Python 编程：从入门到实践](http://yuedu.163.com/book_reader/91310717c3204819ad3cd1dea2f48c19_4)
-- [“笨办法”学 Python（第 3 版）](http://yuedu.163.com/book_reader/2e64fef6a63b4a598b2b9213b04250cf_4)
 - [Python 入门基础教程](http://www.pylixm.top/python-start/)
 - [Python 机器学习](https://ljalphabeta.gitbooks.io/python-/content/)
 - [機器學習：使用 Python](https://machine-learning-python.kspax.io/)
