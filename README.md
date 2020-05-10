@@ -213,7 +213,7 @@
 
 #### 🐞TypeScript
 
-- [TypeScript Deep Dive（star 9.4k）](https://github.com/basarat/typescript-book)
+- [深入理解 TypeScript（star 3k）](https://github.com/jkchao/typescript-book-chinese)
 - [TypeScript 入门教程（star 6.1k）](https://github.com/xcatliu/typescript-tutorial)
 - [TypeScript 使用手册（star 3.8k）](https://github.com/zhongsp/TypeScript)
 
