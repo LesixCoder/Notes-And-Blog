@@ -395,6 +395,7 @@
   - [大前端技术为主，读书笔记、随笔、理财为辅，做个终身学习者（1k）](https://github.com/biaochenxuying/blog)
   - [前端学习资料合集（包含深入解读JS系列，React、Vue源码分析，前端算法解析，收集大厂面经，前端工程化最佳实践，经典图书分享，推荐好用的前端工具等等，内容不定期更新中。一边记录，一边学习，一边分享）（star 493）](https://github.com/fyuanfen/note)
   - [JavaScript 学习 — 完全整理（star 342）](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+  - [若川的博客—前端视野-资源和源代码vuepress 博客（star 68）](https://github.com/lxchuan12/blog)
 
 - Blog
   - [阮一峰](http://www.ruanyifeng.com/blog/)
