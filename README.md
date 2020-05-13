@@ -339,6 +339,7 @@
 
 - [谷粒-Chrome插件英雄榜（star 15.2k）](https://github.com/zhaoolee/ChromeAppHeroes)
 - [《Chrome插件开发全攻略》（star 4k）](https://github.com/sxei/chrome-plugin-demo)
+- [开源运维平台：面向中小型企业设计的无 Agent的自动化运维平台（star 2k）](https://github.com/openspug/spug)
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
 - [笨办法学 C](https://wizardforcel.gitbooks.io/lcthw/content/)
