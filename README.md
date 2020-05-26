@@ -357,7 +357,6 @@
 - [每天一本编程书，每天进步一点点](https://salttiger.com/archives/)
 - [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
 - [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
-- [LeetCode js讲解](https://github.com/azl397985856/leetcode)
 - [科学上网](https://sphard2.github.io/gfw/)
 - [字符画](https://asciiart.website/index.php)
 
