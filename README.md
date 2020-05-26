@@ -355,7 +355,6 @@
 - [北京大学在 coursera 上开设的「程序设计与算法」专项课程](https://github.com/chiuchiuuu/programming-and-algorithm)
 - [读书达人\_EPUB 电子书下载\_MOBI 电子书下载\_KINDLE 电子书下载](http://www.dushudaren.com/category/科技互联网计算机技术/)
 - [每天一本编程书，每天进步一点点](https://salttiger.com/archives/)
-- [周读](http://www.ireadweek.com/index.php/bookList/1.html)
 - [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
 - [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
 - [LeetCode js讲解](https://github.com/azl397985856/leetcode)
