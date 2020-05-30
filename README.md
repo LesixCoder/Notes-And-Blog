@@ -358,6 +358,7 @@
 - [21 天学会 Emacs](https://zilongshanren.com/LearnEmacs/)
 - [LeetCode](https://jypblue.gitbooks.io/leetcode/content/)
 - [字符画](https://asciiart.website/index.php)
+- [微前端的那些事儿（star 2k）](https://github.com/phodal/microfrontends)
 
 ### 团队技术博客
 
@@ -424,10 +425,6 @@
 - [前端知识点总结](https://jasonandjay.github.io/study/)
 - [前端指南(LC)](https://fe.rualc.com/)
 - [Robin/前端小册](https://www.yuque.com/robinson/fe-guide/kw-links)
-
-### 精选博文
-
-- [微前端的那些事儿（star 2k）](https://github.com/phodal/microfrontends)
 
 #### 个人博客
 
