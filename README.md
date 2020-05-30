@@ -428,7 +428,6 @@
 ### 精选博文
 
 - [微前端的那些事儿（star 2k）](https://github.com/phodal/microfrontends)
-- [Webpack 揭秘——走向高阶前端的必经之路【掘金】](https://juejin.im/post/5badd0c5e51d450e4437f07a)
 
 #### 个人博客
 
