@@ -429,7 +429,6 @@
 
 - [微前端的那些事儿（star 2k）](https://github.com/phodal/microfrontends)
 - [Webpack 揭秘——走向高阶前端的必经之路【掘金】](https://juejin.im/post/5badd0c5e51d450e4437f07a)
-- [年终回顾，为你汇总一份「前端技术清单](https://blog.fundebug.com/2018/11/16/frontend-tech-list/)
 
 #### 个人博客
 
