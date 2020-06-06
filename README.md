@@ -232,6 +232,7 @@
   - [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
   - [⭐️Redux 中文文档](http://www.redux.org.cn/)
   - [React 开发者指南（star 14.1k）](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
+  - [react+typescript备忘（star 13.9k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
   - [排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！（star 5.7k）](https://github.com/sudheerj/reactjs-interview-questions)
   - [ React.js小书（star 3.1k）](https://github.com/huzidaha/react-naive-book)
   - [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
