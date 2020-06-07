@@ -265,7 +265,6 @@
 
 - [梳理前端开发使用 eslint 和 prettier 来检查和格式化代码问题](https://www.godblessyuan.com/2018/04/%E6%A2%B3%E7%90%86%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BD%BF%E7%94%A8eslint%E5%92%8Cprettier%E6%9D%A5%E6%A3%80%E6%9F%A5%E5%92%8C%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81%E9%97%AE%E9%A2%98.html)
 - [Airbnb JavaScript 规范](https://github.com/adamlu/javascript-style-guide)
-- [前端代码规范 及 最佳实践](http://coderlmn.github.io/code-standards/)
 - [HTTP 接口设计指北](https://github.com/bolasblack/http-api-guide)
 - [追求代码质量](https://www.ibm.com/developerworks/cn/java/j-cq/)
 - [selenium 中文文档](https://github.com/fool2fish/selenium-doc)
