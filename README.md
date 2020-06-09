@@ -255,6 +255,7 @@
 - [搜罗一切webpack的好文章好工具（star 3.3k）](https://github.com/webpack-china/awesome-webpack-cn)
 - [制定你自己的前端工作流（star 1.5k）](https://github.com/luoxue-victor/fe-workflow)
 - [webpack4](https://github.com/lsxlsxxslxsl/Read-Books-Notes/tree/master/post/webpck4%E5%88%9D%E4%BD%93%E9%AA%8C)
+- [easywebpack](https://easyjs.cn/easywebpack/)
 
 #### 🚗 Gulp
 
