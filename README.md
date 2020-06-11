@@ -212,6 +212,9 @@
 - [Koa2 进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
 - [Node.js 调试指南](https://wizardforcel.gitbooks.io/node-in-debugging/content/)
 
+- Nest
+  - [中文Awesome NestJS—集合了采用nest.js框架的相关项目以及文档资源](https://github.com/lvkunpeng/awesome-nestjs)
+
 #### 🐞TypeScript
 
 - [深入理解 TypeScript（star 3k）](https://github.com/jkchao/typescript-book-chinese)
