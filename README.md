@@ -161,6 +161,7 @@
 - [Interview = 简历指南 + LeetCode + Kaggle（star 5.6k）](https://github.com/apachecn/Interview)
 - [【NO LONGER UPDATE】✏️ LeetCode solutions with JavaScript（star 1.5k）](https://github.com/lessfish/leetcode)
 - [seognil-study/leetcode（star 10）](https://github.com/seognil-study/leetcode)
+- [VisuAlgo 数据结构和算法动态可视化](https://visualgo.net/zh)
 - [前端算法系统练习指南](http://47.98.159.95/leetcode-js/nav/)
 - [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
 - [我接触过的前端数据结构与算法【掘金】](https://juejin.im/post/5958bac35188250d892f5c91)
