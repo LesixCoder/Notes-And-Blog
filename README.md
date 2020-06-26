@@ -177,9 +177,9 @@
 #### 🐝Javascript
 
 - 语言标准
-  - [JavaScript项目的最佳做法（star 20.6k）](https://github.com/elsewhencode/project-guidelines?utm_source=gold_browser_extension)
-  - [JavaScript 进阶问题列表（star 17.7k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
-  - [JavaScript开发者应懂的33个概念（star 10.1k）](https://github.com/stephentian/33-js-concepts)
+  - [JavaScript项目的最佳做法（star 21.4k）](https://github.com/elsewhencode/project-guidelines)
+  - [JavaScript 进阶问题列表（star 20.8k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
+  - [JavaScript开发者应懂的33个概念（star 10.3k）](https://github.com/stephentian/33-js-concepts)
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
   - [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
   - [Javascript 编程指南](http://pij.robinqu.me/)
@@ -191,7 +191,7 @@
   - [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 
 - 函数式编程
-  - [JavaScript 轻量级函数式编程（star 440）](https://github.com/ikcamp/Functional-Light-JS)
+  - [JavaScript 轻量级函数式编程（star 458）](https://github.com/ikcamp/Functional-Light-JS)
   - [函数式编程入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
   - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 
@@ -201,10 +201,10 @@
 - [⭐️Express官方文档](https://expressjs.com/zh-cn/)
 - [⭐️Nest官方文档](https://docs.nestjs.cn/)
 - [⭐️Egg官方文档](https://eggjs.org/zh-cn/index.html)
-- [Node.js 最佳实践（star 43.5k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
-- [Node.js 包教不包会（15.6k）](https://github.com/alsotang/node-lessons)
-- [一起学 Node.js（14.4k）](https://github.com/nswbmw/N-blog)
-- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.6k）](https://github.com/chyingp/nodejs-learning-guide)
+- [Node.js 最佳实践（star 47.3k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
+- [Node.js 包教不包会（15.8k）](https://github.com/alsotang/node-lessons)
+- [一起学 Node.js（14.5k）](https://github.com/nswbmw/N-blog)
+- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.8k）](https://github.com/chyingp/nodejs-learning-guide)
 - [《Koa2进阶学习笔记》已完结（star 4k）](https://github.com/chenshenhai/koa2-note)
 - [Node Koa2 实战（star 978）](https://github.com/ikcamp/koa2-tutorial)
 - [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
