@@ -217,15 +217,15 @@
 
 #### 🐞TypeScript
 
-- [深入理解 TypeScript（star 3k）](https://github.com/jkchao/typescript-book-chinese)
-- [TypeScript 入门教程（star 6.1k）](https://github.com/xcatliu/typescript-tutorial)
-- [TypeScript 使用手册（star 3.8k）](https://github.com/zhongsp/TypeScript)
+- [深入理解 TypeScript（star 3.1k）](https://github.com/jkchao/typescript-book-chinese)
+- [TypeScript 入门教程（star 6.7k）](https://github.com/xcatliu/typescript-tutorial)
+- [TypeScript 使用手册（star 4k）](https://github.com/zhongsp/TypeScript)
 
 #### 🦎Vue
 
-- [Vue.js 源码解析（star 8.8k）](https://github.com/answershuto/learnVue)
-- [vue-design逐行级别的源码分析（star 4.8k）](https://github.com/HcySunYang/vue-design)
-- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（1.8k）](https://github.com/qq281113270/vue)
+- [Vue.js 源码解析（star 9.4k）](https://github.com/answershuto/learnVue)
+- [vue-design逐行级别的源码分析（star 4.9k）](https://github.com/HcySunYang/vue-design)
+- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（2k）](https://github.com/qq281113270/vue)
 - [Vue技术内幕-逐行级别的 Vue 源码分析](http://caibaojian.com/vue-design/)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
 
