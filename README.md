@@ -240,6 +240,7 @@
   - [ React.js小书（star 3.1k）](https://github.com/huzidaha/react-naive-book)
   - [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
   - [React技术揭秘（star 512）](https://github.com/BetaSu/just-react)
+  - [Redux中文文档](http://cn.redux.js.org/)
   - [Redux 最佳实践](https://bestredux.com/)
   - [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
   - [【react面试题】不可错过的react 面试题 「务必收藏」](https://segmentfault.com/a/1190000016761186)
