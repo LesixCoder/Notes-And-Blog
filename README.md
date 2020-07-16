@@ -431,6 +431,7 @@
 - [🎒 🚀 🎉面试问题清单。该存储库是您准备技术面试所需的一切（star 4.1k）](https://github.com/FAQGURU/FAQGURU)
 - [宇宙最强的前端面试指南（star 1.2k）](https://github.com/azl397985856/fe-interview)
 - [前端乐园（star 863）](https://github.com/abc-club/js-paradise)
+- [前端面试星球（star 471）](https://github.com/lgwebdream/FE-Interview)
 - [前端进阶之道](https://yuchengkai.cn/)
 - [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
 - [前端知识点总结](https://jasonandjay.github.io/study/)
