@@ -223,9 +223,9 @@
 
 #### 🦎Vue
 
-- [Vue.js 源码解析（star 9.4k）](https://github.com/answershuto/learnVue)
-- [vue-design逐行级别的源码分析（star 4.9k）](https://github.com/HcySunYang/vue-design)
-- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（2k）](https://github.com/qq281113270/vue)
+- [Vue.js 源码解析（star 9.5k）](https://github.com/answershuto/learnVue)
+- [vue-design逐行级别的源码分析（star 5k）](https://github.com/HcySunYang/vue-design)
+- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（2.1k）](https://github.com/qq281113270/vue)
 - [Vue技术内幕-逐行级别的 Vue 源码分析](http://caibaojian.com/vue-design/)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
 
