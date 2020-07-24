@@ -159,7 +159,7 @@
 - [代码可视化算法的交互式在线平台（star 30.2k）](https://github.com/algorithm-visualizer/algorithm-visualizer)
 - [Interview = 简历指南 + LeetCode + Kaggle（star 6.1k）](https://github.com/apachecn/Interview)
 - [【NO LONGER UPDATE】✏️ LeetCode solutions with JavaScript（star 1.5k）](https://github.com/lessfish/leetcode)
-- [和小浩学算法（star 1.2k）](https://github.com/geekxh/hello-algorithm)
+- [和小浩学算法（star 4.2k）](https://github.com/geekxh/hello-algorithm)
 - [seognil-study/leetcode（star 14）](https://github.com/seognil-study/leetcode)
 - [VisuAlgo 数据结构和算法动态可视化](https://visualgo.net/zh)
 - [前端算法系统练习指南](http://47.98.159.95/leetcode-js/nav/)
