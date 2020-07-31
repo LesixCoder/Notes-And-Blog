@@ -337,12 +337,12 @@
 
 #### 🐧GO
 
-- [Go语言构建Web应用（star 34.8k）](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
-- [Go 入门指南（star 21.6k）](https://github.com/Unknwon/the-way-to-go_ZH_CN)
-- [《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。（star 7.3k）](https://github.com/Unknwon/go-fundamental-programming)
-- [Go语言圣经中文版（star 3.5k）](https://github.com/golang-china/gopl-zh)
+- [Go语言构建Web应用（star 35.3k）](https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md)
+- [Go 入门指南（star 22.4k）](https://github.com/Unknwon/the-way-to-go_ZH_CN)
+- [《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。（star 7.4k）](https://github.com/Unknwon/go-fundamental-programming)
+- [Go语言圣经中文版（star 3.7k）](https://github.com/golang-china/gopl-zh)
 - [Go 实战开发（star 3.3k）](https://github.com/astaxie/go-best-practice)
-- [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）（star 734）](https://github.com/yangwenmai/learning-golang)
+- [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）（star 806）](https://github.com/yangwenmai/learning-golang)
 - [《Go Web 编程》](https://astaxie.gitbooks.io/build-web-application-with-golang/zh/)
 - [《深入解析Go》](https://tiancaiamao.gitbooks.io/go-internals/content/zh/index.html)
 - [Golang 中文学习资料](https://go.wuhaolin.cn/)
