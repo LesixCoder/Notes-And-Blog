@@ -235,12 +235,12 @@
 - react
   - [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
   - [⭐️Redux 中文文档](http://www.redux.org.cn/)
-  - [React 开发者指南（star 14.5k）](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
-  - [react+typescript备忘（star 15.3k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
-  - [排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！（star 7k）](https://github.com/sudheerj/reactjs-interview-questions)
+  - [React 开发者指南（star 14.6k）](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
+  - [react+typescript备忘（star 15.8k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+  - [排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！（star 7.4k）](https://github.com/sudheerj/reactjs-interview-questions)
+  - [從零開始學 ReactJS（star 3.7）](https://github.com/kdchang/reactjs101)
   - [ React.js小书（star 3.3k）](https://github.com/huzidaha/react-naive-book)
-  - [從零開始學 ReactJS（star 660）](https://github.com/kdchang/reactjs101)
-  - [React技术揭秘（star 512）](https://github.com/BetaSu/just-react)
+  - [React技术揭秘（star 1k）](https://github.com/BetaSu/just-react)
   - [Redux中文文档](http://cn.redux.js.org/)
   - [Redux 最佳实践](https://bestredux.com/)
   - [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
@@ -253,7 +253,7 @@
   - [React Native 学习资源精选仓库（star 1.6k）](https://github.com/crazycodeboy/react-native-awesome)
 
 - Flutter
-  - [Flutter 超完整的开源项目，功能丰富，适合学习和日常使用（star 11.2k）](https://github.com/CarGuo/gsy_github_app_flutter)
+  - [Flutter 超完整的开源项目，功能丰富，适合学习和日常使用（star 11.3k）](https://github.com/CarGuo/gsy_github_app_flutter)
   - [《Flutter实战》开源电子书](https://book.flutterchina.club/)
 
 #### 🚀Webpack
