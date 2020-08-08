@@ -170,7 +170,7 @@
 
 #### 🕷设计模式
 
-- [《JavaScript 设计模式与开发实践》读书笔记（star 472）](https://github.com/JChehe/blog/issues/35)
+- [《JavaScript 设计模式与开发实践》读书笔记（star 516）](https://github.com/JChehe/blog/issues/35)
 - [JavaScript 中常见设计模式整理【掘金】](https://juejin.im/post/5afe6430518825428630bc4d)
 - [JavaScript 常见设计模式解析【掘金】](https://juejin.im/post/58f4c702a0bb9f006aa80f25#heading-0)
 - [JavaScript设计模式es6（23种)【掘金】](https://juejin.im/post/5e021eb96fb9a01628014095#heading-42)
@@ -178,9 +178,9 @@
 #### 🐝Javascript
 
 - 语言标准
-  - [JavaScript项目的最佳做法（star 21.4k）](https://github.com/elsewhencode/project-guidelines)
-  - [JavaScript 进阶问题列表（star 20.8k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
-  - [JavaScript开发者应懂的33个概念（star 10.3k）](https://github.com/stephentian/33-js-concepts)
+  - [JavaScript 进阶问题列表（star 21.7k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
+  - [JavaScript项目的最佳做法（star 21.6k）](https://github.com/elsewhencode/project-guidelines)
+  - [JavaScript开发者应懂的33个概念（star 10.4k）](https://github.com/stephentian/33-js-concepts)
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
   - [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
   - [Javascript 编程指南](http://pij.robinqu.me/)
@@ -192,7 +192,7 @@
   - [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 
 - 函数式编程
-  - [JavaScript 轻量级函数式编程（star 458）](https://github.com/ikcamp/Functional-Light-JS)
+  - [JavaScript 轻量级函数式编程（star 462）](https://github.com/ikcamp/Functional-Light-JS)
   - [函数式编程入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
   - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 
@@ -202,12 +202,12 @@
 - [⭐️Express官方文档](https://expressjs.com/zh-cn/)
 - [⭐️Nest官方文档](https://docs.nestjs.cn/)
 - [⭐️Egg官方文档](https://eggjs.org/zh-cn/index.html)
-- [Node.js 最佳实践（star 47.3k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
+- [Node.js 最佳实践（star 48.5k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 - [Node.js 包教不包会（15.8k）](https://github.com/alsotang/node-lessons)
-- [一起学 Node.js（14.5k）](https://github.com/nswbmw/N-blog)
+- [一起学 Node.js（14.6k）](https://github.com/nswbmw/N-blog)
 - [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.8k）](https://github.com/chyingp/nodejs-learning-guide)
-- [《Koa2进阶学习笔记》已完结（star 4k）](https://github.com/chenshenhai/koa2-note)
-- [Node Koa2 实战（star 978）](https://github.com/ikcamp/koa2-tutorial)
+- [《Koa2进阶学习笔记》已完结（star 4.2k）](https://github.com/chenshenhai/koa2-note)
+- [Node Koa2 实战（star 1k）](https://github.com/ikcamp/koa2-tutorial)
 - [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
 - [《Node.js区块链开发》](https://imfly.gitbooks.io/bitcoin-on-nodejs/content/)
 - [Koa2 进阶学习笔记](https://fbigun.gitbooks.io/koa2-note/content/)
@@ -218,15 +218,15 @@
 
 #### 🐞TypeScript
 
-- [深入理解 TypeScript（star 3.1k）](https://github.com/jkchao/typescript-book-chinese)
-- [TypeScript 入门教程（star 6.7k）](https://github.com/xcatliu/typescript-tutorial)
-- [TypeScript 使用手册（star 4k）](https://github.com/zhongsp/TypeScript)
+- [TypeScript 入门教程（star 6.8k）](https://github.com/xcatliu/typescript-tutorial)
+- [TypeScript 使用手册（star 4.1k）](https://github.com/zhongsp/TypeScript)
+- [深入理解 TypeScript（star 3.2k）](https://github.com/jkchao/typescript-book-chinese)
 
 #### 🦎Vue
 
-- [Vue.js 源码解析（star 9.5k）](https://github.com/answershuto/learnVue)
+- [Vue.js 源码解析（star 9.6k）](https://github.com/answershuto/learnVue)
 - [vue-design逐行级别的源码分析（star 5k）](https://github.com/HcySunYang/vue-design)
-- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（2.1k）](https://github.com/qq281113270/vue)
+- [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（2.2k）](https://github.com/qq281113270/vue)
 - [Vue技术内幕-逐行级别的 Vue 源码分析](http://caibaojian.com/vue-design/)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
 
