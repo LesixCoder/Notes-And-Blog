@@ -235,12 +235,12 @@
 - react
   - [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
   - [⭐️Redux 中文文档](http://www.redux.org.cn/)
+  - [react+typescript备忘（star 16k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
   - [React 开发者指南（star 14.6k）](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
-  - [react+typescript备忘（star 15.8k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
   - [排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！（star 7.4k）](https://github.com/sudheerj/reactjs-interview-questions)
   - [從零開始學 ReactJS（star 3.7）](https://github.com/kdchang/reactjs101)
   - [ React.js小书（star 3.3k）](https://github.com/huzidaha/react-naive-book)
-  - [React技术揭秘（star 1k）](https://github.com/BetaSu/just-react)
+  - [React技术揭秘（star 1.1k）](https://github.com/BetaSu/just-react)
   - [Redux中文文档](http://cn.redux.js.org/)
   - [Redux 最佳实践](https://bestredux.com/)
   - [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
@@ -265,7 +265,7 @@
 
 #### 🚗 Gulp
 
-- [awesome-gulp（star 564）](https://github.com/alferov/awesome-gulp)
+- [awesome-gulp（star 566）](https://github.com/alferov/awesome-gulp)
 - [awesome-gulp-cn（star 122）](https://github.com/Pines-Cheng/awesome-gulp-cn)
 
 #### 🚧规范化
