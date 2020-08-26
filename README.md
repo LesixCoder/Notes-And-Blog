@@ -316,17 +316,16 @@
 
 #### 🐸数据库
 
+- [带有详细注释的 Redis 3.0 代码（star 6.6k）](https://github.com/huangz1990/redis-3.0-annotated)
+- [带有详细注释的 Redis 2.6 代码（star 2.2k）](https://github.com/huangz1990/annotated_redis_source)
+- [The Little Redis Book（star 498）](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
 - [MySQL 索引背后的数据结构及算法原理](http://www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
-- [带有详细注释的 Redis 3.0 代码](https://github.com/huangz1990/redis-3.0-annotated)
-- [带有详细注释的 Redis 2.6 代码](https://github.com/huangz1990/annotated_redis_source)
-- [The Little MongoDB Book](https://github.com/justinyhuang/the-little-mongodb-book-cn/blob/master/mongodb.md)
-- [The Little Redis Book](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
 
 #### 🤖python&机器学习
 
 - [x] [Python 学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
-- [Python - 100天从新手到大师（star 83.4k）](https://github.com/jackfrued/Python-100-Days)
-- [机器学习100天（star 15.2k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
+- [Python - 100天从新手到大师（star 91.8k）](https://github.com/jackfrued/Python-100-Days)
+- [机器学习100天（star 15.7k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 - [Python 入门基础教程](http://www.pylixm.top/python-start/)
 - [Python 机器学习](https://ljalphabeta.gitbooks.io/python-/content/)
 - [機器學習：使用 Python](https://machine-learning-python.kspax.io/)
