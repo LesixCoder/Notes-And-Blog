@@ -265,8 +265,8 @@
 
 #### 🚗 Gulp
 
-- [awesome-gulp（star 569）](https://github.com/alferov/awesome-gulp)
-- [awesome-gulp-cn（star 122）](https://github.com/Pines-Cheng/awesome-gulp-cn)
+- [awesome-gulp（star 570）](https://github.com/alferov/awesome-gulp)
+- [awesome-gulp-cn（star 123）](https://github.com/Pines-Cheng/awesome-gulp-cn)
 
 #### 🚧规范化
 
