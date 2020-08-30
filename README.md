@@ -202,10 +202,10 @@
 - [⭐️Express官方文档](https://expressjs.com/zh-cn/)
 - [⭐️Nest官方文档](https://docs.nestjs.cn/)
 - [⭐️Egg官方文档](https://eggjs.org/zh-cn/index.html)
-- [Node.js 最佳实践（star 49.7k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
+- [Node.js 最佳实践（star 51.4k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 - [Node.js 包教不包会（15.9k）](https://github.com/alsotang/node-lessons)
 - [一起学 Node.js（14.6k）](https://github.com/nswbmw/N-blog)
-- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.8k）](https://github.com/chyingp/nodejs-learning-guide)
+- [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.9k）](https://github.com/chyingp/nodejs-learning-guide)
 - [《Koa2进阶学习笔记》已完结（star 4.2k）](https://github.com/chenshenhai/koa2-note)
 - [Node Koa2 实战（star 1k）](https://github.com/ikcamp/koa2-tutorial)
 - [StuQ《Node.js微信开发》](https://i5ting.github.io/wechat-dev-with-nodejs/index.html)
@@ -225,7 +225,7 @@
 #### 🦎Vue
 
 - [Vue.js 源码解析（star 9.7k）](https://github.com/answershuto/learnVue)
-- [vue-design逐行级别的源码分析（star 5k）](https://github.com/HcySunYang/vue-design)
+- [vue-design逐行级别的源码分析（star 5.1k）](https://github.com/HcySunYang/vue-design)
 - [vue源码逐行注释分析+40多m的vue源码程序流程图思维导图（2.3k）](https://github.com/qq281113270/vue)
 - [Vue技术内幕-逐行级别的 Vue 源码分析](http://caibaojian.com/vue-design/)
 - [【vuejs面试题】务必熟知的vuejs面试题「务必收藏」](https://segmentfault.com/a/1190000016770732)
@@ -235,12 +235,12 @@
 - react
   - [⭐️React 中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
   - [⭐️Redux 中文文档](http://www.redux.org.cn/)
-  - [react+typescript备忘（star 16.2k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
+  - [react+typescript备忘（star 16.8k）](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
   - [React 开发者指南（star 14.7k）](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
-  - [排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！（star 7.5k）](https://github.com/sudheerj/reactjs-interview-questions)
+  - [排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！（star 7.7k）](https://github.com/sudheerj/reactjs-interview-questions)
   - [從零開始學 ReactJS（star 3.7k）](https://github.com/kdchang/reactjs101)
   - [ React.js小书（star 3.3k）](https://github.com/huzidaha/react-naive-book)
-  - [React技术揭秘（star 1.3k）](https://github.com/BetaSu/just-react)
+  - [React技术揭秘（star 1.5k）](https://github.com/BetaSu/just-react)
   - [Redux中文文档](http://cn.redux.js.org/)
   - [Redux 最佳实践](https://bestredux.com/)
   - [React 16 Fiber源码速览【Blog】](http://zxc0328.github.io/2017/09/28/react-16-source/)
@@ -249,7 +249,7 @@
 #### 📱跨端应用
 
 - React-Native
-  - [React Native指南汇集了各类react-native学习资源、开源App和组件（star 16k）](https://github.com/reactnativecn/react-native-guide)
+  - [React Native指南汇集了各类react-native学习资源、开源App和组件（star 16.1k）](https://github.com/reactnativecn/react-native-guide)
   - [React Native 学习资源精选仓库（star 1.6k）](https://github.com/crazycodeboy/react-native-awesome)
 
 - Flutter
