@@ -151,16 +151,16 @@
 
 #### 🐜数据结构与算法
 
-- [技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++（star 108k）](https://github.com/CyC2018/CS-Notes)
-- [JavaScript 算法与数据结构（star 78.1k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
-- [用动画的形式呈现解LeetCode题目的思路（star 57.7k）](https://github.com/MisterBooo/LeetCodeAnimation)
-- [手把手撕LeetCode题目，扒各种算法套路的裤子（star 52.4k）](https://github.com/labuladong/fucking-algorithm)
-- [leetcode 题解（star 35.4k）](https://github.com/azl397985856/leetcode)
-- [代码可视化算法的交互式在线平台（star 31.3k）](https://github.com/algorithm-visualizer/algorithm-visualizer)
-- [和小浩学算法（star 9.1k）](https://github.com/geekxh/hello-algorithm)
-- [Interview = 简历指南 + LeetCode + Kaggle（star 6.4k）](https://github.com/apachecn/Interview)
+- [技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计、Java、Python、C++（star 110k）](https://github.com/CyC2018/CS-Notes)
+- [JavaScript 算法与数据结构（star 80k）](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [手把手撕LeetCode题目，扒各种算法套路的裤子（star 59.2k）](https://github.com/labuladong/fucking-algorithm)
+- [用动画的形式呈现解LeetCode题目的思路（star 58.7k）](https://github.com/MisterBooo/LeetCodeAnimation)
+- [leetcode 题解（star 36k）](https://github.com/azl397985856/leetcode)
+- [代码可视化算法的交互式在线平台（star 31.5k）](https://github.com/algorithm-visualizer/algorithm-visualizer)
+- [和小浩学算法（star 15.1k）](https://github.com/geekxh/hello-algorithm)
+- [Interview = 简历指南 + LeetCode + Kaggle（star 6.5k）](https://github.com/apachecn/Interview)
 - [【NO LONGER UPDATE】✏️ LeetCode solutions with JavaScript（star 1.5k）](https://github.com/lessfish/leetcode)
-- [seognil-study/leetcode（star 17）](https://github.com/seognil-study/leetcode)
+- [seognil-study/leetcode（star 19）](https://github.com/seognil-study/leetcode)
 - [VisuAlgo 数据结构和算法动态可视化](https://visualgo.net/zh)
 - [前端算法系统练习指南](http://47.98.159.95/leetcode-js/nav/)
 - [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
@@ -170,7 +170,7 @@
 
 #### 🕷设计模式
 
-- [《JavaScript 设计模式与开发实践》读书笔记（star 518）](https://github.com/JChehe/blog/issues/35)
+- [《JavaScript 设计模式与开发实践》读书笔记（star 523）](https://github.com/JChehe/blog/issues/35)
 - [JavaScript 中常见设计模式整理【掘金】](https://juejin.im/post/5afe6430518825428630bc4d)
 - [JavaScript 常见设计模式解析【掘金】](https://juejin.im/post/58f4c702a0bb9f006aa80f25#heading-0)
 - [JavaScript设计模式es6（23种)【掘金】](https://juejin.im/post/5e021eb96fb9a01628014095#heading-42)
@@ -178,8 +178,8 @@
 #### 🐝Javascript
 
 - 语言标准
-  - [JavaScript 进阶问题列表（star 21.9k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
-  - [JavaScript项目的最佳做法（star 21.6k）](https://github.com/elsewhencode/project-guidelines)
+  - [JavaScript项目的最佳做法（star 22.8k）](https://github.com/elsewhencode/project-guidelines)
+  - [JavaScript 进阶问题列表（star 22.5k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
   - [JavaScript开发者应懂的33个概念（star 10.4k）](https://github.com/stephentian/33-js-concepts)
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
   - [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
@@ -192,7 +192,7 @@
   - [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 
 - 函数式编程
-  - [JavaScript 轻量级函数式编程（star 462）](https://github.com/ikcamp/Functional-Light-JS)
+  - [JavaScript 轻量级函数式编程（star 461）](https://github.com/ikcamp/Functional-Light-JS)
   - [函数式编程入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
   - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 
