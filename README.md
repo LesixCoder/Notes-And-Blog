@@ -432,6 +432,7 @@
 - [宇宙最强的前端面试指南（star 1.5k）](https://github.com/azl397985856/fe-interview)
 - [前端面试星球（star 1.1k）](https://github.com/lgwebdream/FE-Interview)
 - [前端乐园（star 1k）](https://github.com/abc-club/js-paradise)
+- [前端内参（star 834）](https://github.com/coffe1891/frontend-hard-mode-interview)
 - [前端进阶之道](https://yuchengkai.cn/)
 - [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
 - [前端知识点总结](https://jasonandjay.github.io/study/)
