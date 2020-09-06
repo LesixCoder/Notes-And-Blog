@@ -348,10 +348,10 @@
 
 #### 🌲其它
 
-- [谷粒-Chrome插件英雄榜（star 16.9k）](https://github.com/zhaoolee/ChromeAppHeroes)
-- [Jeecg-Boot 快速开发平台-基于代码生成器的低代码开发平台（star 14.7k）](https://github.com/zhangdaiscott/jeecg-boot)
+- [谷粒-Chrome插件英雄榜（star 17k）](https://github.com/zhaoolee/ChromeAppHeroes)
+- [Jeecg-Boot 快速开发平台-基于代码生成器的低代码开发平台（star 14.9k）](https://github.com/zhangdaiscott/jeecg-boot)
 - [《Chrome插件开发全攻略》（star 4.7k）](https://github.com/sxei/chrome-plugin-demo)
-- [开源运维平台：面向中小型企业设计的无 Agent的自动化运维平台（star 4.1k）](https://github.com/openspug/spug)
+- [开源运维平台：面向中小型企业设计的无 Agent的自动化运维平台（star 4.3k）](https://github.com/openspug/spug)
 - [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
 - [编程之法：面试和算法心得](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/)
 - [笨办法学 C](https://wizardforcel.gitbooks.io/lcthw/content/)
