@@ -324,7 +324,7 @@
 #### 🤖python&机器学习
 
 - [x] [Python 学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
-- [Python - 100天从新手到大师（star 91.8k）](https://github.com/jackfrued/Python-100-Days)
+- [Python - 100天从新手到大师（star 92.5k）](https://github.com/jackfrued/Python-100-Days)
 - [机器学习100天（star 15.7k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 - [Python 入门基础教程](http://www.pylixm.top/python-start/)
 - [Python 机器学习](https://ljalphabeta.gitbooks.io/python-/content/)
