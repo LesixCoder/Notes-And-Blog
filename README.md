@@ -202,7 +202,7 @@
 - [⭐️Express官方文档](https://expressjs.com/zh-cn/)
 - [⭐️Nest官方文档](https://docs.nestjs.cn/)
 - [⭐️Egg官方文档](https://eggjs.org/zh-cn/index.html)
-- [Node.js 最佳实践（star 51.4k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
+- [Node.js 最佳实践（star 52.3k）](https://github.com/goldbergyoni/nodebestpractices/blob/master/README.chinese.md)
 - [Node.js 包教不包会（15.9k）](https://github.com/alsotang/node-lessons)
 - [一起学 Node.js（14.6k）](https://github.com/nswbmw/N-blog)
 - [Nodejs学习笔记以及经验总结，公众号"程序猿小卡" （star 5.9k）](https://github.com/chyingp/nodejs-learning-guide)
