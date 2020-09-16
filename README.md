@@ -178,8 +178,8 @@
 #### 🐝Javascript
 
 - 语言标准
-  - [JavaScript项目的最佳做法（star 22.8k）](https://github.com/elsewhencode/project-guidelines)
-  - [JavaScript 进阶问题列表（star 22.5k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
+  - [JavaScript项目的最佳做法（star 23k）](https://github.com/elsewhencode/project-guidelines)
+  - [JavaScript 进阶问题列表（star 22.7k）](https://github.com/lydiahallie/javascript-questions/blob/master/zh-CN/README-zh_CN.md)
   - [JavaScript开发者应懂的33个概念（star 10.4k）](https://github.com/stephentian/33-js-concepts)
   - [ECMAScript 6 入门 - 阮一峰](http://es6.ruanyifeng.com/)
   - [JavaScript 标准参考教程（alpha）- 阮一峰](http://javascript.ruanyifeng.com/)
@@ -192,7 +192,7 @@
   - [全方位彻底读懂<你不知道的JavaScript(上)>一篇六万多字的读书笔记](https://juejin.im/post/5bfaa2e26fb9a04a0440b0e4)
 
 - 函数式编程
-  - [JavaScript 轻量级函数式编程（star 461）](https://github.com/ikcamp/Functional-Light-JS)
+  - [JavaScript 轻量级函数式编程（star 462）](https://github.com/ikcamp/Functional-Light-JS)
   - [函数式编程入门教程 - 阮一峰](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
   - [函数式编程指北](https://llh911001.gitbooks.io/mostly-adequate-guide-chinese/content/)
 
