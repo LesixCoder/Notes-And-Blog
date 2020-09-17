@@ -160,7 +160,7 @@
 - [和小浩学算法（star 15.1k）](https://github.com/geekxh/hello-algorithm)
 - [Interview = 简历指南 + LeetCode + Kaggle（star 6.5k）](https://github.com/apachecn/Interview)
 - [【NO LONGER UPDATE】✏️ LeetCode solutions with JavaScript（star 1.5k）](https://github.com/lessfish/leetcode)
-- [seognil-study/leetcode（star 19）](https://github.com/seognil-study/leetcode)
+- [seognil-study/leetcode（star 20）](https://github.com/seognil-study/leetcode)
 - [VisuAlgo 数据结构和算法动态可视化](https://visualgo.net/zh)
 - [前端算法系统练习指南](http://47.98.159.95/leetcode-js/nav/)
 - [在 JavaScript 中学习数据结构与算法【掘金】](https://juejin.im/post/594dfe795188250d725a220a)
@@ -170,7 +170,7 @@
 
 #### 🕷设计模式
 
-- [《JavaScript 设计模式与开发实践》读书笔记（star 523）](https://github.com/JChehe/blog/issues/35)
+- [《JavaScript 设计模式与开发实践》读书笔记（star 526）](https://github.com/JChehe/blog/issues/35)
 - [JavaScript 中常见设计模式整理【掘金】](https://juejin.im/post/5afe6430518825428630bc4d)
 - [JavaScript 常见设计模式解析【掘金】](https://juejin.im/post/58f4c702a0bb9f006aa80f25#heading-0)
 - [JavaScript设计模式es6（23种)【掘金】](https://juejin.im/post/5e021eb96fb9a01628014095#heading-42)
