@@ -316,9 +316,9 @@
 
 #### 🐸数据库
 
-- [带有详细注释的 Redis 3.0 代码（star 6.6k）](https://github.com/huangz1990/redis-3.0-annotated)
+- [带有详细注释的 Redis 3.0 代码（star 6.7k）](https://github.com/huangz1990/redis-3.0-annotated)
 - [带有详细注释的 Redis 2.6 代码（star 2.2k）](https://github.com/huangz1990/annotated_redis_source)
-- [The Little Redis Book（star 561）](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
+- [The Little Redis Book（star 563）](https://github.com/JasonLai256/the-little-redis-book/blob/master/cn/redis.md)
 - [MySQL 索引背后的数据结构及算法原理](http://www.cnblogs.com/leoo2sk/archive/2011/07/10/mysql-index.html)
 
 #### 🤖python&机器学习
