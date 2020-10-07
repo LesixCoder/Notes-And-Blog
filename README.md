@@ -398,15 +398,15 @@
   - [关注基础知识，打造优质前端博客，公众号[前端工匠]（star 5.7k）](https://github.com/ljianshu/Blog)
   - [梁少峰的个人博客（star 4.4k）](https://github.com/youngwind/blog)
   - [大前端的瑞士军刀，只记录有用的（star 4.1k）](https://github.com/nieweidong/fetool)
-  - [前端小智-每年至少会分享不少于200篇的优质文章（star 3.4k）](https://github.com/qq449245884/xiaozhi)
+  - [前端小智-每年至少会分享不少于200篇的优质文章（star 3.5k）](https://github.com/qq449245884/xiaozhi)
   - [berwin刘博文的个人博客（star 3.1k）](https://github.com/berwin/Blog)
   - [蚂蚁数据体验技术团队（star 2.4k）](https://github.com/ProtoTeam/blog)
   - [Jony的博客，记录学习工作的点点滴滴（star 1.7k）](https://github.com/forthealllight/blog)
   - [前端开发技术日报（star 1.6k）](https://github.com/kujian/frontendDaily)
   - [大前端技术为主，读书笔记、随笔、理财为辅，做个终身学习者（1.4k）](https://github.com/biaochenxuying/blog)
   - [前端学习资料合集（包含深入解读JS系列，React、Vue源码分析，前端算法解析，收集大厂面经，前端工程化最佳实践，经典图书分享，推荐好用的前端工具等等，内容不定期更新中。一边记录，一边学习，一边分享）（star 549）](https://github.com/fyuanfen/note)
-  - [JavaScript 学习 — 完全整理（star 439）](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
-  - [若川的博客—前端视野-资源和源代码vuepress 博客（star 150）](https://github.com/lxchuan12/blog)
+  - [JavaScript 学习 — 完全整理（star 442）](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+  - [若川的博客—前端视野-资源和源代码vuepress 博客（star 151）](https://github.com/lxchuan12/blog)
 
 - Blog
   - [阮一峰](http://www.ruanyifeng.com/blog/)
