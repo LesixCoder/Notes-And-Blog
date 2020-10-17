@@ -324,7 +324,7 @@
 #### 🤖python&机器学习
 
 - [x] [Python 学习笔记](https://github.com/lsxlsxxslxsl/Read-Books-Notes/blob/master/post/Python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/README.md)
-- [Python - 100天从新手到大师（star 93.1k）](https://github.com/jackfrued/Python-100-Days)
+- [Python - 100天从新手到大师（star 94.2k）](https://github.com/jackfrued/Python-100-Days)
 - [机器学习100天（star 15.8k）](https://github.com/MLEveryday/100-Days-Of-ML-Code)
 - [Python 入门基础教程](http://www.pylixm.top/python-start/)
 - [Python 机器学习](https://ljalphabeta.gitbooks.io/python-/content/)
@@ -341,7 +341,7 @@
 - [《Go 编程基础》是一套针对 Google 出品的 Go 语言的视频语音教程，主要面向新手级别的学习者。（star 7.5k）](https://github.com/Unknwon/go-fundamental-programming)
 - [Go语言圣经中文版（star 3.8k）](https://github.com/golang-china/gopl-zh)
 - [Go 实战开发（star 3.3k）](https://github.com/astaxie/go-best-practice)
-- [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）（star 884）](https://github.com/yangwenmai/learning-golang)
+- [Go 学习之路：Go 开发者博客、Go 微信公众号、Go 学习资料（文档、书籍、视频）（star 889）](https://github.com/yangwenmai/learning-golang)
 - [《Go Web 编程》](https://astaxie.gitbooks.io/build-web-application-with-golang/zh/)
 - [《深入解析Go》](https://tiancaiamao.gitbooks.io/go-internals/content/zh/index.html)
 - [Golang 中文学习资料](https://go.wuhaolin.cn/)
