@@ -423,16 +423,16 @@
 
 ### 知识聚合
 
-- [技术面试手册（star 45.3k）](https://github.com/yangshun/tech-interview-handbook)
-- [🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台（star 27.2k）](https://github.com/xitu/gold-miner)
-- [前端面试每日 3+1（star 13.7k）](https://github.com/haizlin/fe-interview)
-- [前端入门和进阶学习笔记（star 12.9k）](https://github.com/qianguyihao/Web)
+- [技术面试手册（star 45.5k）](https://github.com/yangshun/tech-interview-handbook)
+- [🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台（star 27.3k）](https://github.com/xitu/gold-miner)
+- [前端面试每日 3+1（star 13.9k）](https://github.com/haizlin/fe-interview)
+- [前端入门和进阶学习笔记（star 13k）](https://github.com/qianguyihao/Web)
 - [架构师技术图谱，助你早日成为架构师（star 8.2k）](https://github.com/toutiaoio/awesome-architecture)
 - [🎒 🚀 🎉面试问题清单。该存储库是您准备技术面试所需的一切（star 4.3k）](https://github.com/FAQGURU/FAQGURU)
-- [宇宙最强的前端面试指南（star 1.5k）](https://github.com/azl397985856/fe-interview)
-- [前端面试星球（star 1.4k）](https://github.com/lgwebdream/FE-Interview)
+- [宇宙最强的前端面试指南（star 1.6k）](https://github.com/azl397985856/fe-interview)
+- [前端面试星球（star 1.5k）](https://github.com/lgwebdream/FE-Interview)
 - [前端乐园（star 1.1k）](https://github.com/abc-club/js-paradise)
-- [前端内参（star 963）](https://github.com/coffe1891/frontend-hard-mode-interview)
+- [前端内参（star 1k）](https://github.com/coffe1891/frontend-hard-mode-interview)
 - [前端进阶之道](https://yuchengkai.cn/)
 - [【前端面试题】2018 各大公司最近面试题](https://segmentfault.com/a/1190000016789897)
 - [前端知识点总结](https://jasonandjay.github.io/study/)
